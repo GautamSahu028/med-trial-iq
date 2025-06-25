@@ -17,8 +17,8 @@ This guide will help you understand how to set up your environment, work on feat
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/<your-org-or-username>/<repo-name>.git
-   cd <repo-name>
+   git clone https://github.com/GautamSahu028/med-trial-iq.git
+   cd med-trial-iq
    ```
 
 2. **Checkout the dev branch**
