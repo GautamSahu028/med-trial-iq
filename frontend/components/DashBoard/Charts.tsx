@@ -52,9 +52,27 @@ const Charts: React.FC<ChartsProps> = ({ data, domain, selectedDisorder }) => {
       {} as Record<string, number>
     );
 
-    return Object.entries(categoryCount)
+    const sortedCategories = Object.entries(categoryCount)
       .map(([category, count]) => ({ category, count }))
       .sort((a, b) => b.count - a.count);
+
+    // Show only top 6 categories, group the rest into "Others"
+    const topCategories = sortedCategories.slice(0, 6);
+    const remainingCategories = sortedCategories.slice(6);
+
+    const result = [...topCategories];
+    if (remainingCategories.length > 0) {
+      const othersCount = remainingCategories.reduce(
+        (sum, item) => sum + item.count,
+        0
+      );
+      result.push({
+        category: `Others (${remainingCategories.length} categories)`,
+        count: othersCount,
+      });
+    }
+
+    return result;
   }, [filteredData]);
 
   const trialFrequencyData = useMemo(() => {
