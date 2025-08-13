@@ -56,7 +56,6 @@ const Charts: React.FC<ChartsProps> = ({ data, domain, selectedDisorder }) => {
       .map(([category, count]) => ({ category, count }))
       .sort((a, b) => b.count - a.count);
 
-    // Show only top 6 categories, group the rest into "Others"
     const topCategories = sortedCategories.slice(0, 6);
     const remainingCategories = sortedCategories.slice(6);
 
@@ -78,28 +77,18 @@ const Charts: React.FC<ChartsProps> = ({ data, domain, selectedDisorder }) => {
   const trialFrequencyData = useMemo(() => {
     const frequencyMap = filteredData.reduce(
       (acc, item) => {
-        // More robust percentage extraction
         let percent = 0;
-
-        // Handle different formats: "83.3%", "83.3", "0.833", etc.
         const percentString = item.trialPercentage?.toString() || '0';
-
-        // First try to extract number with % sign
         const percentMatch = percentString.match(/(\d+(?:\.\d+)?)%/);
         if (percentMatch) {
           percent = parseFloat(percentMatch[1]);
         } else {
-          // Try to parse as plain number
           const numericValue = parseFloat(percentString);
           if (!isNaN(numericValue)) {
-            // If the number is between 0 and 1, assume it's a decimal (0.833 = 83.3%)
             percent = numericValue > 1 ? numericValue : numericValue * 100;
           }
         }
-
-        // Ensure percent is within valid range
         percent = Math.max(0, Math.min(100, percent));
-
         const range =
           percent === 100
             ? '100%'
@@ -156,13 +145,11 @@ const Charts: React.FC<ChartsProps> = ({ data, domain, selectedDisorder }) => {
     return null;
   };
 
-  // Debug logging - remove in production
   console.log('Filtered Data Sample:', filteredData.slice(0, 5));
   console.log('Trial Frequency Data:', trialFrequencyData);
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-      {/* Category Distribution */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -192,7 +179,7 @@ const Charts: React.FC<ChartsProps> = ({ data, domain, selectedDisorder }) => {
               >
                 {categoryData.map((entry, index) => (
                   <Cell
-                    key={`cell-${index}`}
+                    key={entry.category}
                     fill={COLORS[index % COLORS.length]}
                   />
                 ))}
@@ -203,7 +190,6 @@ const Charts: React.FC<ChartsProps> = ({ data, domain, selectedDisorder }) => {
         </div>
       </motion.div>
 
-      {/* Trial Frequency Distribution */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -231,7 +217,7 @@ const Charts: React.FC<ChartsProps> = ({ data, domain, selectedDisorder }) => {
               <Bar dataKey="count" radius={[4, 4, 0, 0]}>
                 {trialFrequencyData.map((entry, index) => (
                   <Cell
-                    key={`cell-${index}`}
+                    key={entry.range}
                     fill={COLORS[index % COLORS.length]}
                   />
                 ))}
@@ -239,7 +225,6 @@ const Charts: React.FC<ChartsProps> = ({ data, domain, selectedDisorder }) => {
             </BarChart>
           </ResponsiveContainer>
         </div>
-        {/* Show debug info if no data */}
         {trialFrequencyData.length === 0 && (
           <div className="text-center text-gray-500 mt-4">
             No trial frequency data available. Check data format.
@@ -247,7 +232,6 @@ const Charts: React.FC<ChartsProps> = ({ data, domain, selectedDisorder }) => {
         )}
       </motion.div>
 
-      {/* Category Breakdown Bar Chart */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -282,7 +266,7 @@ const Charts: React.FC<ChartsProps> = ({ data, domain, selectedDisorder }) => {
               <Bar dataKey="count" radius={[4, 4, 0, 0]}>
                 {categoryData.map((entry, index) => (
                   <Cell
-                    key={`cell-${index}`}
+                    key={entry.category}
                     fill={COLORS[index % COLORS.length]}
                   />
                 ))}
