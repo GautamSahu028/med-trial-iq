@@ -1,0 +1,2512 @@
+[
+  {
+    "term": "ECOG Performance Status \u2264 1 or 2",
+    "cancerType": "Lung Cancer",
+    "category": "Clinical",
+    "trialPercentage": "100%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 89243-0",
+    "unstructured": "ECOG score was 1 on baseline report"
+  },
+  {
+    "term": "Histologically or cytologically confirmed NSCLC",
+    "cancerType": "Lung Cancer",
+    "category": "Diagnosis",
+    "trialPercentage": "100%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 254637007",
+    "unstructured": "Biopsy confirmed adenocarcinoma of the lung"
+  },
+  {
+    "term": "Stage IV NSCLC (squamous or non-squamous)",
+    "cancerType": "Lung Cancer",
+    "category": "Diagnosis",
+    "trialPercentage": "93.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: C34.x",
+    "unstructured": "Diagnosed with Stage IV NSCLC via PET-CT"
+  },
+  {
+    "term": "Measurable disease per RECIST 1.1",
+    "cancerType": "Lung Cancer",
+    "category": "Imaging",
+    "trialPercentage": "86.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 371861004",
+    "unstructured": "CT scan revealed lesion measurable under RECIST"
+  },
+  {
+    "term": "No prior systemic therapy for advanced NSCLC",
+    "cancerType": "Lung Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "80%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 410942007",
+    "unstructured": "No record of systemic chemotherapy"
+  },
+  {
+    "term": "PD-L1 testing available",
+    "cancerType": "Lung Cancer",
+    "category": "Pathology",
+    "trialPercentage": "60%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 85337-4",
+    "unstructured": "PD-L1 IHC showed 65% expression"
+  },
+  {
+    "term": "EGFR-sensitizing mutation exclusion",
+    "cancerType": "Lung Cancer",
+    "category": "Genetic",
+    "trialPercentage": "46.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 92822-6",
+    "unstructured": "EGFR L858R mutation detected in genomic report"
+  },
+  {
+    "term": "Untreated CNS metastases",
+    "cancerType": "Lung Cancer",
+    "category": "Imaging",
+    "trialPercentage": "73.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: C79.31",
+    "unstructured": "Brain MRI showed active metastatic lesion"
+  },
+  {
+    "term": "ALK translocation exclusion",
+    "cancerType": "Lung Cancer",
+    "category": "Genetic",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 81248-5",
+    "unstructured": "ALK positive via FISH analysis"
+  },
+  {
+    "term": "History of autoimmune disease",
+    "cancerType": "Lung Cancer",
+    "category": "Medical History",
+    "trialPercentage": "66.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 64572001",
+    "unstructured": "Past medical history includes lupus"
+  },
+  {
+    "term": "Positive HIV test",
+    "cancerType": "Lung Cancer",
+    "category": "Infection",
+    "trialPercentage": "60%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 56888-1",
+    "unstructured": "HIV status: Positive in serology report"
+  },
+  {
+    "term": "Active Hepatitis B or C",
+    "cancerType": "Lung Cancer",
+    "category": "Infection",
+    "trialPercentage": "60%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 5195-3 / 20416-4",
+    "unstructured": "Hepatitis B surface antigen: positive"
+  },
+  {
+    "term": "Life expectancy \u2265 3 months",
+    "cancerType": "Lung Cancer",
+    "category": "Clinical",
+    "trialPercentage": "46.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 397709008",
+    "unstructured": "Oncologist estimates >3 month survival"
+  },
+  {
+    "term": "Prior treatment with PD-1/PD-L1 inhibitors",
+    "cancerType": "Lung Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "53.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 428341000124102",
+    "unstructured": "Received nivolumab in past"
+  },
+  {
+    "term": "Adequate organ function",
+    "cancerType": "Lung Cancer",
+    "category": "Lab",
+    "trialPercentage": "93.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC Panel",
+    "unstructured": "Creatinine, AST/ALT, WBC within limits"
+  },
+  {
+    "term": "No prior chemotherapy for metastatic NSCLC",
+    "cancerType": "Lung Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "73.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 371533000",
+    "unstructured": "No chemotherapy recorded post-stage IV diagnosis"
+  },
+  {
+    "term": "Negative pregnancy test (females)",
+    "cancerType": "Lung Cancer",
+    "category": "Reproductive",
+    "trialPercentage": "53.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 19080-1",
+    "unstructured": "Urine HCG test: Negative"
+  },
+  {
+    "term": "Use of contraception during and after study",
+    "cancerType": "Lung Cancer",
+    "category": "Reproductive",
+    "trialPercentage": "66.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 243796009",
+    "unstructured": "Advised to continue contraceptives for 180 days"
+  },
+  {
+    "term": "No prior immunotherapy (e.g., checkpoint inhibitors)",
+    "cancerType": "Lung Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "46.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 18286008",
+    "unstructured": "Immunotherapy history: none"
+  },
+  {
+    "term": "Active autoimmune condition needing systemic therapy",
+    "cancerType": "Lung Cancer",
+    "category": "Medical History",
+    "trialPercentage": "46.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 69896004",
+    "unstructured": "Patient has Crohn\u2019s disease on steroids"
+  },
+  {
+    "term": "ILD or pneumonitis history",
+    "cancerType": "Lung Cancer",
+    "category": "Respiratory",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 67782005",
+    "unstructured": "HRCT shows fibrosis suggestive of ILD"
+  },
+  {
+    "term": "Recent major surgery (<4 weeks)",
+    "cancerType": "Lung Cancer",
+    "category": "Surgery",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 387713003",
+    "unstructured": "Surgery completed 3 weeks ago"
+  },
+  {
+    "term": "Active infection requiring IV therapy",
+    "cancerType": "Lung Cancer",
+    "category": "Infection",
+    "trialPercentage": "26.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 87628006",
+    "unstructured": "Admitted for IV antibiotics for pneumonia"
+  },
+  {
+    "term": "EGFR Exon 19 deletion or L858R required",
+    "cancerType": "Lung Cancer",
+    "category": "Genetic",
+    "trialPercentage": "26.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 85183-2",
+    "unstructured": "EGFR exon 19 deletion detected"
+  },
+  {
+    "term": "Prior radiation >30 Gy to lungs",
+    "cancerType": "Lung Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "20%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 122471000119102",
+    "unstructured": "Prior thoracic RT of 35 Gy"
+  },
+  {
+    "term": "No active second malignancy (last 5 years)",
+    "cancerType": "Lung Cancer",
+    "category": "Diagnosis",
+    "trialPercentage": "53.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 399981008",
+    "unstructured": "Prior cancer history: prostate (cured)"
+  },
+  {
+    "term": "No live vaccines 30 days prior",
+    "cancerType": "Lung Cancer",
+    "category": "Immunization",
+    "trialPercentage": "26.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 33879002",
+    "unstructured": "Received MMR vaccine 15 days before screening"
+  },
+  {
+    "term": "QTc \u2264 470 ms",
+    "cancerType": "Lung Cancer",
+    "category": "Cardiac",
+    "trialPercentage": "26.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 8649-2",
+    "unstructured": "ECG shows QTc of 460 ms"
+  },
+  {
+    "term": "Symptomatic or unstable CNS metastases",
+    "cancerType": "Lung Cancer",
+    "category": "Neurologic",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 312912007",
+    "unstructured": "Brain MRI: active lesion with edema"
+  },
+  {
+    "term": "No investigational drug in last 4 weeks",
+    "cancerType": "Lung Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 429457009",
+    "unstructured": "Enrolled in drug trial 2 weeks prior"
+  },
+  {
+    "term": "No prior ALK-TKI therapy",
+    "cancerType": "Lung Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "20%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 432137009",
+    "unstructured": "Never received crizotinib"
+  },
+  {
+    "term": "RET fusion-positive tumor",
+    "cancerType": "Lung Cancer",
+    "category": "Genetic",
+    "trialPercentage": "6.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 81286-5",
+    "unstructured": "RET rearrangement detected in NGS report"
+  },
+  {
+    "term": "Measurable tumor per imaging",
+    "cancerType": "Lung Cancer",
+    "category": "Imaging",
+    "trialPercentage": "86.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 36971009",
+    "unstructured": "CT: Lesion >10 mm in RUL"
+  },
+  {
+    "term": "Recovery from prior therapy/surgery",
+    "cancerType": "Lung Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 304527002",
+    "unstructured": "Recovered from lobectomy 3 weeks prior"
+  },
+  {
+    "term": "Stable treated CNS metastases",
+    "cancerType": "Lung Cancer",
+    "category": "Imaging",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 422504002",
+    "unstructured": "Brain metastases treated and resolved"
+  },
+  {
+    "term": "Prior hypersensitivity to monoclonal antibodies",
+    "cancerType": "Lung Cancer",
+    "category": "Allergy",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 294967001",
+    "unstructured": "Documented reaction to bevacizumab"
+  },
+  {
+    "term": "Chronic systemic steroid use",
+    "cancerType": "Lung Cancer",
+    "category": "Medication",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "RxNorm: 8610",
+    "unstructured": "Prednisolone 10 mg daily for 2 months"
+  },
+  {
+    "term": "Squamous histology exclusion (some trials)",
+    "cancerType": "Lung Cancer",
+    "category": "Pathology",
+    "trialPercentage": "20%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 399919001",
+    "unstructured": "Histology: squamous cell carcinoma"
+  },
+  {
+    "term": "Inadequate renal function",
+    "cancerType": "Lung Cancer",
+    "category": "Lab",
+    "trialPercentage": "26.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 2160-0",
+    "unstructured": "Creatinine clearance < 30 ml/min"
+  },
+  {
+    "term": "Hepatitis B surface antigen positive",
+    "cancerType": "Lung Cancer",
+    "category": "Infection",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 5195-3",
+    "unstructured": "HBsAg test: reactive"
+  },
+  {
+    "term": "Tumor tissue availability for testing",
+    "cancerType": "Lung Cancer",
+    "category": "Pathology",
+    "trialPercentage": "53.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Specimen",
+    "standardCode": "SNOMED: 119294006",
+    "unstructured": "FFPE tumor block submitted for analysis"
+  },
+  {
+    "term": "Use of strong CYP3A4 inducers",
+    "cancerType": "Lung Cancer",
+    "category": "Medication",
+    "trialPercentage": "26.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "RxNorm: 1049626",
+    "unstructured": "Taking rifampin for TB"
+  },
+  {
+    "term": "Severe cardiovascular disease",
+    "cancerType": "Lung Cancer",
+    "category": "Medical History",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 49601007",
+    "unstructured": "Congestive heart failure (NYHA Class III)"
+  },
+  {
+    "term": "Organ transplant history",
+    "cancerType": "Lung Cancer",
+    "category": "Medical History",
+    "trialPercentage": "13.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 67166004",
+    "unstructured": "Kidney transplant in 2012"
+  },
+  {
+    "term": "Pregnant or breastfeeding",
+    "cancerType": "Lung Cancer",
+    "category": "Reproductive",
+    "trialPercentage": "60%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 77386006",
+    "unstructured": "Pregnancy confirmed via urine HCG"
+  },
+  {
+    "term": "Non-childbearing potential (female)",
+    "cancerType": "Lung Cancer",
+    "category": "Reproductive",
+    "trialPercentage": "26.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 434481000124105",
+    "unstructured": "Post-menopausal, not at risk of pregnancy"
+  },
+  {
+    "term": "Inadequate hematologic function",
+    "cancerType": "Lung Cancer",
+    "category": "Lab",
+    "trialPercentage": "46.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC Panel",
+    "unstructured": "WBC < 3.0, Hb < 9.0"
+  },
+  {
+    "term": "Major surgery within 3\u20134 weeks",
+    "cancerType": "Lung Cancer",
+    "category": "Surgery",
+    "trialPercentage": "46.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 387713003",
+    "unstructured": "Lobectomy performed 2 weeks ago"
+  },
+  {
+    "term": "Need for concurrent anticancer therapy",
+    "cancerType": "Lung Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "26.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 385763009",
+    "unstructured": "Required radiation during trial period"
+  },
+  {
+    "term": "Hypersensitivity to platinum compounds",
+    "cancerType": "Lung Cancer",
+    "category": "Allergy",
+    "trialPercentage": "13.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 294968006",
+    "unstructured": "Allergic to carboplatin"
+  },
+  {
+    "term": "Interstitial Lung Disease (ILD) history",
+    "cancerType": "Lung Cancer",
+    "category": "Pulmonary",
+    "trialPercentage": "46.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 233604007",
+    "unstructured": "ILD noted in prior CT scan and medical records"
+  },
+  {
+    "term": "Radiation pneumonitis history",
+    "cancerType": "Lung Cancer",
+    "category": "Pulmonary",
+    "trialPercentage": "26.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 199006007",
+    "unstructured": "Fibrosis from prior chest radiation present"
+  },
+  {
+    "term": "No EGFR or ALK mutation",
+    "cancerType": "Lung Cancer",
+    "category": "Genetic",
+    "trialPercentage": "26.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 69548-6",
+    "unstructured": "EGFR mutation: negative"
+  },
+  {
+    "term": "PD-L1 status known (IHC)",
+    "cancerType": "Lung Cancer",
+    "category": "Biomarker",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 85337-4",
+    "unstructured": "Tumor PD-L1 TPS: 50%"
+  },
+  {
+    "term": "Active Hepatitis C infection",
+    "cancerType": "Lung Cancer",
+    "category": "Infection",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 13955-0",
+    "unstructured": "HCV RNA positive"
+  },
+  {
+    "term": "Prior docetaxel therapy",
+    "cancerType": "Lung Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "13.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 440376006",
+    "unstructured": "Treated with docetaxel in prior regimen"
+  },
+  {
+    "term": "Recent systemic infection (last 4 weeks)",
+    "cancerType": "Lung Cancer",
+    "category": "Infection",
+    "trialPercentage": "26.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 87628006",
+    "unstructured": "Hospitalized for sepsis 3 weeks ago"
+  },
+  {
+    "term": "Refractory nausea/vomiting",
+    "cancerType": "Lung Cancer",
+    "category": "GI",
+    "trialPercentage": "13.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 28944009",
+    "unstructured": "Nausea uncontrolled by medication"
+  },
+  {
+    "term": "Impaired drug absorption (GI disorders)",
+    "cancerType": "Lung Cancer",
+    "category": "GI",
+    "trialPercentage": "20%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 7163003",
+    "unstructured": "Crohn\u2019s disease affecting absorption"
+  },
+  {
+    "term": "Severe liver impairment",
+    "cancerType": "Lung Cancer",
+    "category": "Lab",
+    "trialPercentage": "13.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC Panel",
+    "unstructured": "ALT/AST > 3\u00d7 ULN"
+  },
+  {
+    "term": "Blood transfusion requirement",
+    "cancerType": "Lung Cancer",
+    "category": "Clinical",
+    "trialPercentage": "6.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 46705006",
+    "unstructured": "Receiving packed red cells weekly"
+  },
+  {
+    "term": "Unable to swallow oral medications",
+    "cancerType": "Lung Cancer",
+    "category": "Clinical",
+    "trialPercentage": "13.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 162057007",
+    "unstructured": "Patient has dysphagia from esophageal mass"
+  },
+  {
+    "term": "Performance Status WHO 0\u20131",
+    "cancerType": "Lung Cancer",
+    "category": "Clinical",
+    "trialPercentage": "26.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 443761000124104",
+    "unstructured": "WHO PS recorded as 0"
+  },
+  {
+    "term": "Tumor PD-L1 \u2265 50%",
+    "cancerType": "Lung Cancer",
+    "category": "Biomarker",
+    "trialPercentage": "13.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 85337-4",
+    "unstructured": "IHC shows TPS score of 70%"
+  },
+  {
+    "term": "Prior checkpoint inhibitor use",
+    "cancerType": "Lung Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "26.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 433144002",
+    "unstructured": "Received nivolumab in past 6 months"
+  },
+  {
+    "term": "Anti-PD-1/PD-L1/PD-L2 exposure",
+    "cancerType": "Lung Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 433144002",
+    "unstructured": "History of pembrolizumab use"
+  },
+  {
+    "term": "Asymptomatic CNS metastases allowed",
+    "cancerType": "Lung Cancer",
+    "category": "Neurologic",
+    "trialPercentage": "13.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 312912007",
+    "unstructured": "Brain lesion stable on follow-up MRI"
+  },
+  {
+    "term": "No symptomatic bradycardia",
+    "cancerType": "Lung Cancer",
+    "category": "Cardiac",
+    "trialPercentage": "6.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 8867-4",
+    "unstructured": "Heart rate: 40 bpm, dizziness reported"
+  },
+  {
+    "term": "Prior platinum-based chemotherapy",
+    "cancerType": "Lung Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 4471000126108",
+    "unstructured": "Treated with cisplatin + pemetrexed"
+  },
+  {
+    "term": "Resected Stage IB\u2013IIIA NSCLC",
+    "cancerType": "Lung Cancer",
+    "category": "Diagnosis",
+    "trialPercentage": "13.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 254637007",
+    "unstructured": "Surgical pathology: Stage IIA NSCLC"
+  },
+  {
+    "term": "No unresolved toxicity > Grade 1",
+    "cancerType": "Lung Cancer",
+    "category": "Clinical",
+    "trialPercentage": "13.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 2741000046100",
+    "unstructured": "Grade 2 neuropathy persisted post-therapy"
+  },
+  {
+    "term": "Immunosuppressive therapy usage",
+    "cancerType": "Lung Cancer",
+    "category": "Medication",
+    "trialPercentage": "20%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "RxNorm: 8665",
+    "unstructured": "Long-term prednisone use noted"
+  },
+  {
+    "term": "Prior CD137 agonist exposure",
+    "cancerType": "Lung Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "13.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 41291007",
+    "unstructured": "Received CD137 antibody in phase I trial"
+  },
+  {
+    "term": "Current or recent drug/alcohol abuse",
+    "cancerType": "Lung Cancer",
+    "category": "Behavioral",
+    "trialPercentage": "26.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 191816009",
+    "unstructured": "Positive urine screen for cannabis"
+  },
+  {
+    "term": "Inability to comply with protocol",
+    "cancerType": "Lung Cancer",
+    "category": "Clinical",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 27624003",
+    "unstructured": "Cognitive impairment noted, poor compliance"
+  },
+  {
+    "term": "Major surgery within 3\u20134 weeks",
+    "cancerType": "Lung Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "60%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 387713003",
+    "unstructured": "Thoracotomy performed 2 weeks prior"
+  },
+  {
+    "term": "QTc >470 ms or ECG abnormality",
+    "cancerType": "Lung Cancer",
+    "category": "Cardiac",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 77606-2",
+    "unstructured": "QTc interval measured 480 ms"
+  },
+  {
+    "term": "Pregnancy or lactation",
+    "cancerType": "Lung Cancer",
+    "category": "Reproductive",
+    "trialPercentage": "100%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 19080-1",
+    "unstructured": "Positive serum pregnancy test"
+  },
+  {
+    "term": "Use of strong CYP3A inducers/inhibitors",
+    "cancerType": "Lung Cancer",
+    "category": "Medication",
+    "trialPercentage": "26.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "RxNorm Group",
+    "unstructured": "Taking ketoconazole regularly"
+  },
+  {
+    "term": "No live vaccine within 30 days",
+    "cancerType": "Lung Cancer",
+    "category": "Immunization",
+    "trialPercentage": "20%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Immunization",
+    "standardCode": "CVX: 01 (MMR)",
+    "unstructured": "Received yellow fever vaccine 10 days prior"
+  },
+  {
+    "term": "Participation in another trial",
+    "cancerType": "Lung Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "ResearchStudy",
+    "standardCode": "SNOMED: 308292007",
+    "unstructured": "On an investigational protocol for melanoma"
+  },
+  {
+    "term": "Grade \u22652 neuropathy",
+    "cancerType": "Lung Cancer",
+    "category": "Neurologic",
+    "trialPercentage": "13.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 230686007",
+    "unstructured": "Complains of burning foot pain and numbness"
+  },
+  {
+    "term": "Prior hypersensitivity to study drugs",
+    "cancerType": "Lung Cancer",
+    "category": "Allergy",
+    "trialPercentage": "26.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "AllergyIntolerance",
+    "standardCode": "SNOMED: 294967001",
+    "unstructured": "History of rash with paclitaxel"
+  },
+  {
+    "term": "Prior EGFR/ALK TKI treatment",
+    "cancerType": "Lung Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "20%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "RxNorm: 398181 (erlotinib)",
+    "unstructured": "Was treated with erlotinib 1 year ago"
+  },
+  {
+    "term": "Tumor sample available for biomarker testing",
+    "cancerType": "Lung Cancer",
+    "category": "Biomarker",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Specimen",
+    "standardCode": "SNOMED: 119376003",
+    "unstructured": "FFPE tumor block sent to central lab"
+  },
+  {
+    "term": "Stable CNS metastases allowed",
+    "cancerType": "Lung Cancer",
+    "category": "Neurologic",
+    "trialPercentage": "20%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 312912007",
+    "unstructured": "Brain mets treated 4 weeks ago, stable MRI"
+  },
+  {
+    "term": "Not eligible if squamous histology",
+    "cancerType": "Lung Cancer",
+    "category": "Diagnosis",
+    "trialPercentage": "20%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 254637007",
+    "unstructured": "Biopsy shows squamous cell carcinoma"
+  },
+  {
+    "term": "Tumor EGFR activating mutation (Ex19del or L858R)",
+    "cancerType": "Lung Cancer",
+    "category": "Genetic",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 48018-6",
+    "unstructured": "EGFR exon 19 deletion present"
+  },
+  {
+    "term": "Use of systemic corticosteroids",
+    "cancerType": "Lung Cancer",
+    "category": "Medication",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "RxNorm: 1049220",
+    "unstructured": "Prednisone 20mg daily for arthritis"
+  },
+  {
+    "term": "No prior systemic therapy for advanced NSCLC",
+    "cancerType": "Lung Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "53.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 4471000126108",
+    "unstructured": "No chemo/immunotherapy since diagnosis"
+  },
+  {
+    "term": "Significant comorbid illness interfering with study",
+    "cancerType": "Lung Cancer",
+    "category": "Clinical",
+    "trialPercentage": "26.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 162607003",
+    "unstructured": "NYHA Class III CHF noted"
+  },
+  {
+    "term": "Prior radiation >30 Gy to lungs",
+    "cancerType": "Lung Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 108290001",
+    "unstructured": "Prior RT: 35 Gy to left upper lobe"
+  },
+  {
+    "term": "Pemetrexed ineligibility (e.g., squamous histology)",
+    "cancerType": "Lung Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "13.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 428191000124100",
+    "unstructured": "Cannot receive pemetrexed (squamous histology)"
+  },
+  {
+    "term": "CNS metastases or leptomeningeal disease",
+    "cancerType": "Lung Cancer",
+    "category": "Neurologic",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 312912007",
+    "unstructured": "Brain MRI showed leptomeningeal enhancement"
+  },
+  {
+    "term": "Prior allogeneic transplant",
+    "cancerType": "Lung Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "13.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 430193006",
+    "unstructured": "Allogeneic bone marrow transplant 5 years ago"
+  },
+  {
+    "term": "Immune checkpoint inhibitors not previously received",
+    "cancerType": "Lung Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "26.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 433144002",
+    "unstructured": "Patient is immunotherapy-naive"
+  },
+  {
+    "term": "Female/male contraception commitment",
+    "cancerType": "Lung Cancer",
+    "category": "Reproductive",
+    "trialPercentage": "80%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 364703007",
+    "unstructured": "Using IUD and barrier method"
+  },
+  {
+    "term": "Prior CTLA-4 inhibitor use",
+    "cancerType": "Lung Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "13.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 372729009",
+    "unstructured": "Previously treated with ipilimumab"
+  },
+  {
+    "term": "Symptomatic bradycardia/QT prolongation",
+    "cancerType": "Lung Cancer",
+    "category": "Cardiac",
+    "trialPercentage": "13.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 8867-4",
+    "unstructured": "HR: 42 bpm with dizziness noted"
+  },
+  {
+    "term": "Life expectancy \u226512 weeks",
+    "cancerType": "Lung Cancer",
+    "category": "Clinical",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 75273003",
+    "unstructured": "Oncologist estimates survival >3 months"
+  },
+  {
+    "term": "Histologically confirmed adenocarcinoma of the breast",
+    "cancerType": "Breast Cancer",
+    "category": "Diagnosis",
+    "trialPercentage": "100%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: C50",
+    "unstructured": "Biopsy confirmed invasive adenocarcinoma of the left breast"
+  },
+  {
+    "term": "ER and/or PR positive tumor",
+    "cancerType": "Breast Cancer",
+    "category": "Pathology",
+    "trialPercentage": "46%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 85337-4 (ER); 85339-0 (PR)",
+    "unstructured": "Estrogen receptor positive, PR borderline positive on IHC"
+  },
+  {
+    "term": "HER2-negative tumor by FISH or IHC",
+    "cancerType": "Breast Cancer",
+    "category": "Pathology",
+    "trialPercentage": "38%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 48676-1",
+    "unstructured": "HER2 score was 1+ by IHC, FISH negative"
+  },
+  {
+    "term": "HER2-positive tumor confirmed by IHC or FISH",
+    "cancerType": "Breast Cancer",
+    "category": "Pathology",
+    "trialPercentage": "46%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 48676-1",
+    "unstructured": "HER2 score was 3+ by IHC"
+  },
+  {
+    "term": "Triple-negative breast cancer (ER-, PR-, HER2-)",
+    "cancerType": "Breast Cancer",
+    "category": "Pathology",
+    "trialPercentage": "23%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 76751001",
+    "unstructured": "Pathology report confirms TNBC phenotype"
+  },
+  {
+    "term": "ECOG Performance Status 0 or 1",
+    "cancerType": "Breast Cancer",
+    "category": "Clinical",
+    "trialPercentage": "61%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 89243-0",
+    "unstructured": "ECOG PS was 1 at baseline assessment"
+  },
+  {
+    "term": "No prior invasive breast cancer",
+    "cancerType": "Breast Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "38%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: C50",
+    "unstructured": "No documented history of contralateral or ipsilateral invasive breast CA"
+  },
+  {
+    "term": "LVEF \u2265 50%",
+    "cancerType": "Breast Cancer",
+    "category": "Clinical",
+    "trialPercentage": "31%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 33878-0",
+    "unstructured": "Baseline LVEF on MUGA scan measured 55%"
+  },
+  {
+    "term": "CNS metastases present",
+    "cancerType": "Breast Cancer",
+    "category": "Imaging/Diagnosis",
+    "trialPercentage": "23%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: C79.31",
+    "unstructured": "MRI brain shows metastatic lesion in the frontal lobe"
+  },
+  {
+    "term": "Chronic obstructive pulmonary disease requiring treatment",
+    "cancerType": "Breast Cancer",
+    "category": "Comorbidity",
+    "trialPercentage": "8%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: J44.9",
+    "unstructured": "COPD with ongoing bronchodilator therapy"
+  },
+  {
+    "term": "Documented BRCA1 or BRCA2 germline mutation",
+    "cancerType": "Breast Cancer",
+    "category": "Genetic",
+    "trialPercentage": "23%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 81241-3",
+    "unstructured": "Patient tested positive for germline BRCA1 mutation via Myriad Genetics"
+  },
+  {
+    "term": "Measurable disease per RECIST v1.1",
+    "cancerType": "Breast Cancer",
+    "category": "Imaging",
+    "trialPercentage": "46%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 386053000",
+    "unstructured": "CT scan shows measurable target lesion in liver, 20mm in diameter"
+  },
+  {
+    "term": "Life expectancy \u2265 12 weeks",
+    "cancerType": "Breast Cancer",
+    "category": "Clinical",
+    "trialPercentage": "15%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 75283002",
+    "unstructured": "Oncologist estimates patient's life expectancy is at least 3 months"
+  },
+  {
+    "term": "Adequate hematologic, renal, and hepatic function",
+    "cancerType": "Breast Cancer",
+    "category": "Lab",
+    "trialPercentage": "77%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "Multiple LOINC codes",
+    "unstructured": "CBC, LFTs, and creatinine levels all within normal range"
+  },
+  {
+    "term": "Platelet count \u2265 100,000/mm\u00b3",
+    "cancerType": "Breast Cancer",
+    "category": "Lab",
+    "trialPercentage": "15%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 26515-7",
+    "unstructured": "Platelet count is 145,000/mm\u00b3 on recent CBC"
+  },
+  {
+    "term": "Serum creatinine \u2264 1.5 mg/dL",
+    "cancerType": "Breast Cancer",
+    "category": "Lab",
+    "trialPercentage": "15%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 2160-0",
+    "unstructured": "Creatinine measured 1.2 mg/dL at baseline"
+  },
+  {
+    "term": "AST \u2264 3\u00d7 upper institutional limit",
+    "cancerType": "Breast Cancer",
+    "category": "Lab",
+    "trialPercentage": "15%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 1920-8",
+    "unstructured": "AST was 84 IU/L, within 3\u00d7 ULN of 40 IU/L"
+  },
+  {
+    "term": "No prior chemotherapy for metastatic disease",
+    "cancerType": "Breast Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "31%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 385763009",
+    "unstructured": "Patient has not received chemotherapy since metastatic diagnosis"
+  },
+  {
+    "term": "No prior treatment with PARP inhibitors",
+    "cancerType": "Breast Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "15%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 473942006",
+    "unstructured": "No prior exposure to olaparib, niraparib, or talazoparib"
+  },
+  {
+    "term": "Pregnant or breastfeeding women excluded",
+    "cancerType": "Breast Cancer",
+    "category": "Reproductive",
+    "trialPercentage": "85%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: Z33.1, Z39.1",
+    "unstructured": "Pregnancy test positive; patient not eligible"
+  },
+  {
+    "term": "History of congestive heart failure or cardiac arrhythmia",
+    "cancerType": "Breast Cancer",
+    "category": "Comorbidity",
+    "trialPercentage": "31%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: I50, I49",
+    "unstructured": "History of CHF with reduced ejection fraction; also treated for AFib"
+  },
+  {
+    "term": "Uncontrolled hypertension",
+    "cancerType": "Breast Cancer",
+    "category": "Comorbidity",
+    "trialPercentage": "15%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: I10",
+    "unstructured": "Blood pressure consistently above 160/100 despite medication"
+  },
+  {
+    "term": "Myocardial infarction within 6\u201312 months",
+    "cancerType": "Breast Cancer",
+    "category": "Comorbidity",
+    "trialPercentage": "15%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: I21",
+    "unstructured": "Patient had STEMI 8 months ago and underwent PCI"
+  },
+  {
+    "term": "CNS metastases or leptomeningeal disease",
+    "cancerType": "Breast Cancer",
+    "category": "Imaging/Diagnosis",
+    "trialPercentage": "38%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: C79.31, G96.0",
+    "unstructured": "MRI shows enhancing leptomeningeal spread and multiple brain metastases"
+  },
+  {
+    "term": "Active autoimmune disease requiring systemic treatment",
+    "cancerType": "Breast Cancer",
+    "category": "Comorbidity",
+    "trialPercentage": "23%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 370388006",
+    "unstructured": "Patient on prednisone 10mg daily for lupus"
+  },
+  {
+    "term": "Peripheral neuropathy \u2265 Grade 2",
+    "cancerType": "Breast Cancer",
+    "category": "Clinical",
+    "trialPercentage": "23%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 302226006",
+    "unstructured": "Complains of numbness and tingling, grade 2 neuropathy per CTCAE"
+  },
+  {
+    "term": "Chronic liver disease or cirrhosis",
+    "cancerType": "Breast Cancer",
+    "category": "Comorbidity",
+    "trialPercentage": "15%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: K74.60",
+    "unstructured": "Diagnosed cirrhosis secondary to hepatitis C"
+  },
+  {
+    "term": "History of tuberculosis (active or prior)",
+    "cancerType": "Breast Cancer",
+    "category": "Comorbidity",
+    "trialPercentage": "8%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: A15\u2013A19",
+    "unstructured": "Past medical history includes treated pulmonary TB"
+  },
+  {
+    "term": "Interstitial lung disease or pneumonitis",
+    "cancerType": "Breast Cancer",
+    "category": "Comorbidity",
+    "trialPercentage": "15%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: J84.10, J84.89",
+    "unstructured": "High-resolution CT shows signs of ILD"
+  },
+  {
+    "term": "Psychiatric or substance abuse disorder affecting compliance",
+    "cancerType": "Breast Cancer",
+    "category": "Comorbidity",
+    "trialPercentage": "38%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: F10\u2013F19, F30\u2013F39",
+    "unstructured": "Patient has bipolar disorder and history of noncompliance with treatment"
+  },
+  {
+    "term": "Prior use of tamoxifen or other SERMs >1 year before diagnosis",
+    "cancerType": "Breast Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "15%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 372729009",
+    "unstructured": "Patient has taken tamoxifen for 2 years prior to diagnosis"
+  },
+  {
+    "term": "Endocrine therapy for >8 months after diagnosis",
+    "cancerType": "Breast Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "8%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 428731000124101",
+    "unstructured": "Started on letrozole 10 months ago, still on treatment"
+  },
+  {
+    "term": "Prior bilateral oophorectomy or ovarian radiation",
+    "cancerType": "Breast Cancer",
+    "category": "Surgical History",
+    "trialPercentage": "15%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 118698009",
+    "unstructured": "Surgical history includes bilateral oophorectomy 3 years ago"
+  },
+  {
+    "term": "Use of GnRH analogues before randomization",
+    "cancerType": "Breast Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "8%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 372729005",
+    "unstructured": "Patient was treated with goserelin 2 months before enrollment"
+  },
+  {
+    "term": "Current use of prohibited medications (e.g., CYP3A4 inducers/inhibitors)",
+    "cancerType": "Breast Cancer",
+    "category": "Medication",
+    "trialPercentage": "31%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 428651000124104",
+    "unstructured": "Patient is currently taking ketoconazole, a strong CYP3A4 inhibitor"
+  },
+  {
+    "term": "Use of herbal medications or QT-prolonging drugs",
+    "cancerType": "Breast Cancer",
+    "category": "Medication",
+    "trialPercentage": "23%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 428651000124104",
+    "unstructured": "St. John\u2019s Wort noted in medication history"
+  },
+  {
+    "term": "Postmenopausal women only",
+    "cancerType": "Breast Cancer",
+    "category": "Reproductive",
+    "trialPercentage": "23%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 289903006",
+    "unstructured": "FSH and estradiol consistent with postmenopausal status"
+  },
+  {
+    "term": "Premenopausal estradiol in normal range",
+    "cancerType": "Breast Cancer",
+    "category": "Reproductive",
+    "trialPercentage": "15%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 21189-6",
+    "unstructured": "E2 level was 120 pg/mL confirming premenopausal status"
+  },
+  {
+    "term": "Use of effective nonhormonal contraception",
+    "cancerType": "Breast Cancer",
+    "category": "Reproductive",
+    "trialPercentage": "61%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 169909004",
+    "unstructured": "Patient uses copper IUD for contraception"
+  },
+  {
+    "term": "Pregnancy test required within 2 weeks of registration",
+    "cancerType": "Breast Cancer",
+    "category": "Reproductive",
+    "trialPercentage": "46%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 19080-1",
+    "unstructured": "Serum beta-hCG was negative 5 days prior to enrollment"
+  },
+  {
+    "term": "No participation in another investigational trial within 28 days",
+    "cancerType": "Breast Cancer",
+    "category": "Trial Participation",
+    "trialPercentage": "38%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "ResearchStudy",
+    "standardCode": "SNOMED: 409063005",
+    "unstructured": "Patient completed investigational therapy 35 days ago"
+  },
+  {
+    "term": "No active or untreated second malignancy within 5 years",
+    "cancerType": "Breast Cancer",
+    "category": "Comorbidity",
+    "trialPercentage": "54%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: C80.1",
+    "unstructured": "Diagnosed with Stage I colon cancer 3 years ago, now in remission"
+  },
+  {
+    "term": "Biopsy-confirmed locally advanced or metastatic disease",
+    "cancerType": "Breast Cancer",
+    "category": "Diagnosis",
+    "trialPercentage": "69%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: C50 + staging codes",
+    "unstructured": "Core biopsy confirms metastatic adenocarcinoma consistent with breast CA"
+  },
+  {
+    "term": "Tumor tissue available for biomarker testing",
+    "cancerType": "Breast Cancer",
+    "category": "Pathology",
+    "trialPercentage": "38%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Specimen",
+    "standardCode": "SNOMED: 258241000",
+    "unstructured": "Paraffin blocks submitted for central PD-L1 testing"
+  },
+  {
+    "term": "Adequate surgical margins post-resection",
+    "cancerType": "Breast Cancer",
+    "category": "Surgical History",
+    "trialPercentage": "31%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 387713003",
+    "unstructured": "Final pathology shows margins negative by >1 mm"
+  },
+  {
+    "term": "No gross residual disease after surgery",
+    "cancerType": "Breast Cancer",
+    "category": "Surgical History",
+    "trialPercentage": "15%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 118245000",
+    "unstructured": "Post-op imaging shows no residual tumor in surgical bed"
+  },
+  {
+    "term": "Recurrent or metastatic disease not amenable to curative resection",
+    "cancerType": "Breast Cancer",
+    "category": "Diagnosis",
+    "trialPercentage": "23%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: C79 + Z85.3",
+    "unstructured": "Recurrent disease infiltrating chest wall, not surgically resectable"
+  },
+  {
+    "term": "Prior breast surgery completed",
+    "cancerType": "Breast Cancer",
+    "category": "Surgical History",
+    "trialPercentage": "69%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 274441001",
+    "unstructured": "Patient underwent modified radical mastectomy 2 months ago"
+  },
+  {
+    "term": "Negative axillary lymph nodes",
+    "cancerType": "Breast Cancer",
+    "category": "Diagnosis",
+    "trialPercentage": "15%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 43339004",
+    "unstructured": "Axillary node biopsy shows no malignant cells"
+  },
+  {
+    "term": "Tumor size 1.1\u20135.0 cm or 5mm\u20131cm with poor histologic features",
+    "cancerType": "Breast Cancer",
+    "category": "Pathology",
+    "trialPercentage": "15%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 254837009",
+    "unstructured": "Tumor size 0.8 cm, poorly differentiated, lymphovascular invasion noted"
+  },
+  {
+    "term": "Histologically confirmed Stage III or IV melanoma",
+    "cancerType": "Skin Cancer",
+    "category": "Diagnosis",
+    "trialPercentage": "10%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: C43",
+    "unstructured": "Stage III melanoma confirmed via biopsy"
+  },
+  {
+    "term": "No prior systemic anti-cancer therapy",
+    "cancerType": "Skin Cancer",
+    "category": "Treatment",
+    "trialPercentage": "10%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 410942007",
+    "unstructured": "No prior systemic treatment documented"
+  },
+  {
+    "term": "Active autoimmune disease",
+    "cancerType": "Skin Cancer",
+    "category": "Autoimmune",
+    "trialPercentage": "10%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 85828009",
+    "unstructured": "Patient has active lupus"
+  },
+  {
+    "term": "Measurable disease per RECIST",
+    "cancerType": "Skin Cancer",
+    "category": "Imaging",
+    "trialPercentage": "50%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 115727004",
+    "unstructured": "CT showed measurable lesion per RECIST criteria"
+  },
+  {
+    "term": "Exclusion of ocular melanoma",
+    "cancerType": "Skin Cancer",
+    "category": "Diagnosis",
+    "trialPercentage": "60%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: C69.9",
+    "unstructured": "Diagnosis confirmed as ocular melanoma"
+  },
+  {
+    "term": "Untreated CNS metastases",
+    "cancerType": "Skin Cancer",
+    "category": "Neurological",
+    "trialPercentage": "50%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 127013003",
+    "unstructured": "Brain MRI showed untreated metastases"
+  },
+  {
+    "term": "Pregnancy or breastfeeding",
+    "cancerType": "Skin Cancer",
+    "category": "Reproductive",
+    "trialPercentage": "60%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 289908002",
+    "unstructured": "Patient is currently pregnant"
+  },
+  {
+    "term": "Use of systemic corticosteroids",
+    "cancerType": "Skin Cancer",
+    "category": "Treatment",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 410942007",
+    "unstructured": "Patient on prednisone >10mg/day"
+  },
+  {
+    "term": "BRAF V600 mutation positive",
+    "cancerType": "Skin Cancer",
+    "category": "Genetic",
+    "trialPercentage": "50%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 73804-9",
+    "unstructured": "Tumor positive for BRAF V600E mutation"
+  },
+  {
+    "term": "Active autoimmune disease",
+    "cancerType": "Skin Cancer",
+    "category": "Autoimmune",
+    "trialPercentage": "50%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 64572001",
+    "unstructured": "Diagnosed with active lupus"
+  },
+  {
+    "term": "Prior systemic anti-cancer therapy",
+    "cancerType": "Skin Cancer",
+    "category": "Treatment",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 385763009",
+    "unstructured": "Previously treated with checkpoint inhibitor"
+  },
+  {
+    "term": "Active infection requiring systemic therapy",
+    "cancerType": "Skin Cancer",
+    "category": "Infection",
+    "trialPercentage": "30%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 11488-4",
+    "unstructured": "IV antibiotics started for active pneumonia"
+  },
+  {
+    "term": "Ocular or uveal melanoma",
+    "cancerType": "Skin Cancer",
+    "category": "Diagnosis",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: C69.3",
+    "unstructured": "Diagnosed with uveal melanoma"
+  },
+  {
+    "term": "Measurable disease per RECIST v1.1",
+    "cancerType": "Skin Cancer",
+    "category": "Imaging",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 1153571001",
+    "unstructured": "CT scan shows 2.5 cm measurable mass"
+  },
+  {
+    "term": "Untreated or unstable CNS metastases",
+    "cancerType": "Skin Cancer",
+    "category": "Neurological",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 128613002",
+    "unstructured": "MRI revealed untreated brain metastasis"
+  },
+  {
+    "term": "Pregnant, breastfeeding, or planning pregnancy",
+    "cancerType": "Skin Cancer",
+    "category": "Reproductive",
+    "trialPercentage": "60%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 77386006",
+    "unstructured": "Patient currently breastfeeding"
+  },
+  {
+    "term": "Use of systemic corticosteroids or immunosuppressants",
+    "cancerType": "Skin Cancer",
+    "category": "Treatment",
+    "trialPercentage": "50%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 428191000000100",
+    "unstructured": "On prednisone 20 mg for past 10 days"
+  },
+  {
+    "term": "ECOG performance status 0 or 1",
+    "cancerType": "Skin Cancer",
+    "category": "Clinical",
+    "trialPercentage": "90%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 89243-0",
+    "unstructured": "ECOG performance status documented as 1"
+  },
+  {
+    "term": "History of autoimmune disease",
+    "cancerType": "Skin Cancer",
+    "category": "Autoimmune",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 64572001",
+    "unstructured": "Patient has history of rheumatoid arthritis"
+  },
+  {
+    "term": "HIV, active hepatitis B or C",
+    "cancerType": "Skin Cancer",
+    "category": "Infection",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 29771-3, 20416-4",
+    "unstructured": "HIV test returned positive"
+  },
+  {
+    "term": "Use of live vaccines within 30 days prior to treatment",
+    "cancerType": "Skin Cancer",
+    "category": "Immunization",
+    "trialPercentage": "30%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 33879002",
+    "unstructured": "Patient received yellow fever vaccine 3 weeks ago"
+  },
+  {
+    "term": "Retinal disorders (e.g., RVO, CSR, macular degeneration)",
+    "cancerType": "Skin Cancer",
+    "category": "Ophthalmologic",
+    "trialPercentage": "20%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 44189001",
+    "unstructured": "Fundoscopy shows signs of central serous retinopathy"
+  },
+  {
+    "term": "Ocular or uveal melanoma excluded",
+    "cancerType": "Skin Cancer",
+    "category": "Diagnosis",
+    "trialPercentage": "50%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 9400001",
+    "unstructured": "Diagnosis indicates ocular melanoma"
+  },
+  {
+    "term": "No prior systemic therapy for advanced melanoma",
+    "cancerType": "Skin Cancer",
+    "category": "Treatment",
+    "trialPercentage": "60%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 386053000",
+    "unstructured": "No history of systemic immunotherapy"
+  },
+  {
+    "term": "Active CNS metastases excluded",
+    "cancerType": "Skin Cancer",
+    "category": "Neurological",
+    "trialPercentage": "50%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 95891001",
+    "unstructured": "Brain MRI shows metastatic lesion"
+  },
+  {
+    "term": "Measurable disease per RECIST",
+    "cancerType": "Skin Cancer",
+    "category": "Imaging",
+    "trialPercentage": "60%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 252416005",
+    "unstructured": "CT scan reveals 3 cm liver lesion"
+  },
+  {
+    "term": "BRAF V600 mutation status known",
+    "cancerType": "Skin Cancer",
+    "category": "Genetic",
+    "trialPercentage": "50%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 69548-6",
+    "unstructured": "BRAF V600E mutation detected by PCR"
+  },
+  {
+    "term": "Pregnancy or breastfeeding excluded",
+    "cancerType": "Skin Cancer",
+    "category": "Reproductive",
+    "trialPercentage": "60%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 289908002",
+    "unstructured": "Patient currently breastfeeding"
+  },
+  {
+    "term": "Active autoimmune disease excluded",
+    "cancerType": "Skin Cancer",
+    "category": "Autoimmune",
+    "trialPercentage": "50%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 64572001",
+    "unstructured": "History of rheumatoid arthritis"
+  },
+  {
+    "term": "ECOG performance status 0\u20131",
+    "cancerType": "Skin Cancer",
+    "category": "Clinical",
+    "trialPercentage": "100%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 89243-0",
+    "unstructured": "ECOG score recorded as 1"
+  },
+  {
+    "term": "Uncontrolled cardiovascular disease excluded",
+    "cancerType": "Skin Cancer",
+    "category": "Cardiac",
+    "trialPercentage": "30%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 49601007",
+    "unstructured": "Severe heart failure within past 6 months"
+  },
+  {
+    "term": "Adequate hematologic and organ function",
+    "cancerType": "Skin Cancer",
+    "category": "Lab",
+    "trialPercentage": "60%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 248234008",
+    "unstructured": "Liver and kidney panel within acceptable limits"
+  },
+  {
+    "term": "Ocular melanoma excluded",
+    "cancerType": "Skin Cancer",
+    "category": "Diagnosis",
+    "trialPercentage": "50%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: C69.9",
+    "unstructured": "Patient diagnosed with uveal melanoma"
+  },
+  {
+    "term": "Known HIV, HBV, or HCV excluded",
+    "cancerType": "Skin Cancer",
+    "category": "Infection",
+    "trialPercentage": "50%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 29771-3, 20416-4",
+    "unstructured": "HIV screening positive"
+  },
+  {
+    "term": "BRAF V600 mutation required",
+    "cancerType": "Skin Cancer",
+    "category": "Genetic",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 40861-5",
+    "unstructured": "BRAF V600E mutation detected by PCR"
+  },
+  {
+    "term": "Active brain metastases excluded",
+    "cancerType": "Skin Cancer",
+    "category": "Imaging",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 94233001",
+    "unstructured": "MRI shows enhancing lesions consistent with CNS metastases"
+  },
+  {
+    "term": "Prior systemic therapy excluded",
+    "cancerType": "Skin Cancer",
+    "category": "Treatment",
+    "trialPercentage": "30%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 428341000000108",
+    "unstructured": "Previously received ipilimumab"
+  },
+  {
+    "term": "Measurable disease required (RECIST)",
+    "cancerType": "Skin Cancer",
+    "category": "Imaging",
+    "trialPercentage": "60%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 371531000000106",
+    "unstructured": "CT shows measurable lymph node of 2.3 cm"
+  },
+  {
+    "term": "Excluded active autoimmune disease",
+    "cancerType": "Skin Cancer",
+    "category": "Autoimmune",
+    "trialPercentage": "50%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 64572001",
+    "unstructured": "Diagnosed with systemic lupus erythematosus"
+  },
+  {
+    "term": "Pregnancy or breastfeeding excluded",
+    "cancerType": "Skin Cancer",
+    "category": "Reproductive",
+    "trialPercentage": "60%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 289908002",
+    "unstructured": "Patient is currently pregnant"
+  },
+  {
+    "term": "Prior BRAF/MEK inhibitors excluded",
+    "cancerType": "Skin Cancer",
+    "category": "Treatment",
+    "trialPercentage": "30%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "RXNORM: 1373478",
+    "unstructured": "Patient previously treated with dabrafenib"
+  },
+  {
+    "term": "Contraception requirement for participants",
+    "cancerType": "Skin Cancer",
+    "category": "Reproductive",
+    "trialPercentage": "60%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 386644000",
+    "unstructured": "Patient advised to use dual contraception methods"
+  },
+  {
+    "term": "Excluded prior anti-PD-1/PD-L1/PD-L2 therapy",
+    "cancerType": "Skin Cancer",
+    "category": "Treatment",
+    "trialPercentage": "30%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "RXNORM: 1792776",
+    "unstructured": "Treated previously with nivolumab"
+  },
+  {
+    "term": "Hepatic/renal/lab function within limits",
+    "cancerType": "Skin Cancer",
+    "category": "Clinical",
+    "trialPercentage": "50%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 1975-2, 24323-8",
+    "unstructured": "ALT, AST, bilirubin within normal limits"
+  },
+  {
+    "term": "History of ocular/retinal diseases excluded",
+    "cancerType": "Skin Cancer",
+    "category": "Ophthalmologic",
+    "trialPercentage": "30%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 386661006",
+    "unstructured": "Prior history of central serous retinopathy"
+  },
+  {
+    "term": "Life expectancy \u22653 months",
+    "cancerType": "Skin Cancer",
+    "category": "Clinical",
+    "trialPercentage": "20%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 277026009",
+    "unstructured": "Estimated life expectancy exceeds 3 months"
+  },
+  {
+    "term": "ECOG performance status \u2264 1 or 2",
+    "cancerType": "Blood Cancer",
+    "category": "Clinical",
+    "trialPercentage": "90%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 89243-0",
+    "unstructured": "ECOG status recorded as 1"
+  },
+  {
+    "term": "Adequate organ function",
+    "cancerType": "Blood Cancer",
+    "category": "Clinical",
+    "trialPercentage": "70%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 248234008",
+    "unstructured": "Liver and renal panels within normal limits"
+  },
+  {
+    "term": "Confirmed diagnosis via histology",
+    "cancerType": "Blood Cancer",
+    "category": "Diagnosis",
+    "trialPercentage": "100%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: varies",
+    "unstructured": "Diagnosis confirmed through pathology"
+  },
+  {
+    "term": "CNS involvement excluded",
+    "cancerType": "Blood Cancer",
+    "category": "Neurological",
+    "trialPercentage": "60%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 127013003",
+    "unstructured": "No evidence of CNS disease on MRI"
+  },
+  {
+    "term": "Active infection (e.g., HIV, HBV, HCV) excluded",
+    "cancerType": "Blood Cancer",
+    "category": "Infection",
+    "trialPercentage": "70%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 29771-3, 20416-4",
+    "unstructured": "Patient tested positive for Hepatitis B"
+  },
+  {
+    "term": "Prior anti-CD20 or CD38 therapy",
+    "cancerType": "Blood Cancer",
+    "category": "Treatment",
+    "trialPercentage": "50%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 429060002",
+    "unstructured": "Rituximab administered in prior treatment"
+  },
+  {
+    "term": "Philadelphia chromosome negative",
+    "cancerType": "Blood Cancer",
+    "category": "Genetic",
+    "trialPercentage": "20%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 34572-6",
+    "unstructured": "BCR-ABL fusion not detected by FISH"
+  },
+  {
+    "term": "No prior systemic therapy",
+    "cancerType": "Blood Cancer",
+    "category": "Treatment",
+    "trialPercentage": "30%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 386053000",
+    "unstructured": "No chemotherapy history"
+  },
+  {
+    "term": "Pregnancy or breastfeeding excluded",
+    "cancerType": "Blood Cancer",
+    "category": "Reproductive",
+    "trialPercentage": "60%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 289908002",
+    "unstructured": "Patient is currently pregnant"
+  },
+  {
+    "term": "Measurable disease required",
+    "cancerType": "Blood Cancer",
+    "category": "Imaging",
+    "trialPercentage": "50%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 252416005",
+    "unstructured": "CT shows measurable mass"
+  },
+  {
+    "term": "Life expectancy \u2265 3 months",
+    "cancerType": "Blood Cancer",
+    "category": "Clinical",
+    "trialPercentage": "50%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 277026009",
+    "unstructured": "Estimated survival time exceeds 3 months"
+  },
+  {
+    "term": "No prior allogeneic stem cell transplant",
+    "cancerType": "Blood Cancer",
+    "category": "Treatment",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 170838008",
+    "unstructured": "History reveals patient underwent allogeneic transplant"
+  },
+  {
+    "term": "Platelet count \u2265 75,000/\u00b5L",
+    "cancerType": "Blood Cancer",
+    "category": "Lab",
+    "trialPercentage": "60%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 26515-7",
+    "unstructured": "Platelet count was 120,000 per microliter at screening"
+  },
+  {
+    "term": "Creatinine clearance \u2265 50 mL/min",
+    "cancerType": "Blood Cancer",
+    "category": "Lab",
+    "trialPercentage": "50%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 2160-0",
+    "unstructured": "Creatinine clearance calculated at 52 mL/min"
+  },
+  {
+    "term": "No uncontrolled hypertension",
+    "cancerType": "Blood Cancer",
+    "category": "Clinical",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: I10",
+    "unstructured": "Blood pressure well-controlled on current medications"
+  },
+  {
+    "term": "HIV, HBV, or HCV excluded",
+    "cancerType": "Blood Cancer",
+    "category": "Infection",
+    "trialPercentage": "50%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 29771-3, 20416-4",
+    "unstructured": "HIV test returned positive"
+  },
+  {
+    "term": "ECOG Performance Status 0\u20132",
+    "cancerType": "Blood Cancer",
+    "category": "Clinical",
+    "trialPercentage": "60%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 89243-0",
+    "unstructured": "ECOG score documented as 1"
+  },
+  {
+    "term": "Active CNS involvement excluded",
+    "cancerType": "Blood Cancer",
+    "category": "Neurological",
+    "trialPercentage": "30%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 127013003",
+    "unstructured": "CSF cytology positive for blasts"
+  },
+  {
+    "term": "Platelet count \u2265 75,000/\u03bcL",
+    "cancerType": "Blood Cancer",
+    "category": "Lab",
+    "trialPercentage": "20%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 26515-7",
+    "unstructured": "Platelet count recorded as 82,000/\u03bcL"
+  },
+  {
+    "term": "Creatinine clearance \u2265 50 mL/min",
+    "cancerType": "Blood Cancer",
+    "category": "Lab",
+    "trialPercentage": "30%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 2160-0",
+    "unstructured": "Calculated CrCl = 62 mL/min using Cockcroft-Gault formula"
+  },
+  {
+    "term": "History of allogeneic stem cell transplant",
+    "cancerType": "Blood Cancer",
+    "category": "Treatment",
+    "trialPercentage": "20%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 5960008",
+    "unstructured": "Underwent allo-SCT 2 years ago"
+  },
+  {
+    "term": "Prior CD19-directed therapy",
+    "cancerType": "Blood Cancer",
+    "category": "Treatment",
+    "trialPercentage": "20%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "RXNORM: 1792770",
+    "unstructured": "Treated previously with CD19 CAR-T therapy"
+  },
+  {
+    "term": "Measurable residual disease (MRD) \u2265 0.1%",
+    "cancerType": "Blood Cancer",
+    "category": "Lab",
+    "trialPercentage": "10%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 77025-8",
+    "unstructured": "MRD detected at 0.3% via flow cytometry"
+  },
+  {
+    "term": "Active GVHD requiring systemic treatment",
+    "cancerType": "Blood Cancer",
+    "category": "Immune",
+    "trialPercentage": "20%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 24079001",
+    "unstructured": "Receiving steroids for Grade II GVHD"
+  },
+  {
+    "term": "Uncontrolled infection",
+    "cancerType": "Blood Cancer",
+    "category": "Infection",
+    "trialPercentage": "30%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 11488-4",
+    "unstructured": "Sepsis requiring broad-spectrum IV antibiotics"
+  },
+  {
+    "term": "No uncontrolled hypertension",
+    "cancerType": "Blood Cancer",
+    "category": "Cardiac",
+    "trialPercentage": "20%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 38341003",
+    "unstructured": "Blood pressure uncontrolled despite medication"
+  },
+  {
+    "term": "LVEF \u2265 50%",
+    "cancerType": "Blood Cancer",
+    "category": "Cardiac",
+    "trialPercentage": "30%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 33878-0",
+    "unstructured": "Echocardiogram shows LVEF of 55%"
+  },
+  {
+    "term": "Age \u2265 18 years",
+    "cancerType": "Blood Cancer",
+    "category": "Demographic",
+    "trialPercentage": "100%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Patient",
+    "standardCode": "SNOMED: 397669002",
+    "unstructured": "Patient is a 46-year-old male"
+  },
+  {
+    "term": "No prior anti-CD38 therapy",
+    "cancerType": "Blood Cancer",
+    "category": "Treatment",
+    "trialPercentage": "10%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "RXNORM: 1792953",
+    "unstructured": "No history of daratumumab or similar therapy"
+  },
+  {
+    "term": "Refractory or relapsed disease after \u22651 line of therapy",
+    "cancerType": "Blood Cancer",
+    "category": "Treatment",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 313229003",
+    "unstructured": "Relapsed multiple myeloma after bortezomib-based regimen"
+  },
+  {
+    "term": "Total bilirubin \u2264 1.5x ULN",
+    "cancerType": "Blood Cancer",
+    "category": "Lab",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 1975-2",
+    "unstructured": "Total bilirubin level recorded at 1.2x ULN"
+  },
+  {
+    "term": "No known CNS involvement",
+    "cancerType": "Blood Cancer",
+    "category": "Neurological",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 127013003",
+    "unstructured": "No clinical or imaging evidence of CNS disease"
+  },
+  {
+    "term": "No active graft-versus-host disease (GVHD)",
+    "cancerType": "Blood Cancer",
+    "category": "Immune",
+    "trialPercentage": "30%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 370197006",
+    "unstructured": "GVHD resolved, no active symptoms observed"
+  },
+  {
+    "term": "Informed consent obtained",
+    "cancerType": "Blood Cancer",
+    "category": "Administrative",
+    "trialPercentage": "100%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Consent",
+    "standardCode": "SNOMED: 394814009",
+    "unstructured": "Signed informed consent available in patient record"
+  },
+  {
+    "term": "Not pregnant or breastfeeding",
+    "cancerType": "Blood Cancer",
+    "category": "Reproductive",
+    "trialPercentage": "70%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 289908002",
+    "unstructured": "Patient denies pregnancy; negative pregnancy test"
+  },
+  {
+    "term": "Creatinine clearance \u2265 60 mL/min",
+    "cancerType": "Blood Cancer",
+    "category": "Lab",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 2160-0",
+    "unstructured": "eGFR calculated at 65 mL/min on lab report"
+  },
+  {
+    "term": "No uncontrolled cardiovascular disease",
+    "cancerType": "Blood Cancer",
+    "category": "Cardiac",
+    "trialPercentage": "30%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 49601007",
+    "unstructured": "Recent cardiac event ruled out; patient stable"
+  },
+  {
+    "term": "Women of childbearing potential must use contraception",
+    "cancerType": "Blood Cancer",
+    "category": "Reproductive",
+    "trialPercentage": "50%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 386644000",
+    "unstructured": "Counseled on dual contraception before enrollment"
+  },
+  {
+    "term": "Negative hepatitis B surface antigen",
+    "cancerType": "Blood Cancer",
+    "category": "Infection",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 5195-3",
+    "unstructured": "HBsAg test result was negative"
+  },
+  {
+    "term": "No investigational drug use within 28 days",
+    "cancerType": "Blood Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "30%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 430193006",
+    "unstructured": "Patient last enrolled in a trial >1 month ago"
+  },
+  {
+    "term": "No uncontrolled active infection",
+    "cancerType": "Blood Cancer",
+    "category": "Infection",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 87628006",
+    "unstructured": "Patient afebrile, blood cultures negative \u2014 no active infection"
+  },
+  {
+    "term": "Serum bilirubin \u2264 1.5 \u00d7 ULN",
+    "cancerType": "Blood Cancer",
+    "category": "Lab",
+    "trialPercentage": "30%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 1975-2",
+    "unstructured": "Total bilirubin recorded as 1.2 mg/dL"
+  },
+  {
+    "term": "Platelet count \u2265 75,000/\u03bcL",
+    "cancerType": "Blood Cancer",
+    "category": "Lab",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 777-3",
+    "unstructured": "CBC shows platelets at 95,000/\u03bcL"
+  },
+  {
+    "term": "No prior CAR-T therapy",
+    "cancerType": "Blood Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "30%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 47301000000107",
+    "unstructured": "No record of chimeric antigen receptor T-cell therapy"
+  },
+  {
+    "term": "Life expectancy \u2265 12 weeks",
+    "cancerType": "Blood Cancer",
+    "category": "Clinical",
+    "trialPercentage": "30%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 277026009",
+    "unstructured": "Oncologist estimates patient life expectancy exceeds 3 months"
+  },
+  {
+    "term": "Creatinine clearance \u2265 50 mL/min",
+    "cancerType": "Blood Cancer",
+    "category": "Lab",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 2160-0",
+    "unstructured": "Creatinine clearance measured at 68 mL/min"
+  },
+  {
+    "term": "No uncontrolled cardiovascular disease",
+    "cancerType": "Blood Cancer",
+    "category": "Cardiac",
+    "trialPercentage": "30%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 418304008",
+    "unstructured": "Patient has stable angina, no recent cardiac events"
+  },
+  {
+    "term": "Left ventricular ejection fraction \u2265 50%",
+    "cancerType": "Blood Cancer",
+    "category": "Cardiac",
+    "trialPercentage": "30%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 33878-0",
+    "unstructured": "Echocardiogram shows LVEF of 55%"
+  },
+  {
+    "term": "No prior allogeneic stem cell transplant",
+    "cancerType": "Blood Cancer",
+    "category": "Treatment History",
+    "trialPercentage": "30%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 397215005",
+    "unstructured": "No history of allogeneic HSCT in oncology record"
+  },
+  {
+    "term": "Hepatitis B surface antigen negative",
+    "cancerType": "Blood Cancer",
+    "category": "Infection",
+    "trialPercentage": "30%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 5195-3",
+    "unstructured": "HBsAg test returned negative"
+  },
+  {
+    "term": "Absolute neutrophil count \u2265 1.0 \u00d7 10\u2079/L",
+    "cancerType": "Blood Cancer",
+    "category": "Lab",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 26499-4",
+    "unstructured": "ANC measured at 1.3 \u00d7 10\u2079/L on CBC"
+  },
+  {
+    "term": "No CNS involvement by malignancy",
+    "cancerType": "Blood Cancer",
+    "category": "Neurological",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 128613002",
+    "unstructured": "CSF negative for malignant cells"
+  },
+  {
+    "term": "Platelet count \u2265 75 \u00d7 10\u2079/L",
+    "cancerType": "Blood Cancer",
+    "category": "Lab",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 26515-7",
+    "unstructured": "Platelet count was 88 \u00d7 10\u2079/L"
+  },
+  {
+    "term": "Hemoglobin \u2265 8.0 g/dL",
+    "cancerType": "Blood Cancer",
+    "category": "Lab",
+    "trialPercentage": "40%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 718-7",
+    "unstructured": "Hemoglobin measured at 9.2 g/dL"
+  },
+  {
+    "term": "Active GVHD requiring systemic therapy excluded",
+    "cancerType": "Blood Cancer",
+    "category": "Immune/Transplant",
+    "trialPercentage": "30%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 236423003",
+    "unstructured": "GVHD grade II managed with systemic corticosteroids"
+  }
+]
