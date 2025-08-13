@@ -1,0 +1,2032 @@
+[
+  {
+    "term": "MMSE score between 22 and 30",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Cognitive Assessment",
+    "trialPercentage": "83.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 72107-6",
+    "unstructured": "Mini-Mental State Examination (MMSE) score was 24 at screening."
+  },
+  {
+    "term": "Positive amyloid PET scan",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Imaging",
+    "trialPercentage": "66.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "ImagingStudy",
+    "standardCode": "SNOMED: 441652000",
+    "unstructured": "Amyloid PET imaging revealed elevated amyloid deposition."
+  },
+  {
+    "term": "Clinical Dementia Rating (CDR) score of 0.5 to 1.0",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Cognitive Assessment",
+    "trialPercentage": "75.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 54626-8",
+    "unstructured": "CDR score was assessed as 0.5 indicating very mild dementia."
+  },
+  {
+    "term": "Apolipoprotein E (ApoE) genotyping",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Genetic",
+    "trialPercentage": "41.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 21641-9",
+    "unstructured": "Patient consented to ApoE genetic testing for AD risk."
+  },
+  {
+    "term": "Uncontrolled hypertension",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Clinical",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: I10",
+    "unstructured": "Hypertension not managed with medication, BP >170/100."
+  },
+  {
+    "term": "Significant cerebrovascular disease",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Diagnosis",
+    "trialPercentage": "50.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: I67.89",
+    "unstructured": "MRI indicates evidence of chronic cerebrovascular ischemia."
+  },
+  {
+    "term": "Stable use of symptomatic AD medications",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Treatment History",
+    "trialPercentage": "66.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 430193006",
+    "unstructured": "Patient has been on donepezil 10mg for over 3 months."
+  },
+  {
+    "term": "History of stroke or TIA within 1 year",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Diagnosis",
+    "trialPercentage": "58.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: I63.9",
+    "unstructured": "Patient had a minor stroke 8 months ago."
+  },
+  {
+    "term": "Study partner available for the duration of the trial",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Caregiver/Support",
+    "trialPercentage": "91.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "RelatedPerson",
+    "standardCode": "SNOMED: 224291000000109",
+    "unstructured": "Patient's spouse agreed to accompany them to all clinic visits as study partner."
+  },
+  {
+    "term": "History of psychiatric illness (e.g., major depression, psychosis)",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Psychiatric History",
+    "trialPercentage": "83.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: F33.1",
+    "unstructured": "Patient had a diagnosis of major depressive disorder 6 months ago."
+  },
+  {
+    "term": "Contraindications to MRI (e.g., metal implants, pacemakers)",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Imaging",
+    "trialPercentage": "75.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 433146000",
+    "unstructured": "MRI contraindicated due to presence of pacemaker."
+  },
+  {
+    "term": "Evidence of abnormal liver or renal function",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Lab",
+    "trialPercentage": "50.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 24323-8",
+    "unstructured": "Elevated liver enzymes noted in baseline labs."
+  },
+  {
+    "term": "History of alcohol or substance abuse in past 1\u20132 years",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Lifestyle Factors",
+    "trialPercentage": "75.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: F10.10",
+    "unstructured": "Patient reports alcohol dependence until last year."
+  },
+  {
+    "term": "Use of investigational drug within past 6 months",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Treatment History",
+    "trialPercentage": "58.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 428181000124101",
+    "unstructured": "Subject previously enrolled in trial involving investigational BACE inhibitor."
+  },
+  {
+    "term": "Adequate vision and hearing to complete assessments",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Functional Status",
+    "trialPercentage": "41.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 397540003",
+    "unstructured": "Hearing and visual acuity adequate for neuropsych testing."
+  },
+  {
+    "term": "Pregnant or breastfeeding",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Reproductive",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 11449-6",
+    "unstructured": "Pregnancy test positive at baseline screening."
+  },
+  {
+    "term": "Age between 50 and 90 years",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Demographics",
+    "trialPercentage": "83.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Patient",
+    "standardCode": "SNOMED: 397669002",
+    "unstructured": "Patient is 72 years old at time of screening."
+  },
+  {
+    "term": "Diagnosis of probable Alzheimer's Disease or MCI due to AD",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Diagnosis",
+    "trialPercentage": "91.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 26929004",
+    "unstructured": "Clinical diagnosis of mild cognitive impairment due to Alzheimer\u2019s Disease."
+  },
+  {
+    "term": "Abnormal memory function (e.g., WMS-R LM II or equivalent)",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Cognitive Assessment",
+    "trialPercentage": "75.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 72106-8",
+    "unstructured": "Logical Memory II recall score was below normal range for age."
+  },
+  {
+    "term": "Participation in another monoclonal antibody therapy trial",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Treatment History",
+    "trialPercentage": "50.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 428181000124101",
+    "unstructured": "Previously enrolled in a monoclonal antibody trial targeting amyloid."
+  },
+  {
+    "term": "Stable dose of Alzheimer\u2019s medications for at least 8\u201312 weeks",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Treatment History",
+    "trialPercentage": "66.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 430193006",
+    "unstructured": "On donepezil 10mg for past 3 months without dose change."
+  },
+  {
+    "term": "Positive biomarker for brain amyloid pathology (PET/CSF/plasma)",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Biomarker",
+    "trialPercentage": "66.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 441652000",
+    "unstructured": "CSF A\u03b242 levels below threshold consistent with AD pathology."
+  },
+  {
+    "term": "Major systemic illness not under control (cardiac, hepatic, renal)",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Clinical",
+    "trialPercentage": "58.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: R69",
+    "unstructured": "Patient has poorly controlled heart failure with recent hospitalization."
+  },
+  {
+    "term": "Body Mass Index (BMI) between 17 and 35",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Vitals",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 39156-5",
+    "unstructured": "BMI calculated at 26.7 during screening visit."
+  },
+  {
+    "term": "No other neurodegenerative diseases (e.g., Parkinson\u2019s, Huntington\u2019s)",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Diagnosis",
+    "trialPercentage": "66.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: G20",
+    "unstructured": "History of Parkinson\u2019s disease ruled out at screening."
+  },
+  {
+    "term": "No evidence of intracranial mass or lesions (e.g., glioma, contusion)",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Imaging",
+    "trialPercentage": "58.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "ImagingStudy",
+    "standardCode": "SNOMED: 271442000",
+    "unstructured": "Brain MRI showed no space-occupying lesions or tumors."
+  },
+  {
+    "term": "No history of seizures within past 12 months",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Diagnosis",
+    "trialPercentage": "41.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: G40.909",
+    "unstructured": "No seizures reported in last year."
+  },
+  {
+    "term": "No contraindicated medications (e.g., methyldopa, neuroleptics)",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Medication History",
+    "trialPercentage": "50.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 182834006",
+    "unstructured": "Patient discontinued neuroleptics 6 weeks before screening."
+  },
+  {
+    "term": "No unstable cardiovascular disease (e.g., angina, CHF)",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Clinical",
+    "trialPercentage": "66.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: I50.9",
+    "unstructured": "Patient has stable coronary artery disease and no recent angina."
+  },
+  {
+    "term": "Hamilton Depression Rating Scale \u2264 12",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Psychiatric Assessment",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 89261-2",
+    "unstructured": "HAM-D score was 9 at baseline screening."
+  },
+  {
+    "term": "No history of clinically significant head trauma",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Diagnosis",
+    "trialPercentage": "41.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: S06.9",
+    "unstructured": "No head trauma events noted in patient history."
+  },
+  {
+    "term": "Normal thyroid function",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Lab",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 3016-3",
+    "unstructured": "TSH level was 2.0 uIU/mL, within normal range."
+  },
+  {
+    "term": "Informant confirms gradual memory decline over 6\u201312 months",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Cognitive Assessment",
+    "trialPercentage": "50.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 386806002",
+    "unstructured": "Caregiver reports patient's memory has worsened over the past year."
+  },
+  {
+    "term": "No active infection or systemic illness in past 30 days",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Clinical",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 87628006",
+    "unstructured": "No fevers, cough, or infections documented in past month."
+  },
+  {
+    "term": "Willing and able to comply with protocol procedures",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Behavioral/Compliance",
+    "trialPercentage": "75.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Patient",
+    "standardCode": "SNOMED: 722912009",
+    "unstructured": "Patient and caregiver agreed to attend all follow-up visits."
+  },
+  {
+    "term": "Consent provided by participant or legal representative",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Administrative",
+    "trialPercentage": "100.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Consent",
+    "standardCode": "SNOMED: 32485007",
+    "unstructured": "Written informed consent obtained from participant\u2019s legal guardian."
+  },
+  {
+    "term": "No vitamin B12 deficiency or clinically significant low levels",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Lab",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 2132-9",
+    "unstructured": "Vitamin B12 level was 550 pg/mL \u2014 within normal range."
+  },
+  {
+    "term": "Stable use of non-AD medications \u22654 weeks prior to baseline",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Treatment History",
+    "trialPercentage": "41.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 419474003",
+    "unstructured": "Blood pressure meds stable for 6 weeks prior to screening."
+  },
+  {
+    "term": "No recent surgery requiring general anesthesia",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Surgical History",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 52734007",
+    "unstructured": "No major surgery noted in past 3 months."
+  },
+  {
+    "term": "No suicidal ideation or recent psychiatric hospitalization",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Psychiatric History",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 19160003",
+    "unstructured": "No suicidal thoughts or psychiatric admission in last 6 months."
+  },
+  {
+    "term": "No brain hemorrhage or bleeding disorder",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Imaging",
+    "trialPercentage": "50.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: I61.9",
+    "unstructured": "MRI showed no signs of intracranial bleeding or hemorrhage."
+  },
+  {
+    "term": "No uncontrolled diabetes mellitus",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Clinical",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: E11.9",
+    "unstructured": "HbA1c was 10.2%; patient excluded due to uncontrolled diabetes."
+  },
+  {
+    "term": "No anticoagulation therapy other than low-dose aspirin",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Medication History",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 428191000124101",
+    "unstructured": "Patient on warfarin\u2014excluded due to anticoagulant use."
+  },
+  {
+    "term": "No HIV infection",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Diagnosis",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: B20",
+    "unstructured": "HIV test negative at screening."
+  },
+  {
+    "term": "Females must not be breastfeeding",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Reproductive",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 63894-1",
+    "unstructured": "Participant denied current breastfeeding during medical interview."
+  },
+  {
+    "term": "No evidence of ARIA-E on MRI",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Imaging",
+    "trialPercentage": "16.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "ImagingStudy",
+    "standardCode": "SNOMED: 248200007",
+    "unstructured": "MRI at week 116 showed no ARIA-E or edema-like changes."
+  },
+  {
+    "term": "No major depression per DSM or GDS > 8",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Psychiatric Assessment",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 48535-2",
+    "unstructured": "GDS score of 9\u2014excluded due to depressive symptoms."
+  },
+  {
+    "term": "No use of systemic corticosteroids within 3 months",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Medication History",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 373994007",
+    "unstructured": "Prednisone therapy ended 1 month ago\u2014exclusion criterion met."
+  },
+  {
+    "term": "Adequate premorbid intellectual functioning",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Cognitive Assessment",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 248234009",
+    "unstructured": "Participant\u2019s premorbid IQ estimated to be in average range."
+  },
+  {
+    "term": "No participation in anti-amyloid immunotherapy trials",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Treatment History",
+    "trialPercentage": "41.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 763760008",
+    "unstructured": "Not previously enrolled in any anti-amyloid immunotherapy study."
+  },
+  {
+    "term": "No history of systemic cancer within last 5 years",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Clinical",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: C80.1",
+    "unstructured": "No cancer treatment history reported within past 5 years."
+  },
+  {
+    "term": "No obstructive pulmonary disease or asthma",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Clinical",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: J44.9",
+    "unstructured": "No history of COPD or reactive airway disease."
+  },
+  {
+    "term": "No significant gastrointestinal disorder (e.g., ulcers, bleeding)",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Clinical",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: K25.9",
+    "unstructured": "Patient denied any history of ulcer-related GI bleeding."
+  },
+  {
+    "term": "No known hypersensitivity to investigational treatment",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Clinical",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "AllergyIntolerance",
+    "standardCode": "SNOMED: 420134006",
+    "unstructured": "No allergic reactions to monoclonal antibodies reported."
+  },
+  {
+    "term": "No lacunar infarcts in critical brain regions",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Imaging",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "ImagingStudy",
+    "standardCode": "SNOMED: 274100004",
+    "unstructured": "MRI showed no infarcts in thalamus or basal ganglia."
+  },
+  {
+    "term": "No exposure to lecanemab",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Treatment History",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 1087911000119102",
+    "unstructured": "Confirmed that subject was never dosed with lecanemab."
+  },
+  {
+    "term": "No current use of memantine",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Medication History",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 387287000",
+    "unstructured": "Memantine therapy stopped 3 months prior to screening."
+  },
+  {
+    "term": "No active suicidal ideation or attempt in past 6 months",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Psychiatric History",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 6471006",
+    "unstructured": "No recent suicidal behavior or hospitalization recorded."
+  },
+  {
+    "term": "No hypersensitivity to monoclonal antibody treatments",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Allergy/Intolerance",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "AllergyIntolerance",
+    "standardCode": "SNOMED: 91936005",
+    "unstructured": "No allergic history to therapeutic antibodies like BAN2401."
+  },
+  {
+    "term": "No participation in investigational drug trials within 30 days",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Treatment History",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 428181000124101",
+    "unstructured": "Last investigational therapy ended more than 2 months ago."
+  },
+  {
+    "term": "No G6PD deficiency",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Lab",
+    "trialPercentage": "16.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 32532-2",
+    "unstructured": "G6PD test result within normal reference range."
+  },
+  {
+    "term": "No acute respiratory failure",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Clinical",
+    "trialPercentage": "8.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: J96.00",
+    "unstructured": "No history or symptoms of respiratory failure found."
+  },
+  {
+    "term": "No methemoglobinemia or sensitivity to methylthioninium",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Allergy/Intolerance",
+    "trialPercentage": "8.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "AllergyIntolerance",
+    "standardCode": "SNOMED: 444075003",
+    "unstructured": "No prior methemoglobinemia or adverse reaction to methylene blue."
+  },
+  {
+    "term": "No clinically significant ECG abnormalities",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Cardiac/Vitals",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 11524-6",
+    "unstructured": "Baseline ECG within normal sinus rhythm and intervals."
+  },
+  {
+    "term": "Women of childbearing potential must use contraception",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Reproductive",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 410942007",
+    "unstructured": "Patient advised to use effective contraception during the study."
+  },
+  {
+    "term": "MRI must be free of significant lesions or abnormalities",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Imaging",
+    "trialPercentage": "41.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "ImagingStudy",
+    "standardCode": "SNOMED: 274100004",
+    "unstructured": "MRI showed no clinically significant structural abnormalities."
+  },
+  {
+    "term": "No unstable hepatic or renal disease",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Clinical",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: K76.9",
+    "unstructured": "Liver function stable; no evidence of active hepatic disease."
+  },
+  {
+    "term": "Completion of prior core study phase",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Administrative",
+    "trialPercentage": "16.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 386053000",
+    "unstructured": "Subject completed all visits in core phase before joining extension."
+  },
+  {
+    "term": "Absence of severe visual or hearing impairment",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Functional Status",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 248234002",
+    "unstructured": "Hearing and vision tested adequate for neuropsychological tasks."
+  },
+  {
+    "term": "Must have \u22651 study partner with weekly contact",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Caregiver/Support",
+    "trialPercentage": "58.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "RelatedPerson",
+    "standardCode": "SNOMED: 224291000000109",
+    "unstructured": "Participant\u2019s daughter lives with her and is available for visits."
+  },
+  {
+    "term": "No ongoing immunoglobulin or immunosuppressant therapy",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Treatment History",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 428731000124106",
+    "unstructured": "No immunosuppressive therapy recorded in the past 6 months."
+  },
+  {
+    "term": "Subject must be fluent in study-approved language",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Administrative",
+    "trialPercentage": "16.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Patient",
+    "standardCode": "SNOMED: 417163006",
+    "unstructured": "Participant fluent in English and passed language comprehension screening."
+  },
+  {
+    "term": "Subject must be ambulatory or mobile with aid",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Functional Status",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 16584000",
+    "unstructured": "Patient is mobile with walker and able to attend study visits."
+  },
+  {
+    "term": "No ongoing substance abuse",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Psychiatric History",
+    "trialPercentage": "41.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: F19.10",
+    "unstructured": "Patient has no reported alcohol or drug dependence in the past year."
+  },
+  {
+    "term": "No history of epilepsy or seizure disorder",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Clinical",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: G40.909",
+    "unstructured": "No reported episodes of seizures or epilepsy since childhood."
+  },
+  {
+    "term": "No severe heart failure (NYHA Class III/IV)",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Cardiac/Vitals",
+    "trialPercentage": "16.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: I50.9",
+    "unstructured": "Heart failure classified as NYHA Class II, eligible for study."
+  },
+  {
+    "term": "No long QT syndrome or QTc > 470 ms",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Cardiac/Vitals",
+    "trialPercentage": "16.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 80288-6",
+    "unstructured": "Baseline ECG QTc was 455 ms\u2014within allowed range."
+  },
+  {
+    "term": "No neurological condition other than AD",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Diagnosis",
+    "trialPercentage": "58.3%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: G31.84",
+    "unstructured": "No diagnosis of Parkinson\u2019s, stroke, or frontotemporal dementia."
+  },
+  {
+    "term": "No MRI contraindications (e.g., pacemaker, metal implants)",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Imaging",
+    "trialPercentage": "41.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 433146000",
+    "unstructured": "No pacemakers, clips, or implants found\u2014MRI safe to perform."
+  },
+  {
+    "term": "No clinically significant thyroid dysfunction",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Lab",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 11579-0",
+    "unstructured": "TSH and free T4 were within normal limits."
+  },
+  {
+    "term": "Age \u2265 50 years",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Demographic",
+    "trialPercentage": "91.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Patient",
+    "standardCode": "LOINC: 30525-0",
+    "unstructured": "Patient is 68 years old\u2014meets age eligibility criteria."
+  },
+  {
+    "term": "No current enrollment in other interventional trials",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Administrative",
+    "trialPercentage": "50.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 386053000",
+    "unstructured": "Not participating in any other active investigational study."
+  },
+  {
+    "term": "Willingness to undergo lumbar puncture or PET scan",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Procedure",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 302199004",
+    "unstructured": "Patient agreed to lumbar puncture for CSF biomarker analysis."
+  },
+  {
+    "term": "Stable medical condition for at least 3 months",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Clinical",
+    "trialPercentage": "41.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 162607003",
+    "unstructured": "No significant changes in medication or clinical events in past 3 months."
+  },
+  {
+    "term": "No active CNS infection or demyelinating disease",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Diagnosis",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: G04.90",
+    "unstructured": "No evidence of CNS inflammation or multiple sclerosis."
+  },
+  {
+    "term": "Mini-Mental State Examination (MMSE) 18\u201326",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Cognitive Assessment",
+    "trialPercentage": "83.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 72107-6",
+    "unstructured": "MMSE score at baseline was 23."
+  },
+  {
+    "term": "Diagnosis of probable Alzheimer's dementia per NIA-AA",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Diagnosis",
+    "trialPercentage": "91.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 26929004",
+    "unstructured": "Clinical diagnosis consistent with probable AD per NIA-AA guidelines."
+  },
+  {
+    "term": "Consent provided by patient or legally authorized representative",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Administrative",
+    "trialPercentage": "100.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Consent",
+    "standardCode": "SNOMED: 11341000146104",
+    "unstructured": "Written informed consent signed by caregiver and patient."
+  },
+  {
+    "term": "Clinical Dementia Rating (CDR) global score 0.5\u20131.0",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Cognitive Assessment",
+    "trialPercentage": "50.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 54829-9",
+    "unstructured": "CDR global score of 0.5 confirmed during baseline screening."
+  },
+  {
+    "term": "Availability of amyloid PET scan or CSF biomarker confirmation",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Imaging",
+    "trialPercentage": "66.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 72509-4",
+    "unstructured": "Amyloid PET scan positive for beta-amyloid deposition."
+  },
+  {
+    "term": "Geriatric Depression Scale (GDS) score \u2264 6",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Psychiatric Assessment",
+    "trialPercentage": "33.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 44261-6",
+    "unstructured": "Patient scored 4 on GDS\u2014within acceptable range for inclusion."
+  },
+  {
+    "term": "No major untreated sleep disorder",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Clinical",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: G47.00",
+    "unstructured": "No symptoms consistent with obstructive sleep apnea or insomnia."
+  },
+  {
+    "term": "No known autosomal dominant Alzheimer's mutations",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Genetic",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 94309-2",
+    "unstructured": "No PSEN1, PSEN2, or APP mutations identified on genetic screening."
+  },
+  {
+    "term": "No enrollment in prior study with investigational anti-A\u03b2 therapy",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Treatment History",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 763760008",
+    "unstructured": "Not previously enrolled in any anti-amyloid beta antibody study."
+  },
+  {
+    "term": "Availability of caregiver to assist in study protocol",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Caregiver/Support",
+    "trialPercentage": "66.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "RelatedPerson",
+    "standardCode": "SNOMED: 224291000000109",
+    "unstructured": "Spouse committed to supporting patient through study procedures."
+  },
+  {
+    "term": "No participation in any prior lecanemab study",
+    "cancerType": "Alzheimer's Disease",
+    "category": "Treatment History",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 1087911000119102",
+    "unstructured": "Subject confirmed to be lecanemab-na\u00efve."
+  },
+  {
+    "term": "Idiopathic Parkinson\u2019s disease diagnosis",
+    "cancerType": "Parkinson's Disease",
+    "category": "Diagnosis",
+    "trialPercentage": "100.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: G20",
+    "unstructured": "Diagnosed with idiopathic Parkinson\u2019s disease by neurologist."
+  },
+  {
+    "term": "Hoehn and Yahr stage \u2264 3",
+    "cancerType": "Parkinson's Disease",
+    "category": "Clinical",
+    "trialPercentage": "87.5%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 89049-5",
+    "unstructured": "Patient assessed at Hoehn and Yahr stage 2.5."
+  },
+  {
+    "term": "Age \u2265 40 years",
+    "cancerType": "Parkinson's Disease",
+    "category": "Demographic",
+    "trialPercentage": "100.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Patient",
+    "standardCode": "LOINC: 30525-0",
+    "unstructured": "Patient is 61 years old\u2014meets age requirement."
+  },
+  {
+    "term": "On stable anti-parkinsonian medication regimen",
+    "cancerType": "Parkinson's Disease",
+    "category": "Medication History",
+    "trialPercentage": "87.5%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 372729009",
+    "unstructured": "Patient maintained on stable dose of carbidopa/levodopa for 2 months."
+  },
+  {
+    "term": "No history of brain surgery for Parkinson\u2019s",
+    "cancerType": "Parkinson's Disease",
+    "category": "Treatment History",
+    "trialPercentage": "75.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 274025005",
+    "unstructured": "No deep brain stimulation or lesioning procedures reported."
+  },
+  {
+    "term": "No atypical parkinsonism or secondary causes",
+    "cancerType": "Parkinson's Disease",
+    "category": "Diagnosis",
+    "trialPercentage": "87.5%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: G21.9",
+    "unstructured": "Evaluation ruled out drug-induced and vascular parkinsonism."
+  },
+  {
+    "term": "No significant cognitive impairment (MoCA \u2265 24)",
+    "cancerType": "Parkinson's Disease",
+    "category": "Cognitive Assessment",
+    "trialPercentage": "75.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 72106-8",
+    "unstructured": "MoCA score 26\u2014eligible for inclusion."
+  },
+  {
+    "term": "Able to give informed consent",
+    "cancerType": "Parkinson's Disease",
+    "category": "Administrative",
+    "trialPercentage": "100.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Consent",
+    "standardCode": "SNOMED: 11341000146104",
+    "unstructured": "Patient signed informed consent form after discussion of study risks."
+  },
+  {
+    "term": "No major psychiatric disorder (e.g. schizophrenia, bipolar)",
+    "cancerType": "Parkinson's Disease",
+    "category": "Psychiatric History",
+    "trialPercentage": "62.5%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: F20.9",
+    "unstructured": "No current or past diagnosis of schizophrenia or bipolar disorder."
+  },
+  {
+    "term": "No history of stroke or TIA",
+    "cancerType": "Parkinson's Disease",
+    "category": "Diagnosis",
+    "trialPercentage": "50.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: I63.9",
+    "unstructured": "Patient denies any past stroke or transient ischemic attacks."
+  },
+  {
+    "term": "Montreal Cognitive Assessment (MoCA) score available",
+    "cancerType": "Parkinson's Disease",
+    "category": "Cognitive Assessment",
+    "trialPercentage": "62.5%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 72106-8",
+    "unstructured": "MoCA score documented at 25 during baseline."
+  },
+  {
+    "term": "Stable medical conditions for at least 30 days",
+    "cancerType": "Parkinson's Disease",
+    "category": "Clinical",
+    "trialPercentage": "62.5%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "SNOMED: 162607003",
+    "unstructured": "No recent change in hypertension or diabetes medication in past month."
+  },
+  {
+    "term": "No unstable cardiovascular disease",
+    "cancerType": "Parkinson's Disease",
+    "category": "Cardiac/Vitals",
+    "trialPercentage": "50.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: I51.9",
+    "unstructured": "Cardiac evaluation indicates stable function; no recent angina or infarction."
+  },
+  {
+    "term": "No use of investigational drugs within 30 days",
+    "cancerType": "Parkinson's Disease",
+    "category": "Treatment History",
+    "trialPercentage": "62.5%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 428181000124101",
+    "unstructured": "Patient hasn\u2019t received any experimental therapy in last 2 months."
+  },
+  {
+    "term": "No severe depression or suicidality",
+    "cancerType": "Parkinson's Disease",
+    "category": "Psychiatric History",
+    "trialPercentage": "62.5%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: F33.2",
+    "unstructured": "Patient screened negative for suicidal ideation and severe depressive symptoms."
+  },
+  {
+    "term": "No history of alcohol or drug abuse in past 12 months",
+    "cancerType": "Parkinson's Disease",
+    "category": "Psychiatric History",
+    "trialPercentage": "62.5%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: F10.10",
+    "unstructured": "No alcohol or illicit drug use documented in the past year."
+  },
+  {
+    "term": "Able to comply with study protocol",
+    "cancerType": "Parkinson's Disease",
+    "category": "Administrative",
+    "trialPercentage": "75.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Patient",
+    "standardCode": "SNOMED: 386053000",
+    "unstructured": "Patient demonstrated understanding of study schedule and procedures."
+  },
+  {
+    "term": "No MRI contraindications (e.g., pacemaker, metallic implants)",
+    "cancerType": "Parkinson's Disease",
+    "category": "Imaging",
+    "trialPercentage": "62.5%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 433146000",
+    "unstructured": "Screening confirmed no metal implants or pacemaker; MRI approved."
+  },
+  {
+    "term": "No history of cancer in the past 5 years (except skin cancer)",
+    "cancerType": "Parkinson's Disease",
+    "category": "Diagnosis",
+    "trialPercentage": "50.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: Z85.09",
+    "unstructured": "No history of malignancy except resolved basal cell carcinoma."
+  },
+  {
+    "term": "No use of antipsychotics or dopamine blockers within 6 months",
+    "cancerType": "Parkinson's Disease",
+    "category": "Medication History",
+    "trialPercentage": "50.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 428181000124101",
+    "unstructured": "No recent exposure to risperidone, haloperidol, or similar agents."
+  },
+  {
+    "term": "Presence of caregiver or study partner",
+    "cancerType": "Parkinson's Disease",
+    "category": "Caregiver/Support",
+    "trialPercentage": "62.5%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "RelatedPerson",
+    "standardCode": "SNOMED: 224291000000109",
+    "unstructured": "Spouse confirmed as available and willing to assist with study visits."
+  },
+  {
+    "term": "Able to walk independently or with assistive device",
+    "cancerType": "Parkinson's Disease",
+    "category": "Functional Status",
+    "trialPercentage": "50.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 16584000",
+    "unstructured": "Patient uses cane but ambulates independently at home and clinic."
+  },
+  {
+    "term": "No active infectious disease",
+    "cancerType": "Parkinson's Disease",
+    "category": "Diagnosis",
+    "trialPercentage": "50.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: B99.9",
+    "unstructured": "No current symptoms or diagnosis of bacterial or viral infection."
+  },
+  {
+    "term": "No severe dyskinesia interfering with study procedures",
+    "cancerType": "Parkinson's Disease",
+    "category": "Clinical",
+    "trialPercentage": "37.5%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 42800007",
+    "unstructured": "Dyskinesia mild and does not interfere with protocol assessments."
+  },
+  {
+    "term": "No participation in other interventional clinical trials",
+    "cancerType": "Parkinson's Disease",
+    "category": "Administrative",
+    "trialPercentage": "62.5%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 386053000",
+    "unstructured": "Patient not enrolled in any other active investigational study."
+  },
+  {
+    "term": "Negative pregnancy test (if applicable)",
+    "cancerType": "Parkinson's Disease",
+    "category": "Lab",
+    "trialPercentage": "37.5%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 2106-3",
+    "unstructured": "Urine pregnancy test negative prior to randomization."
+  },
+  {
+    "term": "Willingness to use contraception during study",
+    "cancerType": "Parkinson's Disease",
+    "category": "Administrative",
+    "trialPercentage": "37.5%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Consent",
+    "standardCode": "SNOMED: 225426000",
+    "unstructured": "Participant agreed to use barrier contraception during trial period."
+  },
+  {
+    "term": "No history of psychosis",
+    "cancerType": "Parkinson's Disease",
+    "category": "Psychiatric History",
+    "trialPercentage": "50.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: F23.9",
+    "unstructured": "No documented hallucinations or delusions in prior clinical history."
+  },
+  {
+    "term": "Body Mass Index (BMI) between 18 and 35 kg/m\u00b2",
+    "cancerType": "Parkinson's Disease",
+    "category": "Vitals",
+    "trialPercentage": "25.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 39156-5",
+    "unstructured": "BMI calculated as 24.2 during physical exam\u2014eligible."
+  },
+  {
+    "term": "Adequate renal and hepatic function",
+    "cancerType": "Parkinson's Disease",
+    "category": "Lab",
+    "trialPercentage": "50.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 2160-0, 1920-8",
+    "unstructured": "Creatinine and ALT/AST within normal reference range."
+  },
+  {
+    "term": "No unstable diabetes or uncontrolled hypertension",
+    "cancerType": "Parkinson's Disease",
+    "category": "Clinical",
+    "trialPercentage": "50.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: I10, E11.65",
+    "unstructured": "Blood pressure and glucose controlled on current regimen."
+  },
+  {
+    "term": "No diagnosis of dementia",
+    "cancerType": "Parkinson's Disease",
+    "category": "Diagnosis",
+    "trialPercentage": "37.5%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: F03.90",
+    "unstructured": "Patient does not meet diagnostic criteria for dementia."
+  },
+  {
+    "term": "Diagnosis of epilepsy confirmed by EEG or clinical criteria",
+    "cancerType": "Epilepsy",
+    "category": "Diagnosis",
+    "trialPercentage": "100.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: G40.909",
+    "unstructured": "Epilepsy diagnosis supported by abnormal EEG and seizure history."
+  },
+  {
+    "term": "Age \u2265 18 years",
+    "cancerType": "Epilepsy",
+    "category": "Demographic",
+    "trialPercentage": "100.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Patient",
+    "standardCode": "LOINC: 30525-0",
+    "unstructured": "Patient is 26 years old\u2014eligible by age."
+  },
+  {
+    "term": "Minimum 2 seizures/month during baseline period",
+    "cancerType": "Epilepsy",
+    "category": "Clinical",
+    "trialPercentage": "85.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 313387002",
+    "unstructured": "Patient reported 4 seizures in the last 30 days."
+  },
+  {
+    "term": "Stable dose of anti-epileptic drugs (AEDs) for \u2265 4 weeks",
+    "cancerType": "Epilepsy",
+    "category": "Medication History",
+    "trialPercentage": "85.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 372729009",
+    "unstructured": "Patient maintained on stable dose of lamotrigine for past 5 weeks."
+  },
+  {
+    "term": "No history of non-epileptic seizures or psychogenic seizures",
+    "cancerType": "Epilepsy",
+    "category": "Diagnosis",
+    "trialPercentage": "71.4%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: R56.9",
+    "unstructured": "Patient evaluated for seizure type\u2014non-epileptic events ruled out."
+  },
+  {
+    "term": "Able to provide informed consent",
+    "cancerType": "Epilepsy",
+    "category": "Administrative",
+    "trialPercentage": "100.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Consent",
+    "standardCode": "SNOMED: 11341000146104",
+    "unstructured": "Written informed consent signed by patient after discussion of risks."
+  },
+  {
+    "term": "No history of status epilepticus in past 6 months",
+    "cancerType": "Epilepsy",
+    "category": "Diagnosis",
+    "trialPercentage": "71.4%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: G41.9",
+    "unstructured": "No reported episodes of prolonged or continuous seizures in last 6 months."
+  },
+  {
+    "term": "No use of investigational drugs within 30 days",
+    "cancerType": "Epilepsy",
+    "category": "Treatment History",
+    "trialPercentage": "85.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 428181000124101",
+    "unstructured": "No experimental therapy used by patient in the past month."
+  },
+  {
+    "term": "No history of progressive neurological disease (other than epilepsy)",
+    "cancerType": "Epilepsy",
+    "category": "Diagnosis",
+    "trialPercentage": "71.4%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: G31.9",
+    "unstructured": "Patient has no evidence of neurodegenerative or progressive brain disorder."
+  },
+  {
+    "term": "Women of childbearing potential must use contraception",
+    "cancerType": "Epilepsy",
+    "category": "Administrative",
+    "trialPercentage": "57.1%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Consent",
+    "standardCode": "SNOMED: 225426000",
+    "unstructured": "Participant agrees to use hormonal or barrier contraception during study."
+  },
+  {
+    "term": "Negative urine or serum pregnancy test",
+    "cancerType": "Epilepsy",
+    "category": "Lab",
+    "trialPercentage": "57.1%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 2106-3",
+    "unstructured": "Baseline pregnancy screen returned negative."
+  },
+  {
+    "term": "No history of suicidal ideation or behavior (Columbia-Suicide Severity Rating Scale)",
+    "cancerType": "Epilepsy",
+    "category": "Psychiatric History",
+    "trialPercentage": "71.4%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 89279-5",
+    "unstructured": "CSSRS negative\u2014no suicidal thoughts or behaviors reported in last 6 months."
+  },
+  {
+    "term": "BMI within normal or acceptable range",
+    "cancerType": "Epilepsy",
+    "category": "Vitals",
+    "trialPercentage": "42.9%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 39156-5",
+    "unstructured": "BMI recorded as 23.1\u2014eligible for enrollment."
+  },
+  {
+    "term": "No history of major psychiatric illness (e.g., schizophrenia, bipolar disorder)",
+    "cancerType": "Epilepsy",
+    "category": "Psychiatric History",
+    "trialPercentage": "71.4%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: F20.9",
+    "unstructured": "Patient screened negative for any psychotic or bipolar disorder."
+  },
+  {
+    "term": "No known hypersensitivity to study drug or related compounds",
+    "cancerType": "Epilepsy",
+    "category": "Allergy",
+    "trialPercentage": "42.9%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "AllergyIntolerance",
+    "standardCode": "SNOMED: 419511003",
+    "unstructured": "No prior allergic reaction to sodium valproate or similar medications."
+  },
+  {
+    "term": "Adequate hepatic and renal function",
+    "cancerType": "Epilepsy",
+    "category": "Lab",
+    "trialPercentage": "71.4%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 2160-0, 1920-8",
+    "unstructured": "ALT, AST, and creatinine all within normal limits."
+  },
+  {
+    "term": "No history of drug or alcohol abuse within past 12 months",
+    "cancerType": "Epilepsy",
+    "category": "Psychiatric History",
+    "trialPercentage": "57.1%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: F10.10",
+    "unstructured": "Patient denies alcohol or illicit substance use in past year."
+  },
+  {
+    "term": "Able to maintain seizure diary or have caregiver assistance",
+    "cancerType": "Epilepsy",
+    "category": "Administrative",
+    "trialPercentage": "57.1%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Patient",
+    "standardCode": "SNOMED: 386053000",
+    "unstructured": "Patient and spouse willing to track seizures in diary daily."
+  },
+  {
+    "term": "No MRI contraindications (e.g., metal implants, pacemaker)",
+    "cancerType": "Epilepsy",
+    "category": "Imaging",
+    "trialPercentage": "42.9%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 433146000",
+    "unstructured": "No pacemaker or metallic implants\u2014MRI approved for subject."
+  },
+  {
+    "term": "No recent change in anti-epileptic drugs within 4 weeks",
+    "cancerType": "Epilepsy",
+    "category": "Medication History",
+    "trialPercentage": "57.1%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 372729009",
+    "unstructured": "No dose adjustment to AED regimen in last 6 weeks."
+  },
+  {
+    "term": "Minimum 1-year history of epilepsy",
+    "cancerType": "Epilepsy",
+    "category": "Diagnosis",
+    "trialPercentage": "42.9%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: G40.909",
+    "unstructured": "Patient first diagnosed with epilepsy at age 17, now 22 years old."
+  },
+  {
+    "term": "Not pregnant or breastfeeding",
+    "cancerType": "Epilepsy",
+    "category": "Reproductive",
+    "trialPercentage": "57.1%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 77386006",
+    "unstructured": "Patient not currently pregnant or nursing."
+  },
+  {
+    "term": "Able to attend scheduled study visits",
+    "cancerType": "Epilepsy",
+    "category": "Administrative",
+    "trialPercentage": "71.4%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Patient",
+    "standardCode": "SNOMED: 386053000",
+    "unstructured": "Patient confirmed availability for all follow-up appointments."
+  },
+  {
+    "term": "No history of head trauma requiring hospitalization",
+    "cancerType": "Epilepsy",
+    "category": "Diagnosis",
+    "trialPercentage": "42.9%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: S06.9X9A",
+    "unstructured": "No prior admissions for traumatic brain injury."
+  },
+  {
+    "term": "Diagnosis of multiple sclerosis per McDonald criteria",
+    "cancerType": "Multiple Sclerosis",
+    "category": "Diagnosis",
+    "trialPercentage": "100.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: G35",
+    "unstructured": "Diagnosed with relapsing MS based on 2017 McDonald criteria."
+  },
+  {
+    "term": "Expanded Disability Status Scale (EDSS) score 0 to 5.5",
+    "cancerType": "Multiple Sclerosis",
+    "category": "Clinical",
+    "trialPercentage": "84.6%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 72006-8",
+    "unstructured": "EDSS score recorded as 4.0 during screening."
+  },
+  {
+    "term": "At least 1 or 2 relapses in the past 1-2 years",
+    "cancerType": "Multiple Sclerosis",
+    "category": "Clinical",
+    "trialPercentage": "76.9%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 443585000",
+    "unstructured": "Patient had 2 documented relapses in the past 18 months."
+  },
+  {
+    "term": "Primary progressive MS diagnosis",
+    "cancerType": "Multiple Sclerosis",
+    "category": "Diagnosis",
+    "trialPercentage": "30.8%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: G35.1",
+    "unstructured": "Classified as primary progressive MS on last neurology evaluation."
+  },
+  {
+    "term": "Secondary progressive MS without relapse",
+    "cancerType": "Multiple Sclerosis",
+    "category": "Diagnosis",
+    "trialPercentage": "23.1%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: G35.2",
+    "unstructured": "Progressive disability over 12 months without clinical relapses."
+  },
+  {
+    "term": "Neurologic stability for \u226530 days prior to screening",
+    "cancerType": "Multiple Sclerosis",
+    "category": "Clinical",
+    "trialPercentage": "46.2%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 386661006",
+    "unstructured": "No worsening in neurologic exam over the last month."
+  },
+  {
+    "term": "Diagnosis duration limits based on EDSS",
+    "cancerType": "Multiple Sclerosis",
+    "category": "Clinical",
+    "trialPercentage": "61.5%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: G35",
+    "unstructured": "MS duration exceeds 10 years with EDSS below 2.0 \u2013 not eligible."
+  },
+  {
+    "term": "No prior treatment with immunosuppressive monoclonal antibodies",
+    "cancerType": "Multiple Sclerosis",
+    "category": "Treatment History",
+    "trialPercentage": "69.2%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 372729009",
+    "unstructured": "Patient never received rituximab or ocrelizumab previously."
+  },
+  {
+    "term": "Washout period from disease-modifying therapies (DMTs)",
+    "cancerType": "Multiple Sclerosis",
+    "category": "Treatment History",
+    "trialPercentage": "61.5%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 428181000124101",
+    "unstructured": "Completed 30-day washout after stopping fingolimod."
+  },
+  {
+    "term": "Adequate hepatic and renal function",
+    "cancerType": "Multiple Sclerosis",
+    "category": "Lab",
+    "trialPercentage": "76.9%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 2160-0, 1920-8",
+    "unstructured": "ALT, AST, creatinine all within normal ranges on screening labs."
+  },
+  {
+    "term": "No clinically significant cardiac history (e.g., arrhythmia, MI)",
+    "cancerType": "Multiple Sclerosis",
+    "category": "Diagnosis",
+    "trialPercentage": "53.8%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: I49.9, I21.9",
+    "unstructured": "No history of myocardial infarction or arrhythmias."
+  },
+  {
+    "term": "Negative pregnancy test for women of childbearing potential",
+    "cancerType": "Multiple Sclerosis",
+    "category": "Lab",
+    "trialPercentage": "69.2%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 2106-3",
+    "unstructured": "Urine beta-hCG test was negative on day of screening."
+  },
+  {
+    "term": "Use of effective contraception during study period",
+    "cancerType": "Multiple Sclerosis",
+    "category": "Administrative",
+    "trialPercentage": "69.2%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Consent",
+    "standardCode": "SNOMED: 225426000",
+    "unstructured": "Patient agreed to use two contraceptive methods for study duration."
+  },
+  {
+    "term": "No active infection (e.g., hepatitis, TB, HIV)",
+    "cancerType": "Multiple Sclerosis",
+    "category": "Diagnosis",
+    "trialPercentage": "61.5%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: B99.9",
+    "unstructured": "Negative screening labs for HIV, HBV, HCV, and TB."
+  },
+  {
+    "term": "No history of malignancy within past 5 years",
+    "cancerType": "Multiple Sclerosis",
+    "category": "Diagnosis",
+    "trialPercentage": "46.2%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: Z85.9",
+    "unstructured": "No cancer diagnosis or treatment reported in last 5 years."
+  },
+  {
+    "term": "No current use of investigational agents",
+    "cancerType": "Multiple Sclerosis",
+    "category": "Treatment History",
+    "trialPercentage": "53.8%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 428181000124101",
+    "unstructured": "Patient is not enrolled in any other clinical trial currently."
+  },
+  {
+    "term": "Ability to provide informed consent",
+    "cancerType": "Multiple Sclerosis",
+    "category": "Administrative",
+    "trialPercentage": "92.3%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Consent",
+    "standardCode": "SNOMED: 11341000146104",
+    "unstructured": "Subject signed informed consent after reviewing protocol with staff."
+  },
+  {
+    "term": "MRI eligibility (no contraindicated implants or devices)",
+    "cancerType": "Multiple Sclerosis",
+    "category": "Imaging",
+    "trialPercentage": "38.5%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 433146000",
+    "unstructured": "No pacemaker, aneurysm clips, or metal implants detected."
+  },
+  {
+    "term": "No history of severe allergic reactions or hypersensitivity",
+    "cancerType": "Multiple Sclerosis",
+    "category": "Allergy",
+    "trialPercentage": "38.5%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "AllergyIntolerance",
+    "standardCode": "SNOMED: 419511003",
+    "unstructured": "No history of anaphylaxis or hypersensitivity to biologic agents."
+  },
+  {
+    "term": "No severe psychiatric illness (e.g., psychosis, suicidal ideation)",
+    "cancerType": "Multiple Sclerosis",
+    "category": "Psychiatric History",
+    "trialPercentage": "46.2%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: F20.9, R45.851",
+    "unstructured": "No psychotic disorder, suicidal ideation, or hospitalizations for depression."
+  },
+  {
+    "term": "Ability to attend scheduled visits and comply with study protocol",
+    "cancerType": "Multiple Sclerosis",
+    "category": "Administrative",
+    "trialPercentage": "84.6%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Patient",
+    "standardCode": "SNOMED: 386053000",
+    "unstructured": "Subject confirmed ability to complete all protocol visits and assessments."
+  },
+  {
+    "term": "Diagnosis of definite or probable ALS per revised El Escorial criteria",
+    "cancerType": "ALS",
+    "category": "Diagnosis",
+    "trialPercentage": "100.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: G12.21",
+    "unstructured": "Patient meets El Escorial criteria for probable ALS."
+  },
+  {
+    "term": "Symptom onset within past 2 to 3 years",
+    "cancerType": "ALS",
+    "category": "Clinical",
+    "trialPercentage": "87.5%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 248536006",
+    "unstructured": "Initial bulbar symptoms began approximately 20 months ago."
+  },
+  {
+    "term": "Age 18 to 75 years",
+    "cancerType": "ALS",
+    "category": "Demographic",
+    "trialPercentage": "100.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Patient",
+    "standardCode": "LOINC: 30525-0",
+    "unstructured": "Patient is 54 years old and meets the age requirement."
+  },
+  {
+    "term": "ALS Functional Rating Scale-Revised (ALSFRS-R) score \u2265 30",
+    "cancerType": "ALS",
+    "category": "Clinical",
+    "trialPercentage": "75.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 89262-1",
+    "unstructured": "ALSFRS-R score was 34 at screening."
+  },
+  {
+    "term": "Slow vital capacity (SVC) \u2265 60% predicted",
+    "cancerType": "ALS",
+    "category": "Lab",
+    "trialPercentage": "75.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 19870-5",
+    "unstructured": "Baseline SVC measured 65% of predicted value."
+  },
+  {
+    "term": "Able to swallow oral medication",
+    "cancerType": "ALS",
+    "category": "Clinical",
+    "trialPercentage": "62.5%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 26643006",
+    "unstructured": "Patient able to swallow tablets without difficulty."
+  },
+  {
+    "term": "Use of riluzole permitted if stable dose \u2265 30 days",
+    "cancerType": "ALS",
+    "category": "Medication History",
+    "trialPercentage": "62.5%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 428181000124101",
+    "unstructured": "Riluzole continued at 50 mg BID for last 2 months."
+  },
+  {
+    "term": "No gastrostomy tube (PEG) for feeding at screening",
+    "cancerType": "ALS",
+    "category": "Clinical",
+    "trialPercentage": "50.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 26643006",
+    "unstructured": "Patient feeds orally and does not use PEG tube."
+  },
+  {
+    "term": "No tracheostomy or use of invasive ventilation at baseline",
+    "cancerType": "ALS",
+    "category": "Clinical",
+    "trialPercentage": "62.5%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Procedure",
+    "standardCode": "SNOMED: 426933007",
+    "unstructured": "Patient breathes unassisted and has no tracheostomy."
+  },
+  {
+    "term": "Women of childbearing potential must use effective contraception",
+    "cancerType": "ALS",
+    "category": "Administrative",
+    "trialPercentage": "62.5%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Consent",
+    "standardCode": "SNOMED: 225426000",
+    "unstructured": "Subject agreed to use hormonal contraception for duration of study."
+  },
+  {
+    "term": "Negative pregnancy test before enrollment",
+    "cancerType": "ALS",
+    "category": "Lab",
+    "trialPercentage": "62.5%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 2106-3",
+    "unstructured": "Serum pregnancy test was negative at screening."
+  },
+  {
+    "term": "Adequate liver and kidney function",
+    "cancerType": "ALS",
+    "category": "Lab",
+    "trialPercentage": "75.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 2160-0, 1920-8",
+    "unstructured": "Liver enzymes and serum creatinine within normal limits."
+  },
+  {
+    "term": "No participation in another investigational drug trial within 30 days",
+    "cancerType": "ALS",
+    "category": "Treatment History",
+    "trialPercentage": "50.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 428181000124101",
+    "unstructured": "Not currently or recently enrolled in any other trial."
+  },
+  {
+    "term": "No history of other significant neurologic disorders (e.g., MS, PD)",
+    "cancerType": "ALS",
+    "category": "Diagnosis",
+    "trialPercentage": "50.0%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: G35, G20",
+    "unstructured": "Patient has no known history of Parkinson\u2019s or multiple sclerosis."
+  },
+  {
+    "term": "Willing and able to comply with all study procedures",
+    "cancerType": "ALS",
+    "category": "Administrative",
+    "trialPercentage": "87.5%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Patient",
+    "standardCode": "SNOMED: 386053000",
+    "unstructured": "Participant confirmed availability and willingness to attend all visits."
+  },
+  {
+    "term": "Able to provide informed consent",
+    "cancerType": "ALS",
+    "category": "Administrative",
+    "trialPercentage": "100.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Consent",
+    "standardCode": "SNOMED: 11341000146104",
+    "unstructured": "Patient gave written informed consent before any study-related procedure."
+  },
+  {
+    "term": "Confirmed genetic diagnosis of Huntington\u2019s disease",
+    "cancerType": "Huntington's Disease",
+    "category": "Genetic",
+    "trialPercentage": "100.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "ICD-10: G10",
+    "unstructured": "Patient tested positive for expanded CAG repeat in HTT gene."
+  },
+  {
+    "term": "Age 18 to 65 years",
+    "cancerType": "Huntington's Disease",
+    "category": "Demographic",
+    "trialPercentage": "100.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Patient",
+    "standardCode": "LOINC: 30525-0",
+    "unstructured": "Patient is 44 years old and meets age requirement."
+  },
+  {
+    "term": "Total Functional Capacity (TFC) score \u2265 7",
+    "cancerType": "Huntington's Disease",
+    "category": "Clinical",
+    "trialPercentage": "88.9%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 702746003",
+    "unstructured": "TFC score assessed as 9 during screening visit."
+  },
+  {
+    "term": "Unified Huntington's Disease Rating Scale (UHDRS) motor score >5",
+    "cancerType": "Huntington's Disease",
+    "category": "Clinical",
+    "trialPercentage": "77.8%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 89284-5",
+    "unstructured": "UHDRS motor exam total score recorded as 11."
+  },
+  {
+    "term": "Able to ambulate independently",
+    "cancerType": "Huntington's Disease",
+    "category": "Clinical",
+    "trialPercentage": "66.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 284981008",
+    "unstructured": "Patient can walk without assistive device."
+  },
+  {
+    "term": "Able to swallow oral medication",
+    "cancerType": "Huntington's Disease",
+    "category": "Clinical",
+    "trialPercentage": "66.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "SNOMED: 26643006",
+    "unstructured": "Patient able to take pills without difficulty."
+  },
+  {
+    "term": "Montreal Cognitive Assessment (MoCA) score \u2265 18",
+    "cancerType": "Huntington's Disease",
+    "category": "Cognitive",
+    "trialPercentage": "55.6%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 72",
+    "unstructured": ""
+  },
+  {
+    "term": "Willing and able to provide informed consent",
+    "cancerType": "Huntington's Disease",
+    "category": "Administrative",
+    "trialPercentage": "100.0%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Consent",
+    "standardCode": "SNOMED: 11341000146104",
+    "unstructured": "Subject signed informed consent before study procedures."
+  },
+  {
+    "term": "No history of other serious neurologic diseases (e.g., MS, PD)",
+    "cancerType": "Huntington's Disease",
+    "category": "Diagnosis",
+    "trialPercentage": "66.7%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: G35, G20",
+    "unstructured": "Patient has no history of Parkinson\u2019s or multiple sclerosis."
+  },
+  {
+    "term": "No antipsychotic or investigational drug use within 30 days",
+    "cancerType": "Huntington's Disease",
+    "category": "Treatment History",
+    "trialPercentage": "77.8%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "MedicationStatement",
+    "standardCode": "SNOMED: 428181000124101",
+    "unstructured": "No recent use of risperidone, haloperidol, or experimental drugs."
+  },
+  {
+    "term": "Women of childbearing potential must use effective contraception",
+    "cancerType": "Huntington's Disease",
+    "category": "Administrative",
+    "trialPercentage": "66.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Consent",
+    "standardCode": "SNOMED: 225426000",
+    "unstructured": "Participant agreed to use hormonal contraception during study."
+  },
+  {
+    "term": "Negative pregnancy test prior to enrollment",
+    "cancerType": "Huntington's Disease",
+    "category": "Lab",
+    "trialPercentage": "66.7%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 2106-3",
+    "unstructured": "Serum pregnancy test was negative on Day 0."
+  },
+  {
+    "term": "Adequate hepatic and renal function",
+    "cancerType": "Huntington's Disease",
+    "category": "Lab",
+    "trialPercentage": "77.8%",
+    "inclusionExclusion": "Inclusion",
+    "fhirResource": "Observation",
+    "standardCode": "LOINC: 1920-8, 2160-0",
+    "unstructured": "ALT, AST, and creatinine were within normal range."
+  },
+  {
+    "term": "No history of significant psychiatric illness (e.g., suicidal ideation)",
+    "cancerType": "Huntington's Disease",
+    "category": "Psychiatric History",
+    "trialPercentage": "55.6%",
+    "inclusionExclusion": "Exclusion",
+    "fhirResource": "Condition",
+    "standardCode": "ICD-10: F32.2, R45.851",
+    "unstructured": "No suicidal thoughts or psychiatric hospitalizations documented."
+  }
+]

@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ArrowRight, Brain, Database, Users } from 'lucide-react';
+import { NavLink } from 'react-router-dom';
 
 const Hero = () => {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -65,7 +66,7 @@ const Hero = () => {
               Get a Demo <ArrowRight size={20} />
             </button>
             <button className="border border-gray-300 text-gray-700 px-8 py-4 rounded-lg font-medium hover:bg-gray-50 transition-colors">
-              Explore Dashboard
+              <NavLink to="/dashboard">Explore Dashboard</NavLink>
             </button>
           </div>
 
