@@ -1,6 +1,7 @@
 import React from 'react';
 import { FileText, ExternalLink } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { trialToNct } from '../../../data/trialCodes';
 
 interface TrialsPanelProps {
   trials: string[];
@@ -36,18 +37,28 @@ const TrialsPanel: React.FC<TrialsPanelProps> = ({
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-        {trials.map((trial, index) => (
-          <motion.div
-            key={trial}
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: index * 0.1 }}
-            className="flex items-center justify-between p-3 bg-gray-50 rounded-lg border border-gray-200 hover:bg-gray-100 transition-colors"
-          >
-            <span className="font-medium text-gray-900 text-sm">{trial}</span>
-            <ExternalLink className="w-4 h-4 text-gray-400" />
-          </motion.div>
-        ))}
+        {trials.map((trial, index) => {
+          const nctId = trialToNct[trial];
+          const href = nctId
+            ? `https://clinicaltrials.gov/study/${nctId}`
+            : '#';
+
+          return (
+            <motion.a
+              key={trial}
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: index * 0.06 }}
+              className="flex items-center justify-between p-3 bg-gray-50 rounded-lg border border-gray-200 hover:bg-gray-100 transition-colors"
+            >
+              <span className="font-medium text-gray-900 text-sm">{trial}</span>
+              <ExternalLink className="w-4 h-4 text-gray-400" />
+            </motion.a>
+          );
+        })}
       </div>
 
       <div className="mt-4 p-3 bg-blue-50 rounded-lg border border-blue-200">
