@@ -1,0 +1,11 @@
+Trial ID,Concept (Precise Term),Constraint / Qualifier,Cancer Type,Category,Inclusion/Exclusion,FHIR Resource,Code (LOINC/SNOMED/ICD),Example EMR Text
+NCT02477826,NSCLC,Stage IV or recurrent; squamous or non-squamous; histologically confirmed,Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 254637007 (NSCLC); ICD-10: C34.x,Histology confirmed recurrent Stage IV squamous NSCLC
+NCT02477826,Prior systemic therapy,None received,Lung Cancer,Treatment History,Inclusion,Procedure,SNOMED: 416118004 (History of chemotherapy),Patient has not received systemic anticancer therapy
+NCT02477826,PD-L1 (IHC),Test performed; result available from central lab,Lung Cancer,Biomarker,Inclusion,Observation,LOINC: 85354-9 (PD-L1 by IHC),"PD-L1 IHC test performed at central lab, result recorded"
+NCT02477826,ECOG,Less than 1,Lung Cancer,Clinical,Inclusion,Observation,LOINC: 89243-0 (ECOG),ECOG 1 at baseline visit
+NCT02477826,RECIST 1.1,Measurable disease by CT or MRI,Lung Cancer,Imaging / Clinical,Inclusion,Observation,SNOMED: 710830005 (RECIST 1.1),CT scan showed measurable lesion per RECIST 1.1
+NCT02477826,CNS metastasis,Untreated,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 128606002 (Brain metastasis),MRI showed untreated CNS metastasis
+NCT02477826,Autoimmune disease,"Active, known, or suspected",Lung Cancer,Comorbidity,Exclusion,Condition,SNOMED: 698247007 (Autoimmune disease),Patient with autoimmune hepatitis
+NCT02477826,HBV,Positive test (acute or chronic infection),Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 5195-3 (HBsAg),HBsAg positive
+NCT02477826,HCV,Positive test (acute or chronic infection),Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 13955-0 (HCV Ab),HCV antibody positive
+NCT02477826,HIV,Positive test (acute or chronic infection),Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 7917-8 (HIV Ab),HIV antibody positive

@@ -1,0 +1,12 @@
+Trial ID,Concept (Precise Term),Constraint / Qualifier,Cancer Type,Category,Inclusion/Exclusion,FHIR Resource,Code (LOINC/SNOMED/ICD),Example EMR Text
+NCT03043872,SCLC (extensive),Histologically/cytologically confirmed extensive disease,Small Cell Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 254626006 (Small cell lung carcinoma); ICD-10: C34.x,Extensive-stage small cell lung carcinoma confirmed
+NCT03043872,Brain metastases,Allowed if asymptomatic/treated/stable off steroids/anticonvulsants ≥1 month,Small Cell Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 128606002,Stable treated brain metastases
+NCT03043872,Chemotherapy eligibility,Suitable for platinum-based chemo 1st line,Small Cell Lung Cancer,Treatment Planning,Inclusion,Procedure,SNOMED: 428751000000105 (Platinum-based chemotherapy),Eligible for cisplatin regimen
+NCT03043872,Life expectancy,atleast 12 weeks,Small Cell Lung Cancer,Clinical,Inclusion,Observation,,Life expectancy estimated 14 weeks
+NCT03043872,ECOG,Less then 1,Small Cell Lung Cancer,Clinical,Inclusion,Observation,LOINC: 89243-0 (ECOG),ECOG 1 at baseline
+NCT03043872,Prior immunotherapy,No prior immune-mediated therapy (except therapeutic vaccines),Small Cell Lung Cancer,Treatment History,Inclusion,Medication,,No prior checkpoint inhibitor therapy
+NCT03043872,Chest radiotherapy,History of chest RT before systemic therapy or planned consolidation chest RT (palliative outside chest allowed),Small Cell Lung Cancer,Treatment History,Exclusion,Procedure,,Chest RT before chemotherapy
+NCT03043872,Paraneoplastic syndrome (PNS),Autoimmune nature requiring systemic treatment or worsening symptoms,Small Cell Lung Cancer,Comorbidity,Exclusion,Condition,,Paraneoplastic autoimmune syndrome
+NCT03043872,Infection,"Active infection including TB, HIV, HBV, HCV",Small Cell Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 5195-3 (HBV); 13955-0 (HCV); 7917-8 (HIV),Positive HBsAg
+NCT03043872,Autoimmune disease,Active/prior documented autoimmune or inflammatory disorder,Small Cell Lung Cancer,Comorbidity,Exclusion,Condition,SNOMED: 698247007,History of rheumatoid arthritis
+NCT03043872,Interstitial lung disease / Comorbidity,Uncontrolled intercurrent illness (incl. ILD),Small Cell Lung Cancer,Comorbidity,Exclusion,Condition,,ILD uncontrolled on imaging

@@ -1,0 +1,14 @@
+Trial ID,Concept (Precise Term),Constraint / Qualifier,Cancer Type,Category,Inclusion/Exclusion,FHIR Resource,Code (LOINC/SNOMED/ICD),Example EMR Text
+NCT02032823,Breast adenocarcinoma,Histologically confirmed non-metastatic invasive carcinoma,Breast Cancer,Diagnosis,Inclusion,Condition,SNOMED: 254838004 (Adenocarcinoma of breast),Histology confirmed invasive adenocarcinoma
+NCT02032823,Triple-negative breast cancer,ER-/PR- and HER2- (not eligible for anti-HER2 therapy),Breast Cancer,Biomarker,Inclusion,Observation,SNOMED: 447172000 (Triple-negative breast cancer),"ER-, PR-, HER2- tumor"
+NCT02032823,"ER/PR positive, HER2 negative","ER and/or PR+, HER2-",Breast Cancer,Biomarker,Inclusion,Observation,LOINC: 16112-5 (ER); 16113-3 (PR); 11042-9 (HER2 IHC),ER+ HER2- tumor
+NCT02032823,BRCA1/2 mutation,Documented deleterious or suspected deleterious germline mutation,Breast Cancer,Biomarker,Inclusion,Observation,LOINC: 69548-6 (BRCA1/2 variants),BRCA1 deleterious mutation
+NCT02032823,Surgery,Completed adequate breast and axilla surgery,Breast Cancer,Treatment History,Inclusion,Procedure,,Completed breast-conserving surgery with axillary clearance
+NCT02032823,Chemotherapy,atleast cycles neoadjuvant/adjuvant chemo with anthracyclines/taxanes or both,Breast Cancer,Treatment History,Inclusion,Medication,RxNorm: 19728 (Doxorubicin); RxNorm: 10967 (Paclitaxel),Completed 6 cycles of doxorubicin and paclitaxel
+NCT02032823,Platinum exposure,Allowed as prior curative/adjuvant/neoadjuvant treatment,Breast Cancer,Treatment History,Inclusion,Medication,RxNorm: 2551 (Cisplatin),Received cisplatin in ovarian cancer
+NCT02032823,ECOG,atmost 1,Breast Cancer,Clinical,Inclusion,Observation,LOINC: 89243-0 (ECOG),ECOG PS 1
+NCT02032823,PARP inhibitor,"Prior treatment with PARP inhibitor (e.g., olaparib) or hypersensitivity",Breast Cancer,Treatment History,Exclusion,Medication,RxNorm: 1792775 (Olaparib),Previously treated with olaparib
+NCT02032823,Second malignancy,"Prior second primary malignancy except non-melanoma skin, cervical CIS, DCIS, Stage I G1 endometrial carcinoma, or >5 years disease-free solid tumors/lymphomas",Breast Cancer,Diagnosis,Exclusion,Condition,,History of melanoma 3 years ago
+NCT02032823,CYP3A inhibitors,Concurrent use of strong/moderate inhibitors (2-week washout required),Breast Cancer,Medication Use,Exclusion,Medication,RxNorm: 36567 (Itraconazole); RxNorm: 2599 (Ciprofloxacin),On clarithromycin at baseline
+NCT02032823,CYP3A inducers,Concurrent use of strong/moderate inducers (5-week washout for enzalutamide/phenobarbital; 3-week for others),Breast Cancer,Medication Use,Exclusion,Medication,RxNorm: 159645 (Enzalutamide); RxNorm: 8343 (Phenobarbital),On rifampicin prior to enrollment
+NCT02032823,Metastatic breast cancer,Evidence of metastatic disease excluded,Breast Cancer,Diagnosis,Exclusion,Condition,ICD-10: C50.x with M1,Metastatic breast carcinoma on PET-CT

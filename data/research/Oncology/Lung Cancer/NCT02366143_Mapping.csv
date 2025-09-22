@@ -1,0 +1,19 @@
+Trial ID,Concept (Precise Term),Constraint / Qualifier,Cancer Type,Category,Inclusion/Exclusion,FHIR Resource,Code (LOINC/SNOMED/ICD),Example EMR Text
+NCT02366143,ECOG,Between 0 and 1,Lung Cancer,Clinical,Inclusion,Observation,LOINC: 89243-0 (ECOG),ECOG 1 at baseline
+NCT02366143,NSCLC (non-squamous),Stage IV; histologically/cytologically confirmed,Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 254632001 (Non-squamous NSCLC); ICD-10: C34.x,Stage IV non-squamous NSCLC confirmed by biopsy
+NCT02366143,No prior treatment,Stage IV non-squamous NSCLC untreated,Lung Cancer,Treatment History,Inclusion,Procedure,,No prior systemic therapy for Stage IV NSCLC
+NCT02366143,PD-L1 (IHC),Known status (archival or biopsy),Lung Cancer,Biomarker,Inclusion,Observation,LOINC: 85354-9 (PD-L1 by IHC),PD-L1 status known from biopsy
+NCT02366143,RECIST 1.1,Measurable disease,Lung Cancer,Imaging / Clinical,Inclusion,Observation,SNOMED: 710830005 (RECIST 1.1),CT scan measurable lesions per RECIST 1.1
+NCT02366143,Organ function,Adequate hematologic/end organ,Lung Cancer,Clinical,Inclusion,Observation,,Lab values show adequate organ function
+NCT02366143,CNS metastasis,Active or untreated,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 128606002,Active untreated brain metastases
+NCT02366143,Other malignancy,Within 5 years (exceptions: curative negligible risk),Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 443961000124104,History of breast cancer within 3 years
+NCT02366143,Pregnancy/Lactation,Pregnant or lactating,Lung Cancer,Demographic,Exclusion,Observation,LOINC: 19080-1 (Pregnancy test),Currently pregnant
+NCT02366143,Autoimmune disease,History of,Lung Cancer,Comorbidity,Exclusion,Condition,SNOMED: 698247007,History of autoimmune disease
+NCT02366143,Interstitial lung disease / Pneumonitis,"Idiopathic pulmonary fibrosis, organizing pneumonia, drug-induced/idiopathic pneumonitis, or active pneumonitis",Lung Cancer,Diagnosis,Exclusion,Condition,,CT showed evidence of active pneumonitis
+NCT02366143,HIV,Positive test,Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 7917-8,HIV positive
+NCT02366143,HBV,Active infection,Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 5195-3,HBsAg positive
+NCT02366143,HCV,Active infection,Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 13955-0,HCV antibody positive
+NCT02366143,Infection,Severe infection within 4 weeks,Lung Cancer,Infectious Disease,Exclusion,Observation,,Hospitalized for pneumonia 3 weeks ago
+NCT02366143,Cardiovascular disease,Significant CV disease,Lung Cancer,Comorbidity,Exclusion,Condition,,Severe congestive heart failure
+NCT02366143,Compliance,Illness interfering with capacity to follow study,Lung Cancer,Clinical,Exclusion,Observation,,Cognitive impairment affecting compliance
+NCT02366143,Prior immunotherapy,"Prior CD137 agonists or checkpoint inhibitors (PD-1, PD-L1)",Lung Cancer,Treatment History,Exclusion,Medication,RxNorm: 1597876 (Ipilimumab),Prior PD-1 therapy

@@ -1,0 +1,11 @@
+Trial ID,Concept (Precise Term),Constraint / Qualifier,Cancer Type,Category,Inclusion/Exclusion,FHIR Resource,Code (LOINC/SNOMED/ICD),Example EMR Text
+NCT02613507,Platinum doublet chemotherapy,Progression during/after 1 prior regimen,Lung Cancer,Treatment History,Inclusion,Procedure,SNOMED: 428751000000105 (Platinum-based chemotherapy),Progression after platinum doublet chemotherapy
+NCT02613507,NSCLC,Stage IIIb/IV or recurrent,Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 254637007 (NSCLC); ICD-10: C34.x,Stage IV recurrent NSCLC
+NCT02613507,Age,atleast 18 years,Lung Cancer,Demographic,Inclusion,Patient,SNOMED: 397669002 (Adult),Patient is 55 years old
+NCT02613507,RECIST 1.1,Measurable disease,Lung Cancer,Imaging / Clinical,Inclusion,Observation,SNOMED: 710830005 (RECIST 1.1),CT scan showed measurable lesion per RECIST 1.1
+NCT02613507,ECOG,Less than 1,Lung Cancer,Clinical,Inclusion,Observation,LOINC: 89243-0 (ECOG),ECOG 1 at baseline
+NCT02613507,Carcinomatous meningitis,History of,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 363358000 (Carcinomatous meningitis),History of carcinomatous meningitis
+NCT02613507,CNS metastasis,Active,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 128606002 (Brain metastasis),Active CNS metastases on MRI
+NCT02613507,Autoimmune disease,History of,Lung Cancer,Comorbidity,Exclusion,Condition,SNOMED: 698247007 (Autoimmune disease),History of autoimmune disorder
+NCT02613507,Docetaxel,Prior treatment,Lung Cancer,Treatment History,Exclusion,Medication,RxNorm: 19758,Previously treated with Docetaxel
+NCT02613507,Ipilimumab / checkpoint inhibitor,Prior treatment,Lung Cancer,Treatment History,Exclusion,Medication,RxNorm: 1597876 (Ipilimumab),Previously treated with ipilimumab or other checkpoint inhibitor

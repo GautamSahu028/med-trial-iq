@@ -1,0 +1,19 @@
+Trial ID,Concept (Precise Term),Constraint / Qualifier,Cancer Type,Category,Inclusion/Exclusion,FHIR Resource,Code (LOINC/SNOMED/ICD),Example EMR Text
+NCT01774721,NSCLC,Advanced; histologically/cytologically confirmed; EGFR exon 19 del or L858R,Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 254637007 (NSCLC); LOINC: 69548-6 (EGFR mutation),Stage IV NSCLC with EGFR exon 19 deletion
+NCT01774721,EGFR T790M,Allowed only if with exon 19 del or L858R,Lung Cancer,Biomarker,Inclusion,Observation,LOINC: 69548-6 (EGFR mutation),EGFR T790M with exon 19 del
+NCT01774721,No prior systemic therapy,Locally advanced/metastatic NSCLC untreated; a months disease-free if prior neoadjuvant/adjuvant therapy,Lung Cancer,Treatment History,Inclusion,Procedure,,No systemic treatment for advanced disease; adjuvant chemo completed 14 months ago
+NCT01774721,Tissue sample,Adequate for central analysis,Lung Cancer,Diagnostic Specimen,Inclusion,Specimen,,Archived tissue sample submitted
+NCT01774721,Organ function,"Adequate renal, hematologic, liver",Lung Cancer,Clinical,Inclusion,Observation,,Labs show normal organ function
+NCT01774721,ECOG,Less than 1,Lung Cancer,Clinical,Inclusion,Observation,LOINC: 89243-0 (ECOG),ECOG 1 at baseline
+NCT01774721,Measurable disease,Radiologically measurable,Lung Cancer,Imaging / Clinical,Inclusion,Observation,SNOMED: 710830005 (RECIST 1.1),CT scan measurable lesion
+NCT01774721,Mixed histology,Small cell/carcinoid component,Lung Cancer,Diagnosis,Exclusion,Condition,,NSCLC with small cell component
+NCT01774721,Mutation,Mutation other than exon 19 deletion or L858R in exon 21,Lung Cancer,Biomarker,Exclusion,Observation,,EGFR exon 20 insertion
+NCT01774721,Brain/leptomeningeal metastases,History of metastases,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 128606002,Prior brain metastasis
+NCT01774721,Prior systemic therapy,Any systemic therapy for NSCLC,Lung Cancer,Treatment History,Exclusion,Procedure,,Previously treated with chemotherapy
+NCT01774721,Surgery/radiotherapy/pleurodesis,Within 2 weeks of baseline,Lung Cancer,Treatment History,Exclusion,Procedure,,Palliative RT 1 week ago
+NCT01774721,GI abnormalities,Impair intake/transit/absorption,Lung Cancer,Comorbidity,Exclusion,Condition,,Severe Crohn’s disease
+NCT01774721,Clinical trial enrollment,Currently in another therapeutic study,Lung Cancer,Administrative,Exclusion,Consent,,Enrolled in concurrent trial
+NCT01774721,ILD,Diffuse non-infectious pneumonitis/ILD (history or suspected),Lung Cancer,Diagnosis,Exclusion,Condition,,History of interstitial lung disease
+NCT01774721,Medical disorders,Uncontrolled medical disorders,Lung Cancer,Comorbidity,Exclusion,Condition,,Uncontrolled diabetes
+NCT01774721,Other malignancy,"Prior/concurrent malignancy (exceptions: NMSC, in-situ cervical)",Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 443961000124104,History of melanoma
+NCT01774721,CYP2D6 drugs,Use of narrow therapeutic index CYP2D6 substrates,Lung Cancer,Medication Use,Exclusion,Medication,,On CYP2D6 narrow-index drug

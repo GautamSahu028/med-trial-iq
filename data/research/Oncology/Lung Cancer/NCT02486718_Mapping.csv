@@ -1,0 +1,36 @@
+Trial ID,Concept (Precise Term),Constraint / Qualifier,Cancer Type,Category,Inclusion/Exclusion,FHIR Resource,Code (LOINC/SNOMED/ICD),Example EMR Text
+NCT02486718,ECOG,0 or 1,Lung Cancer,Clinical,Inclusion,Observation,LOINC: 89243-0 (ECOG),ECOG 1 at baseline
+NCT02486718,NSCLC,Stage IB-IIIA; histologically/cytologically confirmed,Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 254637007 (NSCLC); ICD-10: C34.x,Stage IIA NSCLC confirmed by biopsy
+NCT02486718,Resection,Complete resection within 4 to 12 weeks; adequately recovered,Lung Cancer,Treatment History,Inclusion,Procedure,SNOMED: 122456005 (Excision of lung),Lobectomy performed 6 weeks ago
+NCT02486718,Mediastinal lymph node sampling,Required unless justified exception,Lung Cancer,Procedure,Inclusion,Procedure,,Systematic lymph node sampling performed
+NCT02486718,Chemotherapy eligibility,Eligible to receive cisplatin-based regimen,Lung Cancer,Treatment Planning,Inclusion,Procedure,RxNorm: 2555 (Cisplatin),Eligible for cisplatin regimen
+NCT02486718,Organ function,Adequate hematologic/end organ,Lung Cancer,Clinical,Inclusion,Observation,,Lab results show adequate organ function
+NCT02486718,Pregnancy/Contraception,Negative pregnancy test within 14 days before cisplatin,Lung Cancer,Demographic,Inclusion,Observation,LOINC: 19080-1 (Pregnancy test),Negative pregnancy test
+NCT02486718,Compliance,Illness interfering with ability to comply,Lung Cancer,Clinical,Exclusion,Observation,,Severe cognitive impairment
+NCT02486718,Pregnancy/Lactation,Pregnant or lactating,Lung Cancer,Demographic,Exclusion,Observation,LOINC: 19080-1,Currently breastfeeding
+NCT02486718,Prior chemotherapy,Allowed only if >5 years ago; low-dose non-malignant chemo possible,Lung Cancer,Treatment History,Exclusion,Procedure,SNOMED: 416118004,Prior chemo 3 years ago
+NCT02486718,Prior therapy,Hormonal cancer therapy or RT within 5 years,Lung Cancer,Treatment History,Exclusion,Procedure,,Hormonal therapy within last 3 years
+NCT02486718,Investigational agent,Therapeutic intent <28 days,Lung Cancer,Treatment History,Exclusion,Procedure,,Trial drug 20 days ago
+NCT02486718,Hearing impairment,Significant hearing impairment,Lung Cancer,Clinical,Exclusion,Observation,,Bilateral hearing loss
+NCT02486718,Drug hypersensitivity,Sensitivity to chemo regimen or mannitol,Lung Cancer,Clinical,Exclusion,Observation,,Allergy to cisplatin
+NCT02486718,Prior immunotherapy,Prior CD137 agonist or checkpoint inhibitor (PD-1/PD-L1),Lung Cancer,Treatment History,Exclusion,Medication,RxNorm: 1597876 (Ipilimumab),Previously treated with PD-1 inhibitor
+NCT02486718,Other malignancy,Within 5 years except negligible risk curative,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 443961000124104,History of bladder cancer 2 years ago
+NCT02486718,Hypersensitivity,Severe allergic/anaphylactic reaction to antibodies/fusion proteins,Lung Cancer,Clinical,Exclusion,Observation,,Anaphylaxis to prior antibody
+NCT02486718,CHO sensitivity,Sensitivity to biopharmaceuticals from CHO cells,Lung Cancer,Clinical,Exclusion,Observation,,Allergy to CHO-derived drugs
+NCT02486718,Autoimmune disease,"History (myasthenia, lupus, RA, IBD, vasculitis, etc.)",Lung Cancer,Comorbidity,Exclusion,Condition,SNOMED: 698247007,History of systemic lupus erythematosus
+NCT02486718,HIV,Positive test,Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 7917-8,HIV positive
+NCT02486718,HBV,Active infection (HBsAg positive),Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 5195-3,HBsAg positive
+NCT02486718,HCV,Active infection,Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 13955-0,HCV antibody positive
+NCT02486718,Tuberculosis,Active TB,Lung Cancer,Infectious Disease,Exclusion,Observation,SNOMED: 56717001,Active pulmonary TB
+NCT02486718,Cardiovascular disease,"Significant CV disease (NYHA II+, MI, CVA <3 months, arrhythmia, angina)",Lung Cancer,Comorbidity,Exclusion,Condition,,Recent myocardial infarction
+NCT02486718,Interstitial lung disease / Pneumonitis,History or evidence of active disease,Lung Cancer,Diagnosis,Exclusion,Condition,,CT shows idiopathic pulmonary fibrosis
+NCT02486718,Transplant,Prior allogeneic bone marrow or solid organ transplant,Lung Cancer,Clinical,Exclusion,Procedure,,Kidney transplant history
+NCT02486718,Other conditions,Contraindicate investigational drug or confound results,Lung Cancer,Clinical,Exclusion,Observation,,Severe metabolic disorder
+NCT02486718,PD-L1 (IHC),Known expression from prior clinical study assay (excluded),Lung Cancer,Biomarker,Exclusion,Observation,LOINC: 85354-9,PD-L1 result available from prior trial
+NCT02486718,Squamous histology,Excluded for pemetrexed treatment,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 254632001,Squamous histology present
+NCT02486718,Infection,Signs/symptoms of infection within 14 days; severe infection within 28 days,Lung Cancer,Infectious Disease,Exclusion,Observation,,Hospitalized for pneumonia 10 days ago
+NCT02486718,Antibiotics,Therapeutic oral/IV antibiotics within 14 days,Lung Cancer,Treatment History,Exclusion,Medication,,On IV antibiotics 7 days ago
+NCT02486718,Surgery,Major surgery witihin 28 days; anticipated need,Lung Cancer,Treatment History,Exclusion,Procedure,,Lobectomy planned in 2 weeks
+NCT02486718,Live vaccine,Within 4 weeks before study treatment,Lung Cancer,Clinical,Exclusion,Observation,,Received live vaccine 3 weeks ago
+NCT02486718,Immunostimulatory agents,Interferons/IL-2 within 4 weeks or 5 half-lives,Lung Cancer,Treatment History,Exclusion,Medication,,Received IL-2 within 2 weeks
+NCT02486718,Corticosteroids / Immunosuppressants,Within 14 days before randomization,Lung Cancer,Treatment History,Exclusion,Medication,,On prednisone 10 mg daily

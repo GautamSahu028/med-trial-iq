@@ -1,0 +1,24 @@
+Trial ID,Concept (Precise Term),Constraint / Qualifier,Cancer Type,Category,Inclusion/Exclusion,FHIR Resource,Code (LOINC/SNOMED/ICD),Example EMR Text
+NCT02296125,Age,atleast18 years,Lung Cancer,Demographic,Inclusion,Patient,SNOMED: 397669002 (Adult),55-year-old patient
+NCT02296125,Adenocarcinoma of lung,Pathologically confirmed,Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 254637009 (Adenocarcinoma of lung),Biopsy confirmed adenocarcinoma
+NCT02296125,NSCLC,Locally advanced/metastatic; not amenable to surgery/RT,Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 254637007; ICD-10: C34.x,"Stage IV NSCLC, unresectable"
+NCT02296125,EGFR mutation,Ex19del or L858R; EGFR-TKI sensitive,Lung Cancer,Biomarker,Inclusion,Observation,LOINC: 69548-6 (EGFR gene mutation),EGFR L858R mutation detected
+NCT02296125,Tumor tissue,"Mandatory provision (unstained, archived) for EGFR analysis",Lung Cancer,Diagnostic Specimen,Inclusion,Specimen,,Archived tumor sample provided
+NCT02296125,Treatment-naïve,No prior systemic therapy for advanced/metastatic NSCLC,Lung Cancer,Treatment History,Inclusion,Procedure,,No systemic therapy received
+NCT02296125,Informed consent,Consent before study procedures,Lung Cancer,Administrative,Inclusion,Consent,,Signed informed consent
+NCT02296125,WHO Performance status,0 to1; stable for around weeks; life expectancy atleast 12 weeks,Lung Cancer,Clinical,Inclusion,Observation,,WHO PS 1; stable disease
+NCT02296125,Prior systemic therapy,Any prior systemic therapy for advanced/metastatic NSCLC,Lung Cancer,Treatment History,Exclusion,Procedure,,Treated with chemo for advanced NSCLC
+NCT02296125,EGFR-TKI,Prior EGFR-TKI use,Lung Cancer,Treatment History,Exclusion,Medication,RxNorm: 606459 (Gefitinib),Previously treated with erlotinib
+NCT02296125,Surgery,Major surgery <4 weeks before drug,Lung Cancer,Treatment History,Exclusion,Procedure,SNOMED: 387713003,Lobectomy 2 weeks ago
+NCT02296125,Radiotherapy,RT to >30% BM or wide field <4 weeks,Lung Cancer,Treatment History,Exclusion,Procedure,,Wide-field RT within 3 weeks
+NCT02296125,CYP3A4 inducers,Potent CYP3A4 inducers,Lung Cancer,Medication Use,Exclusion,Medication,,On rifampicin
+NCT02296125,Alternative anti-cancer therapy,Concurrent alternative therapy,Lung Cancer,Treatment History,Exclusion,Procedure,,Alternative anti-cancer drug ongoing
+NCT02296125,Investigational drug,Within 5 half-lives,Lung Cancer,Treatment History,Exclusion,Medication,,Received investigational therapy 3 weeks ago
+NCT02296125,Other malignancy,Within 2 years requiring treatment,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 443961000124104,History of breast cancer 1 year ago
+NCT02296125,Brain/spinal metastasis,"Symptomatic/unstable unless treated and stable atleast 2 weeks, no steroids",Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 128606002,Unstable brain metastases
+NCT02296125,Systemic disease,"Severe/uncontrolled (e.g., HTN, bleeding, infection incl. HBV/HCV/HIV)",Lung Cancer,Comorbidity,Exclusion,Condition,LOINC: 5195-3 (HBV); 13955-0 (HCV); 7917-8 (HIV),Uncontrolled hypertension
+NCT02296125,Gastro Intestinal absorption issues,"Refractory nausea/vomiting, GI disease, bowel resection affecting absorption",Lung Cancer,Comorbidity,Exclusion,Condition,,History of Crohn’s disease with malabsorption
+NCT02296125,QTc interval,QTc >470 ms; abnormal rhythm/conduction; risk factors for QT prolongation,Lung Cancer,Clinical,Exclusion,Observation,LOINC: 8636-3,QTc 480 ms at baseline
+NCT02296125,Arrhythmia risk,"Risk of arrhythmia, unexplained sudden death <40 in family, QT-prolonging meds",Lung Cancer,Clinical,Exclusion,Observation,,Family history of sudden death at 35
+NCT02296125,ILD,"Past history or active ILD, drug-induced, radiation pneumonitis requiring steroids",Lung Cancer,Diagnosis,Exclusion,Condition,,History of drug-induced ILD
+NCT02296125,Study involvement,Involved in planning/conduct of study,Lung Cancer,Administrative,Exclusion,Consent,,Study staff not eligible

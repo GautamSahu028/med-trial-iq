@@ -1,0 +1,210 @@
+Trial ID,Concept (Precise Term),Constraint / Qualifier,Cancer Type,Category,Inclusion/Exclusion,FHIR Resource,Code (LOINC/SNOMED/ICD),Example EMR Text
+NCT02296125,Adenocarcinoma of lung,Pathologically confirmed,Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 254637009 (Adenocarcinoma of lung),Biopsy confirmed adenocarcinoma
+NCT02220894,Adequate organ function,Adequate hematologic/end organ,Lung Cancer,Clinical,Inclusion,Observation,,Lab results show adequate organ function
+NCT02775435,Adequate organ function,Adequate hematologic/end organ,Lung Cancer,Clinical,Inclusion,Observation,,Lab tests show adequate organ function
+NCT02296125,Age,atleast18 years,Lung Cancer,Demographic,Inclusion,Patient,SNOMED: 397669002 (Adult),55-year-old patient
+NCT02613507,Age,atleast 18 years,Lung Cancer,Demographic,Inclusion,Patient,SNOMED: 397669002 (Adult),Patient is 55 years old
+NCT02220894,ALK-positive,EML4-ALK fusion positive,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 444198004,ALK gene fusion positive
+NCT02296125,Alternative anti-cancer therapy,Concurrent alternative therapy,Lung Cancer,Treatment History,Exclusion,Procedure,,Alternative anti-cancer drug ongoing
+NCT02486718,Antibiotics,Therapeutic oral/IV antibiotics within 14 days,Lung Cancer,Treatment History,Exclusion,Medication,,On IV antibiotics 7 days ago
+NCT02296125,Arrhythmia risk,"Risk of arrhythmia, unexplained sudden death <40 in family, QT-prolonging meds",Lung Cancer,Clinical,Exclusion,Observation,,Family history of sudden death at 35
+NCT02220894,Autoimmune disease,Active requiring systemic treatment within past 2 years,Lung Cancer,Comorbidity,Exclusion,Condition,SNOMED: 698247007,Autoimmune hepatitis requiring steroids
+NCT02366143,Autoimmune disease,History of,Lung Cancer,Comorbidity,Exclusion,Condition,SNOMED: 698247007,History of autoimmune disease
+NCT02477826,Autoimmune disease,"Active, known, or suspected",Lung Cancer,Comorbidity,Exclusion,Condition,SNOMED: 698247007 (Autoimmune disease),Patient with autoimmune hepatitis
+NCT02486718,Autoimmune disease,"History (myasthenia, lupus, RA, IBD, vasculitis, etc.)",Lung Cancer,Comorbidity,Exclusion,Condition,SNOMED: 698247007,History of systemic lupus erythematosus
+NCT02613507,Autoimmune disease,History of,Lung Cancer,Comorbidity,Exclusion,Condition,SNOMED: 698247007 (Autoimmune disease),History of autoimmune disorder
+NCT02775435,Autoimmune disease,Active requiring systemic therapy within 2 years,Lung Cancer,Comorbidity,Exclusion,Condition,SNOMED: 698247007,Autoimmune hepatitis requiring steroids
+NCT03043872,Autoimmune disease,Active/prior documented autoimmune or inflammatory disorder,Small Cell Lung Cancer,Comorbidity,Exclusion,Condition,SNOMED: 698247007,History of rheumatoid arthritis
+NCT03043872,Brain metastases,Allowed if asymptomatic/treated/stable off steroids/anticonvulsants â‰¥1 month,Small Cell Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 128606002,Stable treated brain metastases
+NCT01774721,Brain/leptomeningeal metastases,History of metastases,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 128606002,Prior brain metastasis
+NCT02075840,Brain/leptomeningeal metastases,Allowed if asymptomatic,Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 128606002,Asymptomatic brain metastases present
+NCT02296125,Brain/spinal metastasis,"Symptomatic/unstable unless treated and stable atleast 2 weeks, no steroids",Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 128606002,Unstable brain metastases
+NCT02775435,Carboplatin/paclitaxel hypersensitivity,Known sensitivity,Lung Cancer,Clinical,Exclusion,Observation,,Allergic to carboplatin
+NCT02613507,Carcinomatous meningitis,History of,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 363358000 (Carcinomatous meningitis),History of carcinomatous meningitis
+NCT02366143,Cardiovascular disease,Significant CV disease,Lung Cancer,Comorbidity,Exclusion,Condition,,Severe congestive heart failure
+NCT02486718,Cardiovascular disease,"Significant CV disease (NYHA II+, MI, CVA <3 months, arrhythmia, angina)",Lung Cancer,Comorbidity,Exclusion,Condition,,Recent myocardial infarction
+NCT02486718,Chemotherapy eligibility,Eligible to receive cisplatin-based regimen,Lung Cancer,Treatment Planning,Inclusion,Procedure,RxNorm: 2555 (Cisplatin),Eligible for cisplatin regimen
+NCT03043872,Chemotherapy eligibility,Suitable for platinum-based chemo 1st line,Small Cell Lung Cancer,Treatment Planning,Inclusion,Procedure,SNOMED: 428751000000105 (Platinum-based chemotherapy),Eligible for cisplatin regimen
+NCT03043872,Chest radiotherapy,History of chest RT before systemic therapy or planned consolidation chest RT (palliative outside chest allowed),Small Cell Lung Cancer,Treatment History,Exclusion,Procedure,,Chest RT before chemotherapy
+NCT02486718,CHO sensitivity,Sensitivity to biopharmaceuticals from CHO cells,Lung Cancer,Clinical,Exclusion,Observation,,Allergy to CHO-derived drugs
+NCT01774721,Clinical trial enrollment,Currently in another therapeutic study,Lung Cancer,Administrative,Exclusion,Consent,,Enrolled in concurrent trial
+NCT02220894,CNS metastasis,Known CNS metastases/carcinomatous meningitis,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 128606002,Brain metastases present
+NCT02366143,CNS metastasis,Active or untreated,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 128606002,Active untreated brain metastases
+NCT02477826,CNS metastasis,Untreated,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 128606002 (Brain metastasis),MRI showed untreated CNS metastasis
+NCT02613507,CNS metastasis,Active,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 128606002 (Brain metastasis),Active CNS metastases on MRI
+NCT02775435,CNS metastasis / Carcinomatous meningitis,Known active disease,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 128606002,Active brain metastasis
+NCT02075840,Compliance,Psychological/familial/sociological/geographical barrier,Lung Cancer,Clinical,Exclusion,Observation,,Lives remotely without transport
+NCT02366143,Compliance,Illness interfering with capacity to follow study,Lung Cancer,Clinical,Exclusion,Observation,,Cognitive impairment affecting compliance
+NCT02486718,Compliance,Illness interfering with ability to comply,Lung Cancer,Clinical,Exclusion,Observation,,Severe cognitive impairment
+NCT02075840,Contraception,Use of highly effective contraception required,Lung Cancer,Demographic,Inclusion,Observation,,Patient on contraception as per protocol
+NCT02775435,Contraception (female),Contraception through 180 days after last dose,Lung Cancer,Demographic,Inclusion,Observation,LOINC: 19080-1 (Pregnancy test),"Negative pregnancy test, using contraception"
+NCT02775435,Contraception (male),Contraception through 95 days; condom if partner pregnant,Lung Cancer,Demographic,Inclusion,Observation,,Male participant using contraception
+NCT02486718,Corticosteroids / Immunosuppressants,Within 14 days before randomization,Lung Cancer,Treatment History,Exclusion,Medication,,On prednisone 10 mg daily
+NCT02220894,Curative intent disease,Can be treated with surgery or chemoradiation,Lung Cancer,Diagnosis,Exclusion,Condition,,NSCLC treatable with curative surgery
+NCT01774721,CYP2D6 drugs,Use of narrow therapeutic index CYP2D6 substrates,Lung Cancer,Medication Use,Exclusion,Medication,,On CYP2D6 narrow-index drug
+NCT02075840,CYP3A drugs,Strong inhibitors/inducers within 14 days,Lung Cancer,Medication Use,Exclusion,Medication,,On ketoconazole 1 week ago
+NCT02296125,CYP3A4 inducers,Potent CYP3A4 inducers,Lung Cancer,Medication Use,Exclusion,Medication,,On rifampicin
+NCT02613507,Docetaxel,Prior treatment,Lung Cancer,Treatment History,Exclusion,Medication,RxNorm: 19758,Previously treated with Docetaxel
+NCT02075840,Drug hypersensitivity,History of hypersensitivity to alectinib/crizotinib additives,Lung Cancer,Clinical,Exclusion,Observation,,Allergic reaction to crizotinib excipients
+NCT02486718,Drug hypersensitivity,Sensitivity to chemo regimen or mannitol,Lung Cancer,Clinical,Exclusion,Observation,,Allergy to cisplatin
+NCT01774721,ECOG,Less than 1,Lung Cancer,Clinical,Inclusion,Observation,LOINC: 89243-0 (ECOG),ECOG 1 at baseline
+NCT02075840,ECOG,Between 0 and 2,Lung Cancer,Clinical,Inclusion,Observation,LOINC: 89243-0 (ECOG),ECOG 2 at baseline
+NCT02220894,ECOG,0 or 1,Lung Cancer,Clinical,Inclusion,Observation,LOINC: 89243-0 (ECOG),ECOG score 1 at baseline
+NCT02366143,ECOG,Between 0 and 1,Lung Cancer,Clinical,Inclusion,Observation,LOINC: 89243-0 (ECOG),ECOG 1 at baseline
+NCT02477826,ECOG,Less than 1,Lung Cancer,Clinical,Inclusion,Observation,LOINC: 89243-0 (ECOG),ECOG 1 at baseline visit
+NCT02486718,ECOG,0 or 1,Lung Cancer,Clinical,Inclusion,Observation,LOINC: 89243-0 (ECOG),ECOG 1 at baseline
+NCT02613507,ECOG,Less than 1,Lung Cancer,Clinical,Inclusion,Observation,LOINC: 89243-0 (ECOG),ECOG 1 at baseline
+NCT02775435,ECOG,0 or 1,Lung Cancer,Clinical,Inclusion,Observation,LOINC: 89243-0 (ECOG),ECOG performance status 1
+NCT03043872,ECOG,Less then 1,Small Cell Lung Cancer,Clinical,Inclusion,Observation,LOINC: 89243-0 (ECOG),ECOG 1 at baseline
+NCT02220894,EGFR mutation,EGFR-sensitizing mutation positive,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 373110000,EGFR exon 19 mutation positive
+NCT02296125,EGFR mutation,Ex19del or L858R; EGFR-TKI sensitive,Lung Cancer,Biomarker,Inclusion,Observation,LOINC: 69548-6 (EGFR gene mutation),EGFR L858R mutation detected
+NCT01774721,EGFR T790M,Allowed only if with exon 19 del or L858R,Lung Cancer,Biomarker,Inclusion,Observation,LOINC: 69548-6 (EGFR mutation),EGFR T790M with exon 19 del
+NCT02296125,EGFR-TKI,Prior EGFR-TKI use,Lung Cancer,Treatment History,Exclusion,Medication,RxNorm: 606459 (Gefitinib),Previously treated with erlotinib
+NCT02296125,Gastro Intestinal absorption issues,"Refractory nausea/vomiting, GI disease, bowel resection affecting absorption",Lung Cancer,Comorbidity,Exclusion,Condition,,History of Crohnâ€™s disease with malabsorption
+NCT01774721,GI abnormalities,Impair intake/transit/absorption,Lung Cancer,Comorbidity,Exclusion,Condition,,Severe Crohnâ€™s disease
+NCT02075840,GI/liver disorder,Any GI disorder or liver disease,Lung Cancer,Comorbidity,Exclusion,Condition,,Chronic liver disease
+NCT02220894,HBV,Known active,Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 5195-3,HBsAg positive
+NCT02366143,HBV,Active infection,Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 5195-3,HBsAg positive
+NCT02477826,HBV,Positive test (acute or chronic infection),Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 5195-3 (HBsAg),HBsAg positive
+NCT02486718,HBV,Active infection (HBsAg positive),Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 5195-3,HBsAg positive
+NCT02775435,HBV,Known active,Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 5195-3,HBsAg positive
+NCT02220894,HCV,Known active,Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 13955-0,HCV antibody positive
+NCT02366143,HCV,Active infection,Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 13955-0,HCV antibody positive
+NCT02477826,HCV,Positive test (acute or chronic infection),Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 13955-0 (HCV Ab),HCV antibody positive
+NCT02486718,HCV,Active infection,Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 13955-0,HCV antibody positive
+NCT02775435,HCV,Known active,Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 13955-0,HCV antibody positive
+NCT02486718,Hearing impairment,Significant hearing impairment,Lung Cancer,Clinical,Exclusion,Observation,,Bilateral hearing loss
+NCT02220894,HIV,Known history,Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 7917-8,HIV positive history
+NCT02366143,HIV,Positive test,Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 7917-8,HIV positive
+NCT02477826,HIV,Positive test (acute or chronic infection),Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 7917-8 (HIV Ab),HIV antibody positive
+NCT02486718,HIV,Positive test,Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 7917-8,HIV positive
+NCT02775435,HIV,Known history,Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 7917-8,HIV antibody positive
+NCT02486718,Hypersensitivity,Severe allergic/anaphylactic reaction to antibodies/fusion proteins,Lung Cancer,Clinical,Exclusion,Observation,,Anaphylaxis to prior antibody
+NCT02775435,Hypersensitivity (mAbs),Severe reaction to monoclonal antibody,Lung Cancer,Clinical,Exclusion,Observation,,Severe hypersensitivity reaction to prior antibody
+NCT01774721,ILD,Diffuse non-infectious pneumonitis/ILD (history or suspected),Lung Cancer,Diagnosis,Exclusion,Condition,,History of interstitial lung disease
+NCT02296125,ILD,"Past history or active ILD, drug-induced, radiation pneumonitis requiring steroids",Lung Cancer,Diagnosis,Exclusion,Condition,,History of drug-induced ILD
+NCT02486718,Immunostimulatory agents,Interferons/IL-2 within 4 weeks or 5 half-lives,Lung Cancer,Treatment History,Exclusion,Medication,,Received IL-2 within 2 weeks
+NCT02220894,Infection,Active requiring IV systemic therapy,Lung Cancer,Infectious Disease,Exclusion,Observation,,Active infection on IV antibiotics
+NCT02366143,Infection,Severe infection within 4 weeks,Lung Cancer,Infectious Disease,Exclusion,Observation,,Hospitalized for pneumonia 3 weeks ago
+NCT02486718,Infection,Signs/symptoms of infection within 14 days; severe infection within 28 days,Lung Cancer,Infectious Disease,Exclusion,Observation,,Hospitalized for pneumonia 10 days ago
+NCT02775435,Infection,Active requiring therapy,Lung Cancer,Infectious Disease,Exclusion,Observation,,On antibiotics for infection
+NCT03043872,Infection,"Active infection including TB, HIV, HBV, HCV",Small Cell Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 5195-3 (HBV); 13955-0 (HCV); 7917-8 (HIV),Positive HBsAg
+NCT02296125,Informed consent,Consent before study procedures,Lung Cancer,Administrative,Inclusion,Consent,,Signed informed consent
+NCT03043872,Interstitial lung disease / Comorbidity,Uncontrolled intercurrent illness (incl. ILD),Small Cell Lung Cancer,Comorbidity,Exclusion,Condition,,ILD uncontrolled on imaging
+NCT02220894,Interstitial lung disease / Pneumonitis,History requiring steroids,Lung Cancer,Diagnosis,Exclusion,Condition,,History of radiation pneumonitis
+NCT02366143,Interstitial lung disease / Pneumonitis,"Idiopathic pulmonary fibrosis, organizing pneumonia, drug-induced/idiopathic pneumonitis, or active pneumonitis",Lung Cancer,Diagnosis,Exclusion,Condition,,CT showed evidence of active pneumonitis
+NCT02486718,Interstitial lung disease / Pneumonitis,History or evidence of active disease,Lung Cancer,Diagnosis,Exclusion,Condition,,CT shows idiopathic pulmonary fibrosis
+NCT02775435,Interstitial lung disease / Pneumonitis,History requiring steroids,Lung Cancer,Diagnosis,Exclusion,Condition,,History of pneumonitis requiring steroids
+NCT02486718,Investigational agent,Therapeutic intent <28 days,Lung Cancer,Treatment History,Exclusion,Procedure,,Trial drug 20 days ago
+NCT02296125,Investigational drug,Within 5 half-lives,Lung Cancer,Treatment History,Exclusion,Medication,,Received investigational therapy 3 weeks ago
+NCT02220894,Investigational therapy,Participation in other trial within 4 weeks,Lung Cancer,Treatment History,Exclusion,Procedure,,Patient in another study within 4 weeks
+NCT02775435,Investigational therapy,Participation in study within 4 weeks,Lung Cancer,Treatment History,Exclusion,Procedure,,Participated in investigational therapy within 4 weeks
+NCT02613507,Ipilimumab / checkpoint inhibitor,Prior treatment,Lung Cancer,Treatment History,Exclusion,Medication,RxNorm: 1597876 (Ipilimumab),Previously treated with ipilimumab or other checkpoint inhibitor
+NCT02075840,Life expectancy,atleast 12 weeks,Lung Cancer,Clinical,Inclusion,Observation,,Life expectancy estimated 16 weeks
+NCT02220894,Life expectancy,atleast 3 months,Lung Cancer,Clinical,Inclusion,Observation,,Life expectancy at least 3 months
+NCT02775435,Life expectancy,atleast 3 months,Lung Cancer,Clinical,Inclusion,Observation,,Life expectancy at least 3 months
+NCT03043872,Life expectancy,atleast 12 weeks,Small Cell Lung Cancer,Clinical,Inclusion,Observation,,Life expectancy estimated 14 weeks
+NCT02220894,Live vaccine,Within 30 days prior,Lung Cancer,Clinical,Exclusion,Observation,,Received live vaccine 2 weeks ago
+NCT02486718,Live vaccine,Within 4 weeks before study treatment,Lung Cancer,Clinical,Exclusion,Observation,,Received live vaccine 3 weeks ago
+NCT02775435,Live vaccine,Within 30 days before treatment,Lung Cancer,Clinical,Exclusion,Observation,,Received live vaccine 2 weeks ago
+NCT01774721,Measurable disease,Radiologically measurable,Lung Cancer,Imaging / Clinical,Inclusion,Observation,SNOMED: 710830005 (RECIST 1.1),CT scan measurable lesion
+NCT02486718,Mediastinal lymph node sampling,Required unless justified exception,Lung Cancer,Procedure,Inclusion,Procedure,,Systematic lymph node sampling performed
+NCT01774721,Medical disorders,Uncontrolled medical disorders,Lung Cancer,Comorbidity,Exclusion,Condition,,Uncontrolled diabetes
+NCT01774721,Mixed histology,Small cell/carcinoid component,Lung Cancer,Diagnosis,Exclusion,Condition,,NSCLC with small cell component
+NCT01774721,Mutation,Mutation other than exon 19 deletion or L858R in exon 21,Lung Cancer,Biomarker,Exclusion,Observation,,EGFR exon 20 insertion
+NCT02220894,No prior systemic chemotherapy,None for advanced/metastatic disease; neoadjuvant/adjuvant allowed if >6 months ago,Lung Cancer,Treatment History,Inclusion,Procedure,SNOMED: 416118004 (History of chemotherapy),No systemic chemo for advanced NSCLC
+NCT01774721,No prior systemic therapy,Locally advanced/metastatic NSCLC untreated; a months disease-free if prior neoadjuvant/adjuvant therapy,Lung Cancer,Treatment History,Inclusion,Procedure,,No systemic treatment for advanced disease; adjuvant chemo completed 14 months ago
+NCT02075840,No prior systemic therapy,Advanced/recurrent/metastatic NSCLC untreated,Lung Cancer,Treatment History,Inclusion,Procedure,SNOMED: 416118004,No prior systemic treatment
+NCT02775435,No prior systemic therapy,No systemic treatment for metastatic NSCLC,Lung Cancer,Treatment History,Inclusion,Procedure,SNOMED: 416118004 (History of chemotherapy),No prior systemic therapy for metastatic NSCLC
+NCT02366143,No prior treatment,Stage IV non-squamous NSCLC untreated,Lung Cancer,Treatment History,Inclusion,Procedure,,No prior systemic therapy for Stage IV NSCLC
+NCT01774721,NSCLC,Advanced; histologically/cytologically confirmed; EGFR exon 19 del or L858R,Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 254637007 (NSCLC); LOINC: 69548-6 (EGFR mutation),Stage IV NSCLC with EGFR exon 19 deletion
+NCT02220894,NSCLC,Advanced or metastatic; histologically/cytologically confirmed,Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 254637007 (NSCLC); ICD-10: C34.x,Histologically confirmed metastatic NSCLC
+NCT02296125,NSCLC,Locally advanced/metastatic; not amenable to surgery/RT,Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 254637007; ICD-10: C34.x,"Stage IV NSCLC, unresectable"
+NCT02477826,NSCLC,Stage IV or recurrent; squamous or non-squamous; histologically confirmed,Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 254637007 (NSCLC); ICD-10: C34.x,Histology confirmed recurrent Stage IV squamous NSCLC
+NCT02486718,NSCLC,Stage IB-IIIA; histologically/cytologically confirmed,Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 254637007 (NSCLC); ICD-10: C34.x,Stage IIA NSCLC confirmed by biopsy
+NCT02613507,NSCLC,Stage IIIb/IV or recurrent,Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 254637007 (NSCLC); ICD-10: C34.x,Stage IV recurrent NSCLC
+NCT02075840,NSCLC (ALK+),Stage IIIB (not amenable to multimodality) or Stage IV; histologically/cytologically confirmed; ALK+ by Ventana IHC,Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 254637007 (NSCLC); SNOMED: 444198004 (ALK+); ICD-10: C34.x,Stage IV NSCLC ALK+ confirmed by Ventana IHC
+NCT02366143,NSCLC (non-squamous),Stage IV; histologically/cytologically confirmed,Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 254632001 (Non-squamous NSCLC); ICD-10: C34.x,Stage IV non-squamous NSCLC confirmed by biopsy
+NCT02775435,NSCLC (non-squamous),Non-squamous histology,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 254632001,Non-squamous histology NSCLC
+NCT02775435,NSCLC (squamous),Stage IV (M1a/M1b); histologically/cytologically confirmed,Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 254637007 (NSCLC); ICD-10: C34.x,Stage IV squamous NSCLC confirmed by histology
+NCT01774721,Organ function,"Adequate renal, hematologic, liver",Lung Cancer,Clinical,Inclusion,Observation,,Labs show normal organ function
+NCT02075840,Organ function,Adequate renal and hematologic,Lung Cancer,Clinical,Inclusion,Observation,,Lab values adequate
+NCT02366143,Organ function,Adequate hematologic/end organ,Lung Cancer,Clinical,Inclusion,Observation,,Lab values show adequate organ function
+NCT02486718,Organ function,Adequate hematologic/end organ,Lung Cancer,Clinical,Inclusion,Observation,,Lab results show adequate organ function
+NCT02075840,Organ transplant,History of transplant,Lung Cancer,Clinical,Exclusion,Procedure,SNOMED: 18286008 (Transplantation),History of kidney transplant
+NCT02075840,Other anticancer therapy,Co-administration of therapies not in study,Lung Cancer,Treatment History,Exclusion,Medication,,Concurrent erlotinib therapy
+NCT02075840,Other condition,Clinically significant condition interfering with study,Lung Cancer,Clinical,Exclusion,Observation,,Severe uncontrolled diabetes
+NCT02486718,Other conditions,Contraindicate investigational drug or confound results,Lung Cancer,Clinical,Exclusion,Observation,,Severe metabolic disorder
+NCT01774721,Other malignancy,"Prior/concurrent malignancy (exceptions: NMSC, in-situ cervical)",Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 443961000124104,History of melanoma
+NCT02296125,Other malignancy,Within 2 years requiring treatment,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 443961000124104,History of breast cancer 1 year ago
+NCT02366143,Other malignancy,Within 5 years (exceptions: curative negligible risk),Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 443961000124104,History of breast cancer within 3 years
+NCT02486718,Other malignancy,Within 5 years except negligible risk curative,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 443961000124104,History of bladder cancer 2 years ago
+NCT02220894,Other therapy required,Expected to require systemic/local antineoplastic therapy,Lung Cancer,Treatment History,Exclusion,Procedure,,Requires concurrent chemotherapy
+NCT02775435,Other therapy required,Expected need for antineoplastic therapy,Lung Cancer,Treatment History,Exclusion,Procedure,,Requires chemotherapy while on study
+NCT03043872,Paraneoplastic syndrome (PNS),Autoimmune nature requiring systemic treatment or worsening symptoms,Small Cell Lung Cancer,Comorbidity,Exclusion,Condition,,Paraneoplastic autoimmune syndrome
+NCT02220894,PD-L1 (IHC),Positive tumor,Lung Cancer,Biomarker,Inclusion,Observation,LOINC: 85354-9 (PD-L1 by IHC),PD-L1 positive tumor
+NCT02220894,PD-L1 (IHC),No specimen evaluable,Lung Cancer,Biomarker,Exclusion,Observation,LOINC: 85354-9,No specimen available for PD-L1 testing
+NCT02366143,PD-L1 (IHC),Known status (archival or biopsy),Lung Cancer,Biomarker,Inclusion,Observation,LOINC: 85354-9 (PD-L1 by IHC),PD-L1 status known from biopsy
+NCT02477826,PD-L1 (IHC),Test performed; result available from central lab,Lung Cancer,Biomarker,Inclusion,Observation,LOINC: 85354-9 (PD-L1 by IHC),"PD-L1 IHC test performed at central lab, result recorded"
+NCT02486718,PD-L1 (IHC),Known expression from prior clinical study assay (excluded),Lung Cancer,Biomarker,Exclusion,Observation,LOINC: 85354-9,PD-L1 result available from prior trial
+NCT02775435,Pembrolizumab trial,Previously treated with pembrolizumab,Lung Cancer,Treatment History,Exclusion,Medication,RxNorm: 1560178 (Pembrolizumab),Previously on pembrolizumab trial
+NCT02775435,Peripheral neuropathy,atleast Grade 2 (CTCAE v4),Lung Cancer,Clinical,Exclusion,Observation,,Peripheral neuropathy Grade 2
+NCT02613507,Platinum doublet chemotherapy,Progression during/after 1 prior regimen,Lung Cancer,Treatment History,Inclusion,Procedure,SNOMED: 428751000000105 (Platinum-based chemotherapy),Progression after platinum doublet chemotherapy
+NCT02220894,Pregnancy / Contraception,Negative pregnancy test + contraception through 120/180 days,Lung Cancer,Demographic,Inclusion,Observation,LOINC: 19080-1 (Pregnancy test),"Negative pregnancy test, using contraception"
+NCT02220894,Pregnancy / Contraception,"Pregnant, breastfeeding, or planning pregnancy",Lung Cancer,Demographic,Exclusion,Observation,LOINC: 19080-1 (Pregnancy test),Currently pregnant
+NCT02075840,Pregnancy test,Negative for all females of childbearing potential,Lung Cancer,Demographic,Inclusion,Observation,LOINC: 19080-1 (Pregnancy test),Negative pregnancy test
+NCT02486718,Pregnancy/Contraception,Negative pregnancy test within 14 days before cisplatin,Lung Cancer,Demographic,Inclusion,Observation,LOINC: 19080-1 (Pregnancy test),Negative pregnancy test
+NCT02075840,Pregnancy/lactation,Pregnant or lactating,Lung Cancer,Demographic,Exclusion,Observation,LOINC: 19080-1,Currently breastfeeding
+NCT02366143,Pregnancy/Lactation,Pregnant or lactating,Lung Cancer,Demographic,Exclusion,Observation,LOINC: 19080-1 (Pregnancy test),Currently pregnant
+NCT02486718,Pregnancy/Lactation,Pregnant or lactating,Lung Cancer,Demographic,Exclusion,Observation,LOINC: 19080-1,Currently breastfeeding
+NCT02220894,Prior checkpoint inhibitor,Prior PD-1/PD-L1/PD-L2/CTLA-4,Lung Cancer,Treatment History,Exclusion,Medication,RxNorm: 1597876 (Ipilimumab),Prior anti-PD-1 treatment
+NCT02775435,Prior checkpoint inhibitor,Prior anti-PD-1/PD-L1/PD-L2 or CTLA-4 agent,Lung Cancer,Treatment History,Exclusion,Medication,RxNorm: 1597876 (Ipilimumab),Prior PD-1 therapy
+NCT02486718,Prior chemotherapy,Allowed only if >5 years ago; low-dose non-malignant chemo possible,Lung Cancer,Treatment History,Exclusion,Procedure,SNOMED: 416118004,Prior chemo 3 years ago
+NCT02366143,Prior immunotherapy,"Prior CD137 agonists or checkpoint inhibitors (PD-1, PD-L1)",Lung Cancer,Treatment History,Exclusion,Medication,RxNorm: 1597876 (Ipilimumab),Prior PD-1 therapy
+NCT02486718,Prior immunotherapy,Prior CD137 agonist or checkpoint inhibitor (PD-1/PD-L1),Lung Cancer,Treatment History,Exclusion,Medication,RxNorm: 1597876 (Ipilimumab),Previously treated with PD-1 inhibitor
+NCT03043872,Prior immunotherapy,No prior immune-mediated therapy (except therapeutic vaccines),Small Cell Lung Cancer,Treatment History,Inclusion,Medication,,No prior checkpoint inhibitor therapy
+NCT02075840,Prior malignancy,Within past 3 years,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 443961000124104,Breast cancer diagnosed 2 years ago
+NCT02220894,Prior malignancy,No prior malignancy unless basal/superficial/in situ; or curative >5 years disease free,Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 443961000124104 (History of malignant neoplasm),History of basal cell carcinoma excised 3 years ago
+NCT02775435,Prior malignancy,Curative >5 years disease free allowed,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 443961000124104,History of prostate cancer treated curatively
+NCT01774721,Prior systemic therapy,Any systemic therapy for NSCLC,Lung Cancer,Treatment History,Exclusion,Procedure,,Previously treated with chemotherapy
+NCT02220894,Prior systemic therapy,"Systemic cytotoxic chemo, biologic therapy, or surgery <3 weeks; lung RT >30 Gy <6 months",Lung Cancer,Treatment History,Exclusion,Procedure,,Prior systemic therapy within 3 weeks
+NCT02296125,Prior systemic therapy,Any prior systemic therapy for advanced/metastatic NSCLC,Lung Cancer,Treatment History,Exclusion,Procedure,,Treated with chemo for advanced NSCLC
+NCT02477826,Prior systemic therapy,None received,Lung Cancer,Treatment History,Inclusion,Procedure,SNOMED: 416118004 (History of chemotherapy),Patient has not received systemic anticancer therapy
+NCT02775435,Prior systemic therapy,Prior cytotoxic chemo/targeted therapy for metastatic disease,Lung Cancer,Treatment History,Exclusion,Procedure,,Received prior targeted therapy for metastatic NSCLC
+NCT02486718,Prior therapy,Hormonal cancer therapy or RT within 5 years,Lung Cancer,Treatment History,Exclusion,Procedure,,Hormonal therapy within last 3 years
+NCT02220894,Prior transplant,Allogeneic tissue/solid organ transplant,Lung Cancer,Clinical,Exclusion,Condition,,History of kidney transplant
+NCT02075840,QT prolonging drugs,Drug with QT prolonging effect within 14 days,Lung Cancer,Medication Use,Exclusion,Medication,,Taking amiodarone
+NCT02075840,QTc interval,QTc > 470 ms or symptomatic bradycardia,Lung Cancer,Clinical,Exclusion,Observation,LOINC: 8636-3 (QT interval),Baseline QTc 490 ms
+NCT02296125,QTc interval,QTc >470 ms; abnormal rhythm/conduction; risk factors for QT prolongation,Lung Cancer,Clinical,Exclusion,Observation,LOINC: 8636-3,QTc 480 ms at baseline
+NCT02775435,Radiation therapy,Lung RT >30 Gy within 6 months; palliative RT <7 days,Lung Cancer,Treatment History,Exclusion,Procedure,,Received lung RT 40 Gy within 6 months
+NCT02296125,Radiotherapy,RT to >30% BM or wide field <4 weeks,Lung Cancer,Treatment History,Exclusion,Procedure,,Wide-field RT within 3 weeks
+NCT02075840,RECIST 1.1,Measurable disease by CT/MRI,Lung Cancer,Imaging / Clinical,Inclusion,Observation,SNOMED: 710830005 (RECIST 1.1),CT scan measurable lesion per RECIST 1.1
+NCT02220894,RECIST 1.1,Measurable disease,Lung Cancer,Imaging / Clinical,Inclusion,Observation,SNOMED: 710830005 (RECIST 1.1),CT scan showed measurable lesion per RECIST 1.1
+NCT02366143,RECIST 1.1,Measurable disease,Lung Cancer,Imaging / Clinical,Inclusion,Observation,SNOMED: 710830005 (RECIST 1.1),CT scan measurable lesions per RECIST 1.1
+NCT02477826,RECIST 1.1,Measurable disease by CT or MRI,Lung Cancer,Imaging / Clinical,Inclusion,Observation,SNOMED: 710830005 (RECIST 1.1),CT scan showed measurable lesion per RECIST 1.1
+NCT02613507,RECIST 1.1,Measurable disease,Lung Cancer,Imaging / Clinical,Inclusion,Observation,SNOMED: 710830005 (RECIST 1.1),CT scan showed measurable lesion per RECIST 1.1
+NCT02775435,RECIST 1.1,Measurable disease (local investigator/radiology),Lung Cancer,Imaging / Clinical,Inclusion,Observation,SNOMED: 710830005 (RECIST 1.1),CT scan measurable lesions per RECIST 1.1
+NCT02486718,Resection,Complete resection within 4 to 12 weeks; adequately recovered,Lung Cancer,Treatment History,Inclusion,Procedure,SNOMED: 122456005 (Excision of lung),Lobectomy performed 6 weeks ago
+NCT03043872,SCLC (extensive),Histologically/cytologically confirmed extensive disease,Small Cell Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 254626006 (Small cell lung carcinoma); ICD-10: C34.x,Extensive-stage small cell lung carcinoma confirmed
+NCT02486718,Squamous histology,Excluded for pemetrexed treatment,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 254632001,Squamous histology present
+NCT02220894,Squamous NSCLC + prior carboplatin/paclitaxel,Adjuvant carboplatin + paclitaxel received,Lung Cancer,Treatment History,Exclusion,Procedure,,"Squamous histology, prior carboplatin + paclitaxel"
+NCT02220894,Steroid use,Systemic steroids in less than or equal to 3 days,Lung Cancer,Treatment History,Exclusion,Medication,,Prednisone within 3 days of start
+NCT02775435,Steroid use,Chronic systemic steroids,Lung Cancer,Treatment History,Exclusion,Medication,,Chronic prednisone use
+NCT02296125,Study involvement,Involved in planning/conduct of study,Lung Cancer,Administrative,Exclusion,Consent,,Study staff not eligible
+NCT02220894,Substance abuse,Recreational drug/alcohol use within past year,Lung Cancer,Clinical,Exclusion,Condition,,History of alcohol abuse
+NCT02775435,Substance abuse,Recreational drug/alcohol use within past year,Lung Cancer,Clinical,Exclusion,Condition,,History of alcohol abuse
+NCT02296125,Surgery,Major surgery <4 weeks before drug,Lung Cancer,Treatment History,Exclusion,Procedure,SNOMED: 387713003,Lobectomy 2 weeks ago
+NCT02486718,Surgery,Major surgery witihin 28 days; anticipated need,Lung Cancer,Treatment History,Exclusion,Procedure,,Lobectomy planned in 2 weeks
+NCT02775435,Surgery,Major surgery <3 weeks,Lung Cancer,Treatment History,Exclusion,Procedure,,Surgery 2 weeks before trial start
+NCT02075840,Surgery recovery,Recovered from major surgery/trauma atleast 28 days before,Lung Cancer,Treatment History,Inclusion,Procedure,SNOMED: 387713003 (Surgical procedure),Recovered from lobectomy 5 weeks ago
+NCT01774721,Surgery/radiotherapy/pleurodesis,Within 2 weeks of baseline,Lung Cancer,Treatment History,Exclusion,Procedure,,Palliative RT 1 week ago
+NCT02296125,Systemic disease,"Severe/uncontrolled (e.g., HTN, bleeding, infection incl. HBV/HCV/HIV)",Lung Cancer,Comorbidity,Exclusion,Condition,LOINC: 5195-3 (HBV); 13955-0 (HCV); 7917-8 (HIV),Uncontrolled hypertension
+NCT01774721,Tissue sample,Adequate for central analysis,Lung Cancer,Diagnostic Specimen,Inclusion,Specimen,,Archived tissue sample submitted
+NCT02075840,Toxicities from prior therapy,Grade 3 or higher (excluding alopecia),Lung Cancer,Treatment History,Exclusion,Observation,,Radiation-induced toxicity Grade 3
+NCT02486718,Transplant,Prior allogeneic bone marrow or solid organ transplant,Lung Cancer,Clinical,Exclusion,Procedure,,Kidney transplant history
+NCT02296125,Treatment,No prior systemic therapy for advanced/metastatic NSCLC,Lung Cancer,Treatment History,Inclusion,Procedure,,No systemic therapy received
+NCT02486718,Tuberculosis,Active TB,Lung Cancer,Infectious Disease,Exclusion,Observation,SNOMED: 56717001,Active pulmonary TB
+NCT02296125,Tumor tissue,"Mandatory provision (unstained, archived) for EGFR analysis",Lung Cancer,Diagnostic Specimen,Inclusion,Specimen,,Archived tumor sample provided
+NCT02220894,Tumor tissue submission,Formalin-fixed diagnostic specimen,Lung Cancer,Diagnostic Specimen,Inclusion,Specimen,,Formalin-fixed tumor specimen submitted
+NCT02775435,Tumor tissue submission,From locations not radiated before biopsy,Lung Cancer,Diagnostic Specimen,Inclusion,Specimen,,Tumor specimen from non-radiated site provided
+NCT02296125,WHO Performance status,0 to1; stable for around weeks; life expectancy atleast 12 weeks,Lung Cancer,Clinical,Inclusion,Observation,,WHO PS 1; stable disease

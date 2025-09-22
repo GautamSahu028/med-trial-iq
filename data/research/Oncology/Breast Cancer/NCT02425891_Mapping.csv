@@ -1,0 +1,16 @@
+Trial ID,Concept (Precise Term),Constraint / Qualifier,Cancer Type,Category,Inclusion/Exclusion,FHIR Resource,Code (LOINC/SNOMED/ICD),Example EMR Text
+NCT02425891,Triple-negative breast cancer (TNBC),"Metastatic/locally advanced; HER2-, ER-, PR-; histologically documented",Breast Cancer,Diagnosis,Inclusion,Condition,SNOMED: 447172000 (Triple-negative breast cancer),Histology confirmed TNBC
+NCT02425891,Chemotherapy/targeted therapy history,No prior systemic therapy for inoperable locally advanced/metastatic TNBC,Breast Cancer,Treatment History,Inclusion,Medication,,No prior systemic therapy for TNBC
+NCT02425891,Taxane eligibility,"Eligible for taxane monotherapy (no life-threatening visceral metastases, no rapid progression)",Breast Cancer,Treatment Eligibility,Inclusion,Medication,RxNorm: 10967 (Paclitaxel); RxNorm: 200153 (Nab-paclitaxel),Eligible for paclitaxel therapy
+NCT02425891,Tumor specimen,Representative FFPE block or atleast 20 unstained slides (atleast 12 if approved),Breast Cancer,Specimen,Inclusion,Specimen,,Submitted FFPE tissue for ER/PR/HER2 testing
+NCT02425891,ECOG,atmost 1,Breast Cancer,Clinical,Inclusion,Observation,LOINC: 89243-0 (ECOG),ECOG PS 1
+NCT02425891,Measurable disease,Defined by RECIST v1.1,Breast Cancer,Clinical,Inclusion,Observation,RECIST v1.1,CT scan showed measurable lesion
+NCT02425891,Organ function,Adequate hematologic and end-organ function,Breast Cancer,Clinical,Inclusion,Observation,,Labs within normal limits
+NCT02425891,CNS metastases,Known CNS disease except treated asymptomatic metastases,Breast Cancer,Diagnosis,Exclusion,Condition,SNOMED: 128606002 (Brain metastases),Stable brain metastases post-treatment
+NCT02425891,Leptomeningeal disease,Excluded,Breast Cancer,Diagnosis,Exclusion,Condition,SNOMED: 449255005 (Carcinomatous meningitis),Leptomeningeal disease confirmed
+NCT02425891,Pregnancy/lactation,Pregnant or lactating excluded,Breast Cancer,Reproductive,Exclusion,Observation,LOINC: 2106-3 (Pregnancy test),Pregnant at baseline
+NCT02425891,Autoimmune disease,History of autoimmune disease,Breast Cancer,Comorbidity,Exclusion,Condition,SNOMED: 698247007 (Autoimmune disease),History of lupus
+NCT02425891,Transplant history,Prior allogeneic stem cell or solid organ transplant,Breast Cancer,Treatment History,Exclusion,Procedure,SNOMED: 52734007 (Organ transplant),History of kidney transplant
+NCT02425891,HIV,Positive HIV test,Breast Cancer,Infectious Disease,Exclusion,Observation,LOINC: 7917-8 (HIV Ab),HIV antibody positive
+NCT02425891,Hepatitis B/C,Active HBV or HCV infection,Breast Cancer,Infectious Disease,Exclusion,Observation,LOINC: 5195-3 (HBsAg); 13955-0 (HCV RNA),HCV RNA positive
+NCT02425891,Live vaccine,"Received live, attenuated vaccine within 4 weeks pre-randomization, during treatment, or atleast 5 months after last dose",Breast Cancer,Treatment History,Exclusion,Procedure,,Received live flu vaccine 3 weeks before randomization

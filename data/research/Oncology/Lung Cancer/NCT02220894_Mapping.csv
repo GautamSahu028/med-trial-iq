@@ -1,0 +1,32 @@
+Trial ID,Concept (Precise Term),Constraint / Qualifier,Cancer Type,Category,Inclusion/Exclusion,FHIR Resource,Code (LOINC/SNOMED/ICD),Example EMR Text
+NCT02220894,NSCLC,Advanced or metastatic; histologically/cytologically confirmed,Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 254637007 (NSCLC); ICD-10: C34.x,Histologically confirmed metastatic NSCLC
+NCT02220894,PD-L1 (IHC),Positive tumor,Lung Cancer,Biomarker,Inclusion,Observation,LOINC: 85354-9 (PD-L1 by IHC),PD-L1 positive tumor
+NCT02220894,RECIST 1.1,Measurable disease,Lung Cancer,Imaging / Clinical,Inclusion,Observation,SNOMED: 710830005 (RECIST 1.1),CT scan showed measurable lesion per RECIST 1.1
+NCT02220894,Life expectancy,atleast 3 months,Lung Cancer,Clinical,Inclusion,Observation,,Life expectancy at least 3 months
+NCT02220894,No prior systemic chemotherapy,None for advanced/metastatic disease; neoadjuvant/adjuvant allowed if >6 months ago,Lung Cancer,Treatment History,Inclusion,Procedure,SNOMED: 416118004 (History of chemotherapy),No systemic chemo for advanced NSCLC
+NCT02220894,ECOG,0 or 1,Lung Cancer,Clinical,Inclusion,Observation,LOINC: 89243-0 (ECOG),ECOG score 1 at baseline
+NCT02220894,Adequate organ function,Adequate hematologic/end organ,Lung Cancer,Clinical,Inclusion,Observation,,Lab results show adequate organ function
+NCT02220894,Prior malignancy,No prior malignancy unless basal/superficial/in situ; or curative >5 years disease free,Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 443961000124104 (History of malignant neoplasm),History of basal cell carcinoma excised 3 years ago
+NCT02220894,Tumor tissue submission,Formalin-fixed diagnostic specimen,Lung Cancer,Diagnostic Specimen,Inclusion,Specimen,,Formalin-fixed tumor specimen submitted
+NCT02220894,Pregnancy / Contraception,Negative pregnancy test + contraception through 120/180 days,Lung Cancer,Demographic,Inclusion,Observation,LOINC: 19080-1 (Pregnancy test),"Negative pregnancy test, using contraception"
+NCT02220894,EGFR mutation,EGFR-sensitizing mutation positive,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 373110000,EGFR exon 19 mutation positive
+NCT02220894,ALK-positive,EML4-ALK fusion positive,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 444198004,ALK gene fusion positive
+NCT02220894,Investigational therapy,Participation in other trial within 4 weeks,Lung Cancer,Treatment History,Exclusion,Procedure,,Patient in another study within 4 weeks
+NCT02220894,PD-L1 (IHC),No specimen evaluable,Lung Cancer,Biomarker,Exclusion,Observation,LOINC: 85354-9,No specimen available for PD-L1 testing
+NCT02220894,Squamous NSCLC + prior carboplatin/paclitaxel,Adjuvant carboplatin + paclitaxel received,Lung Cancer,Treatment History,Exclusion,Procedure,,"Squamous histology, prior carboplatin + paclitaxel"
+NCT02220894,Steroid use,Systemic steroids in less than or equal to 3 days,Lung Cancer,Treatment History,Exclusion,Medication,,Prednisone within 3 days of start
+NCT02220894,Curative intent disease,Can be treated with surgery or chemoradiation,Lung Cancer,Diagnosis,Exclusion,Condition,,NSCLC treatable with curative surgery
+NCT02220894,Other therapy required,Expected to require systemic/local antineoplastic therapy,Lung Cancer,Treatment History,Exclusion,Procedure,,Requires concurrent chemotherapy
+NCT02220894,Prior systemic therapy,"Systemic cytotoxic chemo, biologic therapy, or surgery <3 weeks; lung RT >30 Gy <6 months",Lung Cancer,Treatment History,Exclusion,Procedure,,Prior systemic therapy within 3 weeks
+NCT02220894,Prior checkpoint inhibitor,Prior PD-1/PD-L1/PD-L2/CTLA-4,Lung Cancer,Treatment History,Exclusion,Medication,RxNorm: 1597876 (Ipilimumab),Prior anti-PD-1 treatment
+NCT02220894,CNS metastasis,Known CNS metastases/carcinomatous meningitis,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 128606002,Brain metastases present
+NCT02220894,Autoimmune disease,Active requiring systemic treatment within past 2 years,Lung Cancer,Comorbidity,Exclusion,Condition,SNOMED: 698247007,Autoimmune hepatitis requiring steroids
+NCT02220894,Prior transplant,Allogeneic tissue/solid organ transplant,Lung Cancer,Clinical,Exclusion,Condition,,History of kidney transplant
+NCT02220894,Interstitial lung disease / Pneumonitis,History requiring steroids,Lung Cancer,Diagnosis,Exclusion,Condition,,History of radiation pneumonitis
+NCT02220894,Live vaccine,Within 30 days prior,Lung Cancer,Clinical,Exclusion,Observation,,Received live vaccine 2 weeks ago
+NCT02220894,Infection,Active requiring IV systemic therapy,Lung Cancer,Infectious Disease,Exclusion,Observation,,Active infection on IV antibiotics
+NCT02220894,HIV,Known history,Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 7917-8,HIV positive history
+NCT02220894,HBV,Known active,Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 5195-3,HBsAg positive
+NCT02220894,HCV,Known active,Lung Cancer,Infectious Disease,Exclusion,Observation,LOINC: 13955-0,HCV antibody positive
+NCT02220894,Substance abuse,Recreational drug/alcohol use within past year,Lung Cancer,Clinical,Exclusion,Condition,,History of alcohol abuse
+NCT02220894,Pregnancy / Contraception,"Pregnant, breastfeeding, or planning pregnancy",Lung Cancer,Demographic,Exclusion,Observation,LOINC: 19080-1 (Pregnancy test),Currently pregnant

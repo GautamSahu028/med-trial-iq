@@ -1,0 +1,23 @@
+Trial ID,Concept (Precise Term),Constraint / Qualifier,Cancer Type,Category,Inclusion/Exclusion,FHIR Resource,Code (LOINC/SNOMED/ICD),Example EMR Text
+NCT02075840,NSCLC (ALK+),Stage IIIB (not amenable to multimodality) or Stage IV; histologically/cytologically confirmed; ALK+ by Ventana IHC,Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 254637007 (NSCLC); SNOMED: 444198004 (ALK+); ICD-10: C34.x,Stage IV NSCLC ALK+ confirmed by Ventana IHC
+NCT02075840,Life expectancy,atleast 12 weeks,Lung Cancer,Clinical,Inclusion,Observation,,Life expectancy estimated 16 weeks
+NCT02075840,ECOG,Between 0 and 2,Lung Cancer,Clinical,Inclusion,Observation,LOINC: 89243-0 (ECOG),ECOG 2 at baseline
+NCT02075840,No prior systemic therapy,Advanced/recurrent/metastatic NSCLC untreated,Lung Cancer,Treatment History,Inclusion,Procedure,SNOMED: 416118004,No prior systemic treatment
+NCT02075840,Organ function,Adequate renal and hematologic,Lung Cancer,Clinical,Inclusion,Observation,,Lab values adequate
+NCT02075840,Surgery recovery,Recovered from major surgery/trauma atleast 28 days before,Lung Cancer,Treatment History,Inclusion,Procedure,SNOMED: 387713003 (Surgical procedure),Recovered from lobectomy 5 weeks ago
+NCT02075840,RECIST 1.1,Measurable disease by CT/MRI,Lung Cancer,Imaging / Clinical,Inclusion,Observation,SNOMED: 710830005 (RECIST 1.1),CT scan measurable lesion per RECIST 1.1
+NCT02075840,Brain/leptomeningeal metastases,Allowed if asymptomatic,Lung Cancer,Diagnosis,Inclusion,Condition,SNOMED: 128606002,Asymptomatic brain metastases present
+NCT02075840,Pregnancy test,Negative for all females of childbearing potential,Lung Cancer,Demographic,Inclusion,Observation,LOINC: 19080-1 (Pregnancy test),Negative pregnancy test
+NCT02075840,Contraception,Use of highly effective contraception required,Lung Cancer,Demographic,Inclusion,Observation,,Patient on contraception as per protocol
+NCT02075840,Prior malignancy,Within past 3 years,Lung Cancer,Diagnosis,Exclusion,Condition,SNOMED: 443961000124104,Breast cancer diagnosed 2 years ago
+NCT02075840,GI/liver disorder,Any GI disorder or liver disease,Lung Cancer,Comorbidity,Exclusion,Condition,,Chronic liver disease
+NCT02075840,Toxicities from prior therapy,Grade 3 or higher (excluding alopecia),Lung Cancer,Treatment History,Exclusion,Observation,,Radiation-induced toxicity Grade 3
+NCT02075840,Organ transplant,History of transplant,Lung Cancer,Clinical,Exclusion,Procedure,SNOMED: 18286008 (Transplantation),History of kidney transplant
+NCT02075840,Other anticancer therapy,Co-administration of therapies not in study,Lung Cancer,Treatment History,Exclusion,Medication,,Concurrent erlotinib therapy
+NCT02075840,QTc interval,QTc > 470 ms or symptomatic bradycardia,Lung Cancer,Clinical,Exclusion,Observation,LOINC: 8636-3 (QT interval),Baseline QTc 490 ms
+NCT02075840,CYP3A drugs,Strong inhibitors/inducers within 14 days,Lung Cancer,Medication Use,Exclusion,Medication,,On ketoconazole 1 week ago
+NCT02075840,QT prolonging drugs,Drug with QT prolonging effect within 14 days,Lung Cancer,Medication Use,Exclusion,Medication,,Taking amiodarone
+NCT02075840,Drug hypersensitivity,History of hypersensitivity to alectinib/crizotinib additives,Lung Cancer,Clinical,Exclusion,Observation,,Allergic reaction to crizotinib excipients
+NCT02075840,Pregnancy/lactation,Pregnant or lactating,Lung Cancer,Demographic,Exclusion,Observation,LOINC: 19080-1,Currently breastfeeding
+NCT02075840,Other condition,Clinically significant condition interfering with study,Lung Cancer,Clinical,Exclusion,Observation,,Severe uncontrolled diabetes
+NCT02075840,Compliance,Psychological/familial/sociological/geographical barrier,Lung Cancer,Clinical,Exclusion,Observation,,Lives remotely without transport

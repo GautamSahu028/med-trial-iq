@@ -1,0 +1,56 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Trial {
+  id        String    @id @map("trial_id") // NCT Number
+  trialName String?
+  cancerType String?
+
+  criteria  Criteria[]
+}
+
+model Criteria {
+  id             Int       @id @default(autoincrement())
+  trial          Trial     @relation(fields: [trialId], references: [id])
+  trialId        String
+
+  category       String?
+  inclusionFlag  Boolean
+  fhirResource   String?
+  criteriaText   String?
+
+  concepts       CriteriaConcept[]
+}
+
+model Concept {
+  id             Int       @id @default(autoincrement())
+  conceptName    String
+  ontologySystem String
+  ontologyCode   String    @unique   // ✅ add this
+
+  criteria       CriteriaConcept[]
+}
+
+model CriteriaConcept {
+  criteriaId Int
+  conceptId  Int
+  qualifier  String?
+  exampleEmrText String?
+
+  criteria   Criteria @relation(fields: [criteriaId], references: [id])
+  concept    Concept  @relation(fields: [conceptId], references: [id])
+
+  @@id([criteriaId, conceptId]) // composite primary key
+}
